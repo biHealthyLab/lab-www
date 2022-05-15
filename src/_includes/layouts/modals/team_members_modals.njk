@@ -1,0 +1,45 @@
+{% for member in collections.members %}
+
+{# Profile modal popup #}
+<div class="description-modal modal fade" id="profileModal-{{ member.data.full_name | slug }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                {# <div class="row"> #}
+                    {# <div class="container"> #}
+                        <div class="modal-body">
+                            <div class="member_profile_modal__cover d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                <img class="member_profile_modal___profile_img" src="{{member.data.profile_img}}"
+                                    alt="" class="img-fluid">
+                                </div>
+                                <div class="member_profile_modal__headers ms-3">
+                                <p class="align-items-center">
+                                    <h5>{{member.data.full_name}}, <small>{{member.data.credentials}}</small> </h5>
+                                    
+                                    
+                                </p>
+                                
+                                </div>
+                                
+                                </div>
+                            </div>
+                            
+                            <div class="container-fluid">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+                            </div>
+                            
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    {# </div> #}
+                {# </div> #}
+            </div>
+        </div>
+    </div>
+</div>
+    
+{% endfor %}
