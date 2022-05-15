@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="200 32.042 867.481 567.958" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-0" gradientTransform="matrix(1, 0, 0, 1, -5.961251, -86.469017)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-1" gradientTransform="matrix(1, 0, 0, 1, 68.286735, -168.404915)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-2" gradientTransform="matrix(1, 0, 0, 1, 50.340721, -13.679309)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-3" gradientTransform="matrix(1, 0, 0, 1, 143.845428, 4.267021)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-4" gradientTransform="matrix(1, 0, 0, 1, 137.076941, -86.469017)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-5" gradientTransform="matrix(1, 0, 0, 1, 268.286743, 143.100876)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-6" gradientTransform="matrix(1, 0, 0, 1, 394.963309, 201.937843)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-7" gradientTransform="matrix(1, 0, 0, 1, 459.760856, 143.101601)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-8" gradientTransform="matrix(1, 0, 0, 1, 427.719108, 108.793297)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-9" gradientTransform="matrix(1, 0, 0, 1, 514.126151, 133.352348)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-11" gradientTransform="matrix(1, 0, 0, 1, 532.071708, -82.680787)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-12" gradientTransform="matrix(1, 0, 0, 1, 389.684989, -55.886286)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-13" gradientTransform="matrix(1, 0, 0, 1, 240.684836, 4.266991)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-14" gradientTransform="matrix(1, 0, 0, 1, 459.760734, -168.405022)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-15" gradientTransform="matrix(1, 0, 0, 1, 333.08422, -221.87603)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-17" gradientTransform="matrix(1, 0, 0, 1, 258.630783, -86.467758)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-18" gradientTransform="matrix(1, 0, 0, 1, 304.023124, 78.12397)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-19" gradientTransform="matrix(1, 0, 0, 1, 427.718262, 52.068001)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-21" gradientTransform="matrix(1, 0, 0, 1, 240.684745, -55.886011)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="240.686" cy="330.85" r="8.973" id="gradient-16" gradientTransform="matrix(1, 0, 0, 1, 103.576026, -90.19503)">
+      <stop offset="0" style="stop-color: rgba(16, 1, 1, 1)"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+    <filter id="point-light-filter-0" primitiveUnits="objectBoundingBox" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="point-light 1 0.5 0.5 0.5 70 1 0.2 0 #ffffff">
+      <feSpecularLighting result="specular-lighting" lighting-color="#ffffff" specularConstant="1" specularExponent="70">
+        <fePointLight x="0.5" y="0.5" z="0.5"/>
+      </feSpecularLighting>
+      <feDiffuseLighting result="diffuse-lighting" lighting-color="#ffffff" diffuseConstant="0.2">
+        <fePointLight x="0.5" y="0.5" z="0.5"/>
+      </feDiffuseLighting>
+      <feMerge result="lighting">
+        <feMergeNode in="diffuse-lighting"/>
+        <feMergeNode in="specular-lighting"/>
+      </feMerge>
+      <feComposite in="SourceGraphic" in2="lighting" operator="arithmetic" k1="1" k2="0" k3="0" k4="0"/>
+    </filter>
+  </defs>
+  <line style="fill: rgb(183, 133, 15); stroke: rgb(218, 211, 132);" x1="235.46945190429685" y1="239.19523620605466" x2="377.049" y2="242.921"/>
+  <circle style="fill: none;" cx="501.341" cy="335.321" r="298.659" transform="matrix(1, 0, 0, 0.837075, 0, 69.31115)"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="310.7302515866739" y1="162.44411234027552" x2="445.6035742178201" y2="108.04768940064199"/>
+  <line style="stroke: rgb(74, 144, 229);" x1="445.60357666015625" y1="108.04769134521482" x2="573.025332062715" y2="108.04769134521482"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="573.0253295898436" y1="108.04769134521482" x2="699.9999999999999" y2="162.44410705566403"/>
+  <line style="stroke: rgb(161, 123, 123);" x1="699.9999999999999" y1="162.44410705566403" x2="774.9627377701217" y2="253.3532027325398"/>
+  <line style="stroke: rgb(56, 43, 43);" x1="774.9627075195311" y1="253.35319519042966" x2="792.1013367784994" y2="400"/>
+  <line style="stroke: rgb(195, 52, 52);" x1="792.1013183593749" y1="400" x2="669.1505178053552" y2="438.1520094315689"/>
+  <line style="stroke: rgb(85, 13, 13);" x1="669.1505126953124" y1="438.1520080566406" x2="543.2190729177104" y2="409.83606324381446"/>
+  <line style="stroke: rgb(28, 124, 136);" x1="310.7302551269531" y1="162.44410705566403" x2="235.469447245537" y2="239.1952296386626"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="231.744" y1="241.431" x2="286.885" y2="317.437"/>
+  <line style="stroke: rgb(173, 215, 245);" x1="287.63" y1="318.182" x2="386.7362124064358" y2="340.53651073167856"/>
+  <line style="stroke: rgb(171, 62, 62);" x1="384.64" y1="339.055" x2="482.8613981490759" y2="340.5364990234375"/>
+  <line style="stroke: rgb(25, 164, 65);" x1="482.8613891601563" y1="340.5364990234375" x2="508.942" y2="473.174"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="543.2190551757812" y1="409.8360595703125" x2="514.157958984375" y2="473.17437744140625"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="514.157958984375" y1="473.17437744140625" x2="669.1505126953124" y2="438.1520080566406"/>
+  <line style="stroke: rgb(5, 92, 126);" x1="669.1505126953124" y1="438.1520080566406" x2="763.785390590745" y2="464.9776426620731"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="792.1013183593749" y1="400" x2="763.7854003906249" y2="464.9776306152344"/>
+  <line style="stroke: rgb(125, 214, 211);" x1="669.1505126953124" y1="438.1520080566406" x2="639.3442586603504" y2="533.5320386955839"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="509.687" y1="476.9" x2="639.3442382812499" y2="533.5320434570312"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="763.7854003906249" y1="464.9776306152344" x2="699.9999999999999" y2="473.17437744140625"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="699.9999999999999" y1="473.17437744140625" x2="639.3442382812499" y2="533.5320434570312"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="482.8613891601563" y1="340.5364990234375" x2="543.2190551757812" y2="409.8360595703125"/>
+  <line style="stroke: rgb(226, 56, 56);" x1="310.7302551269531" y1="162.44410705566403" x2="288.37554931640625" y2="315.94635009765625"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="386.7362060546875" y1="340.5364990234375" x2="375.5588652270591" y2="239.19523620605466"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="310.7302551269531" y1="162.44410705566403" x2="375.5588684082031" y2="239.19523620605466"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="445.60357666015625" y1="108.04769134521482" x2="377.794" y2="242.921"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="288.37554931640625" y1="315.94635009765625" x2="377.95" y2="240.989"/>
+  <line style="stroke: rgb(28, 30, 100);" x1="573.0253295898436" y1="108.04769134521482" x2="497.764" y2="243.666"/>
+  <line style="stroke: rgb(187, 19, 229);" x1="445.60357666015625" y1="108.04769134521482" x2="498.51" y2="241.431"/>
+  <line style="stroke: rgb(92, 207, 193);" x1="371.833" y1="242.176" x2="482.8613891601563" y2="274.96274061266826"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="500" y1="239.195" x2="482.861" y2="274.963" transform="matrix(0.990491, 0.137578, -0.137578, 0.990491, 40.041557, -65.16558)"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="482.8613891601563" y1="274.9627380371094" x2="482.8613891601563" y2="340.5364990234375"/>
+  <line style="stroke: rgb(92, 13, 13);" x1="382.265" y1="337.556" x2="500.00000000000006" y2="239.19523620605466"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="386.7362060546875" y1="340.5364990234375" x2="310.7302551269531" y2="162.44410705566403"/>
+  <line style="stroke: rgb(52, 45, 132);" x1="288.37554931640625" y1="315.94635009765625" x2="445.60357666015625" y2="108.04769134521482"/>
+  <line style="stroke: rgb(138, 33, 33);" x1="498.466" y1="236.78" x2="699.859" y2="164.864" transform="matrix(0.999231, -0.039203, 0.039203, 0.999231, -7.365347, 23.644278)"/>
+  <line style="stroke: rgb(125, 23, 104);" x1="482.8613891601563" y1="274.9627380371094" x2="699.9999999999999" y2="162.44410705566403"/>
+  <line style="stroke: rgb(157, 32, 32);" x1="482.8613891601563" y1="340.5364990234375" x2="626.6765985237234" y2="274.9627380371094"/>
+  <line style="stroke: rgb(27, 164, 160);" x1="699.9999999999999" y1="162.44410705566403" x2="626.6765747070311" y2="274.9627380371094"/>
+  <line style="stroke: rgb(53, 60, 199);" x1="482.8613891601563" y1="274.9627380371094" x2="626.6765747070311" y2="274.9627380371094"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="499.255" y1="241.431" x2="626.6765747070311" y2="274.9627380371094"/>
+  <line style="stroke: rgb(175, 45, 45);" x1="626.6765747070311" y1="274.9627380371094" x2="774.218" y2="248.882"/>
+  <line style="stroke: rgb(144, 28, 28);" x1="628.167" y1="271.982" x2="792.1013183593749" y2="400"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="631.148" y1="274.963" x2="669.1505126953124" y2="383.75558649193533"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="669.1505126953124" y1="383.7555847167969" x2="543.2190551757812" y2="409.8360595703125"/>
+  <line style="stroke: rgb(221, 121, 121);" x1="482.8613891601563" y1="340.5364990234375" x2="669.1505126953124" y2="383.7555847167969"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="669.1505126953124" y1="383.7555847167969" x2="669.1505126953124" y2="438.1520080566406"/>
+  <line style="stroke: rgb(218, 200, 200);" x1="669.1505126953124" y1="383.7555847167969" x2="792.1013183593749" y2="400"/>
+  <line style="stroke: rgb(57, 81, 19);" x1="669.1505126953124" y1="383.7555847167969" x2="763.7854003906249" y2="464.9776306152344"/>
+  <line style="stroke: rgb(173, 112, 112);" x1="669.1505126953124" y1="383.7555847167969" x2="514.157958984375" y2="473.17437744140625"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="543.2190551757812" y1="409.8360595703125" x2="626.6765747070311" y2="274.9627380371094"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="669.1505126953124" y1="383.7555847167969" x2="636.364" y2="534.277"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="669.1505126953124" y1="438.1520080566406" x2="699.9999999999999" y2="473.17437744140625"/>
+  <line style="stroke: rgb(85, 15, 15);" x1="573.0253295898436" y1="108.04769134521482" x2="626.6765747070311" y2="274.9627380371094"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="375.554" y1="239.948" x2="499.95" y2="243.674" transform="matrix(0.999927, -0.012099, 0.012099, 0.999927, -2.871088, 5.314197)" bx:origin="0.5 0"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="385.246" y1="337.556" x2="482.8613891601563" y2="274.9627380371094"/>
+  <line style="stroke: rgb(177, 46, 46);" x1="482.8613891601563" y1="274.9627380371094" x2="573.0253295898436" y2="363.63636156905716"/>
+  <circle style="fill: url(#gradient-0);" cx="234.725" cy="244.38" r="8.973"/>
+  <circle style="fill: url(#gradient-1);" cx="308.973" cy="162.444" r="8.973"/>
+  <circle style="fill: url(#gradient-2);" cx="291.027" cy="317.17" r="8.973"/>
+  <circle style="fill: url(#gradient-3);" cx="384.532" cy="335.116" r="8.973"/>
+  <circle style="fill: url(#gradient-4);" cx="377.763" cy="244.38" r="8.973"/>
+  <circle style="fill: url(#gradient-7);" cx="700.447" cy="473.951" r="8.973"/>
+  <circle style="fill: url(#gradient-8);" cx="668.405" cy="439.642" r="8.973"/>
+  <circle style="fill: url(#gradient-9);" cx="754.812" cy="464.201" r="8.973"/>
+  <circle style="fill: rgb(9, 0, 0);" cx="791.027" cy="400.863" r="8.973"/>
+  <circle style="fill: url(#gradient-12);" cx="630.371" cy="274.963" r="8.973"/>
+  <circle style="fill: url(#gradient-13);" cx="481.371" cy="335.116" r="8.973"/>
+  <circle style="fill: url(#gradient-14);" cx="700.447" cy="162.444" r="8.973"/>
+  <circle style="fill: url(#gradient-15);" cx="573.77" cy="108.973" r="8.973"/>
+  <circle style="fill: rgb(67, 8, 8); filter: url(#point-light-filter-0);" cx="446.349" cy="108.973" r="8.973"/>
+  <circle style="fill: url(#gradient-17);" cx="499.317" cy="244.38" r="8.973"/>
+  <circle style="fill: url(#gradient-19);" cx="668.405" cy="382.917" r="8.973"/>
+  <circle style="fill: url(#gradient-21);" cx="481.371" cy="274.963" r="8.973" bx:origin="-2.157 0.666"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="499.398" y1="239.956" x2="573.0253295898436" y2="363.6363525390625"/>
+  <line style="stroke: rgb(125, 201, 175);" x1="543.2190551757812" y1="409.8360595703125" x2="639.3439483642577" y2="533.5320434570312"/>
+  <circle style="fill: url(#gradient-18);" cx="544.709" cy="408.973" r="8.973"/>
+  <circle style="fill: url(#gradient-6);" cx="635.65" cy="532.787" r="8.973"/>
+  <line style="fill: rgb(39, 33, 221); stroke: rgb(81, 34, 199);" x1="504.691" y1="473.967" x2="545.57" y2="575.883" transform="matrix(0.999015, 0.044382, -0.044382, 0.999015, 23.882273, -22.724427)"/>
+  <circle style="fill: url(#gradient-5);" cx="508.973" cy="473.951" r="8.973"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="782.0539550781249" y1="600" x2="782.0539550781249" y2="600"/>
+  <circle style="fill: rgb(177, 30, 7);" cx="544.709" cy="578.987" r="8.973"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="771.982" y1="249.627" x2="669.1505126953124" y2="383.7555847167969"/>
+  <circle style="fill: url(#gradient-16);" cx="344.262" cy="240.654" r="8.973"/>
+  <line style="stroke: rgb(126, 118, 215);" x1="582.7429962158203" y1="363.63635253906244" x2="771.9819946289061" y2="253.35301208496094"/>
+  <circle style="fill: url(#gradient-11);" cx="772.758" cy="248.168" r="8.973"/>
+  <circle style="fill: rgb(1, 18, 17);" cx="573.77" cy="364.971" r="8.973"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="677.3780059814453" y1="315.9463424682617" x2="677.3780059814453" y2="315.9463424682617"/>
+</svg>

@@ -1,0 +1,23 @@
+<div class="card">
+   <div class="card-header">
+       <h5>Calendar</h5>
+   </div>
+  
+
+<div class="">
+    {%- for meeting in collections.meetings -%}
+        {% if (loop.index < 5) %}
+        <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+            
+            <h6 class="mb-1">  <small class="text-muted"> {{ meeting.data.meeting_date }} </small> -- <i>{{ meeting.data.title |safe }}</i></h6> 
+            {% if meeting.data.speaker %}
+                <p>By <b> {{ meeting.data.speaker }} </b></p>
+            {% endif %}
+           
+        </a>
+           {% endif %}
+       {%- endfor -%}
+    
+       
+    </div>  
+</div>    

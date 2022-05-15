@@ -1,0 +1,63 @@
+<div class="container-xxl py-6">
+  <div class="container">
+      <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h2 class="divider mb-5">Team Members</h2>
+      </div>
+      <div class="row team_card__container g-4">
+
+
+      {%- for m in collections.members -%}
+      <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item rounded h-100">
+              <!--
+              <div class="d-flex justify-content-between">
+                  <div class="">
+                      {# <i class="fa fa-user-tie fa-2x"></i> #}
+                  </div>
+                  <a class="service-btn" href="">
+                      <i class="fa fa-link fa-2x"></i>
+                  </a>
+              </div>
+              -->
+            <div class="member_card__header card-body align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img src="{{m.data.profile_img}}"
+                        alt="" class="img-fluid">
+                    </div>
+                    <div class="member_card__info ms-3">
+                      <p class="align-items-center">
+                          <b>{{m.data.full_name}}, <small>{{m.data.credentials}}</small> </b> <br>
+                          
+                        <small class="text-muted"><i> {{m.data.designation}}</i> </small>
+                      </p>
+                      
+                    </div>
+                  
+                  </div>
+                  {# <hr> #}
+              </div>
+              
+              <div class="container">
+                  
+                  <hr>
+                  <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+
+                  <p>
+                        <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                          data-mdb-ripple-color="dark"><i class="fas fa-link"></i> </button>
+                        <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                          data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></button>
+                        <button type="button" class="btn btn-outline-dark btn-floating btn-sm"
+                          data-mdb-ripple-color="dark"><i class="fab fa-researchgate"></i></button>
+                  </p>
+              </div>
+              
+          </div>
+      </div>
+      {%- endfor -%}
+
+    </div>
+                  
+  </div>
+</div>
