@@ -1,8 +1,10 @@
 // const pluginDate = require("eleventy-plugin-date");
-
+// const mathjaxPlugin = require("eleventy-plugin-mathjax");
+// const katex = require("katex");
 
 module.exports = function(eleventyConfig) {
     // eleventyConfig.addPlugin(pluginDate);
+    // eleventyConfig.addPlugin(mathjaxPlugin);
     eleventyConfig.addPassthroughCopy("src/assets/css/");
     eleventyConfig.addPassthroughCopy("src/assets/lib/");
     eleventyConfig.addPassthroughCopy("src/assets/js/");

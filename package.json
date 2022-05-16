@@ -11,6 +11,8 @@
   "author": "Elkaioum Moutuou",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "eleventy-plugin-date": "^1.0.0",
+    "katex": "^0.15.3"
   }
 }

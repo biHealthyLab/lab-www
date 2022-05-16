@@ -1,6 +1,6 @@
 <div class="card">
    <div class="card-header">
-       <h5>Calendar</h5>
+       <h5><i class="fas fa-calendar-alt"></i> Calendar</h5>
    </div>
   
 
@@ -11,7 +11,8 @@
             
             <h6 class="mb-1">  <small class="text-muted"> {{ meeting.data.meeting_date }} </small> -- <i>{{ meeting.data.title |safe }}</i></h6> 
             {% if meeting.data.speaker %}
-                <p>By <b> {{ meeting.data.speaker }} </b></p>
+                <p><i class="fas fa-microphone-alt"></i> <b> {{ meeting.data.speaker }} </b></p>
+                <p><i class="fas fa-map-marker-alt"></i> {{ meeting.data.place }} </p>
             {% endif %}
            
         </a>
