@@ -675,6 +675,10 @@
     color: var(--primary);
 }
 
+.member_card {
+    cursor: pointer;
+}
+
 .member_card__header {
     /* padding: 20px; */
     border-radius: 3px;
@@ -763,9 +767,9 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     object-fit: cover;
   }
-  .member_profile_modal__headers {
-    padding: 0px 10px;  
-  }
+  /* .member_profile_modal__headers {
+    padding: 10px 10px;  
+  } */
 
 
 

@@ -20,7 +20,7 @@
                       <p class="align-items-center">
                           <b>{{m.data.full_name}}, <small>{{m.data.credentials}}</small> </b> <br>
                           
-                        <small class="text-muted"><i> {{m.data.designation}}</i> </small>
+                        <small class="text-muted"><i> {{m.data.position}}</i> </small>
                       </p>
                       
                     </div>
@@ -32,7 +32,9 @@
               <div class="container">
                   
                   <hr>
-                  <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</span>
+                  <smal class="text-muted">
+                    {{ m.data.main_research_areas }}
+                  </smal>
 
                   <p>
                         <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"

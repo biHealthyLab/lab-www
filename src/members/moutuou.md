@@ -2,6 +2,8 @@
 user_name: elka
 full_name: Elkaïoum Moutuou
 credentials: PhD
-designation: Researcher
+position: Researcher
 profile_img: media/images/team/moutuou.jpg
+main_research_areas: |
+  Algebraic Topology, Persistent Homology, Complex Networks, Functional Connectivity
 ---
