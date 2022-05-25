@@ -1,0 +1,44 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+{# {% include "../page_header.njk" %} #}
+<div class="container hero">
+    <div class="col-md-8 mx-auto text-center">
+        <h2>{{ title }}</h2>
+    </div>
+    <div class="container col-md-8 mx-auto figure-caption">{{ short_description | safe }}</div>
+
+</div>
+
+{% endblock %}
+
+
+{% block page_main_content %}                    
+
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+   
+    {# <h2 class="mb-4">{{ title }}</h2> #}
+
+    <div class="figure" data-wow-delay="0.1s">
+        <img class="img-fluid" src="{{ illustration | url }}">
+    </div>
+
+    
+    <div class="row mt-4 mb-4">
+        <div class="col-md-2 ">
+            <h6>Tags</h6>
+        </div>
+        <div class="col-md-7">
+            {{ content | latex | safe }}
+        </div>
+        <div class="col-md-3">
+             <h6>dgdgftgreyrtuyreut</h6>
+        </div>
+    </div>
+    
+  {# {% endif %} #}
+  {# {% endfor %} #}
+</div>
+
+
+{% endblock %}

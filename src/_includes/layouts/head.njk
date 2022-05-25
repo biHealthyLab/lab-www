@@ -2,7 +2,7 @@
 <title>BhealthyAge :: {{ title }} </title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="{{ keywords }}" name="keywords">
-<meta content="{{ metaDescription }}" name="description">
+<meta content="{{ site.metaDescription }}, {{ metaDescription }}" name="description">
 
 <!-- Favicon -->
 <link href="/assets/img/favicon.ico" rel="icon">
@@ -22,6 +22,9 @@
 
 <!-- Customized Bootstrap Stylesheet -->
 <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Katex fonts -->
+<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
 
 <!-- Template Stylesheet -->
 <link href="/assets/css/style.css" rel="stylesheet">

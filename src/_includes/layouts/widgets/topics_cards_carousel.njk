@@ -1,20 +1,12 @@
 
-<div class="container-xxl bg-light py-6">
+<div class="container-fluid bg-light py-6">
     <div class="container">
         <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 100%;">
             <h2 class="divider mb-5"> Our research topics</h2>
         </div>
         <div class="owl-carousel topics-cards-carousel wow fadeInUp" data-wow-delay="0.1s">
             {% for t in collections.topics %}
-                <div class="topics-item rounded p-4">
-                        <div class="figure">
-                            <img src="{{ t.data.illustration | url }}"></img>
-                        </div>
-                    <div class="p-3">
-                        <h5 class="mb-3"> {{ t.data.title }} </h5>
-                        <span> {{ t.data.description }} </span>
-                    </div>
-                </div>
+            {% ItemCard cardImageUrl = t.data.illustration, cardTitle = t.data.title, cardText = t.data.short_description, cardLink = t.url, linkText = "View more ..." %}
             {% endfor %}
         </div>
     </div>
