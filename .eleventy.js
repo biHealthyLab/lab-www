@@ -13,6 +13,8 @@ const markdownLib = markdownIt(options).use(markdownItKatex);
 
 // Components 
 const ItemCard = require("./src/_includes/components/ItemCard");
+const PostCard = require("./src/_includes/components/PostCard");
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
@@ -38,6 +40,8 @@ module.exports = function(eleventyConfig) {
     
     // Shortcodes
     eleventyConfig.addShortcode("ItemCard", ItemCard);
+    eleventyConfig.addShortcode("PostCard", PostCard);
+
 
 
     return {

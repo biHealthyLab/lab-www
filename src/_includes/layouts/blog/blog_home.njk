@@ -1,0 +1,62 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+
+<div class="container-xxl bg-primary bg-header">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <h1 class="text-white mb-4 animated zoomIn">{{ title |safe }}</h1>
+                
+                {# <a href="" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">More ...</a> #}
+            </div>
+            <div class="col-md-6 text-center text-lg-start">
+                {# <img class="img-fluid animated zoomIn" src="assets/img/brain_bottom.png" alt=""> #}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block page_main_content %}
+   <div class="row">
+            {# <div class="col-lg-8"> #}
+        <div class="col-md-8 mb-4">
+            {# <div class="container-fluid"> #}
+            {% block page_content_left %}
+                <div class="row ml-2">
+                    {% for b in collections.blog %}
+                    <div class="col-lg-6 mb-3">
+                        {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date, postTeaser = b.data.teaser, postLink = b.url, linkText = "Read this post." %}
+                    </div>    
+                    {% endfor %}
+                </div>
+            {% endblock %}
+            {# </div> #}
+            
+        </div>    
+        {# </div> #}
+        <div class="col-md-4 mb-5">
+            {% block page_sidepanel_right %}
+                {% include "layouts/news/widgets/latest_news.njk" %}
+
+                <br> 
+
+                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
+            {% endblock %}
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block widgets_middle %}
+   {# {% include "layouts/widgets/middle_content.njk" %} #}
+{% endblock %}
+
+
+{% block widget_bottom %}
+   {# {% include "layouts/blog/widgets/latest_blogs.njk" %} #}
+{% endblock %}

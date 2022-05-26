@@ -76,6 +76,19 @@
     border-radius: 50px;
 }
 
+.btn-tag {
+  background: #fde2e2;
+  font-size: x-small;
+  height: 30px;
+  border-radius: 0%;
+  border: 1px solid #5A5A5A;
+}
+
+.btn-tag:hover {
+  background: var(--dark);
+  color: #DDDDDD;
+}
+
 
 /* Modals and overlays  */
 .modal {
@@ -826,6 +839,13 @@
 .team-item img {
     padding: 15px;
     border: 1px solid var(--primary);
+}
+
+/* Blog Posts  */
+.post_card {
+  /* border: 1px solid #dddddd; */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 

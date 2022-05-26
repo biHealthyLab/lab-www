@@ -1,0 +1,46 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+{% include "./partials/home_header.njk" %}
+{% endblock %}
+
+
+{% block page_main_content %}
+   <div class="container-xxl row  mb-5 py-6">
+            {# <div class="col-lg-8"> #}
+        <div class="col-md-8">
+                {% block page_content_left %}
+                {% include "./partials/front_content.njk" %}
+            {% endblock %}
+            
+        </div>    
+        {# </div> #}
+        <div class="col-md-4">
+            {% block page_sidepanel_right %}
+                {% include "layouts/news/widgets/latest_news.njk" %}
+
+                <br> 
+
+                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
+            {% endblock %}
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block widgets_middle %}
+
+
+    {% include "layouts/research/widgets/topics_cards_carousel.njk" %}
+
+    {% include "layouts/team/widgets/team_cards.njk" %}
+
+
+{% endblock %}
+
+
+{% block widget_bottom %}
+   {% include "layouts/blog/widgets/latest_blogs.njk" %}
+{% endblock %}

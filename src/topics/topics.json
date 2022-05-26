@@ -1,6 +1,6 @@
 {
     "permalink": "/research/topics/{{ title | slug }}/index.html",
-    "layout": "layouts/pagetemplates/research/topic_page.njk",
-    "tags": "topics"
+    "layout": "layouts/research/topic_page.njk",
+    "tags": ["topics"]
 
 }

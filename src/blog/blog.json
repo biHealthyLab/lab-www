@@ -1,0 +1,6 @@
+{
+    "permalink": "/blog/{{ title | slug }}/index.html",
+    "layout": "layouts/blog/blog_page.njk",
+    "tags": ["blog"]
+
+}
