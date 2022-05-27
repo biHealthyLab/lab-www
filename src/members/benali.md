@@ -2,9 +2,9 @@
 user_name: habib
 full_name: Habib Benali
 credentials: PhD
-tags: ["faculty"]
+category: faculty
 position: Professor & Scienfic Director of PERFORM Center
-profile_img: media/images/team/benali.jpg
+profile_img: /media/images/team/benali.jpg
 main_research_areas: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 ---

@@ -1,13 +1,13 @@
 ---
 user_name: nader
-full_name: Nader Riyahi
+full_name: Nader Riyahi-Alam
 credentials: PhD
-tags: ["scientist", "researcher"]
-position: Professor & Visiting Scholar
-profile_img: media/images/team/moutuou.jpg
+category: faculty
+position: Visiting Scholar
+profile_img: /media/images/team/moutuou.jpg
 
 main_research_areas: |
-  Medical Imagin, Biophysics, Functional Connectivity
+  Neuroimaging, Molecular-Cellular Imaging
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim urna quis pulvinar maximus. Quisque in suscipit est. Proin risus mauris, faucibus quis luctus in, tincidunt eget mauris. Phasellus fermentum in sem vel tristique. Mauris at tempus quam. Nam ac imperdiet risus, nec commodo quam. Fusce eget interdum enim. Duis aliquam lacus id nibh pellentesque, vitae eleifend ligula viverra. Duis felis nibh, sagittis in lectus et, vehicula maximus sapien. Morbi varius ac urna non molestie.

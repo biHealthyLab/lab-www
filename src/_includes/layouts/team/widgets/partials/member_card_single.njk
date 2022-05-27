@@ -1,0 +1,37 @@
+<div class="service-item rounded h-100">   
+    <div class="member_card__header card-body align-items-center">
+        <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+                <img src="{{m.data.profile_img}}"
+                alt="" class="img-fluid">
+            </div>
+            <div class="member_card__info ms-3">
+                <p class="align-items-center">
+                    <b>{{m.data.full_name}}, <small>{{m.data.credentials}}</small> </b> <br>
+                    
+                <small class="text-muted"><i> {{m.data.position}}</i> </small>
+                </p>
+                
+            </div>
+            
+        </div>
+        {# <hr> #}
+    </div>
+
+    <div class="container">
+        
+        <hr>
+        <smal class="text-muted">
+        {{ m.data.main_research_areas }}
+        </smal>
+
+        <p>
+            <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark"><i class="fas fa-link"></i> </button>
+            <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></button>
+            <button type="button" class="btn btn-outline-dark btn-floating btn-sm"
+                data-mdb-ripple-color="dark"><i class="fab fa-researchgate"></i></button>
+        </p>
+    </div>
+</div>
