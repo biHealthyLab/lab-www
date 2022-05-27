@@ -2,6 +2,7 @@
 user_name: nader
 full_name: Nader Riyahi
 credentials: PhD
+tags: ["scientist", "researcher"]
 position: Professor & Visiting Scholar
 profile_img: media/images/team/moutuou.jpg
 

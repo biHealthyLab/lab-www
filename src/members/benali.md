@@ -2,6 +2,7 @@
 user_name: habib
 full_name: Habib Benali
 credentials: PhD
+tags: ["faculty"]
 position: Professor & Scienfic Director of PERFORM Center
 profile_img: media/images/team/benali.jpg
 main_research_areas: |

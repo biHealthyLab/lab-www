@@ -5,15 +5,15 @@
   
 
 <div class="">
-    {%- for n in collections.news -%}
+    {% for n in collections.news | reverse %}
         {% if (loop.index < 5) %}
         <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
             
             <p class="mb-1">{{ n.data.title |safe }}</p>
-            <small class="text-muted"> {{ n.data.news_date }} </small>
+            <small class="text-muted"> {{ n.data.news_date | readableDate}} </small>
         </a>
            {% endif %}
-       {%- endfor -%}
+       {% endfor %}
     
        
     </div>  

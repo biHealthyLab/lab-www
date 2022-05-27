@@ -2,7 +2,7 @@ const {html} = require("common-tags");
 
 function PostCard({featuredImg, postTitle, postAuthor, postTeaser, postDate, postLink, linkText}) {
     return html`
-    <div class="post_card card-body">
+    <div class="post_card card-body" onclick="window.location.href='${postLink}'">
         <div class="figure">
             <img src="${featuredImg}"></img>
         </div>

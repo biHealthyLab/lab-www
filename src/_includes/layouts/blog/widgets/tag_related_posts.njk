@@ -1,0 +1,18 @@
+<div class="container-xxl bg-light py-6">
+    <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            
+            <h2 class="mb-5 divider">Related posts</h2>
+        </div>
+        <div class="row">
+            {% for b in collections.blog | reverse %}
+               {% if b.data.topics in topics %}
+                   <div class="col-lg-3 col-md-3  wow fadeInUp" data-wow-delay="0.1s">
+                       {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date|readableDate, postTeaser = "", postLink = "", linkText = "" %}
+                   </div>
+               {% endif %}    
+            {% endfor %}
+        </div>
+    </div>
+</div>
+       

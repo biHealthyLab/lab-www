@@ -1,6 +1,6 @@
 <div class="container">
     {% for tag in tags %}
-        {% if tag != "topics" %}
+        {% if tag not in ["topics", "blog"] %}
             <span><a href="/" type="button" class="btn btn-tag">{{tag | capitalize}}</a></span>
         {% endif %}
     {% endfor %}

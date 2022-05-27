@@ -1,16 +1,18 @@
 <div class="container-xxl py-6">
-            <div class="container">
-                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    
-                    <h2 class="mb-5 divider">Latest posts</h2>
-                </div>
-                <div class="row">
-                    {% for b in collections.blog %}
-                        <div class="col-lg-4 col-md-6  wow fadeInUp" data-wow-delay="0.1s">
-                            {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date, postTeaser = b.data.teaser, postLink = b.url, linkText = "Read this post." %}
-                        </div>    
-                    {% endfor %}
-                </div>
-            </div>
+    <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            
+            <h2 class="mb-5 divider">Latest in our blog</h2>
+        </div>
+        <div class="row">
+            {% for b in collections.blog| reverse %}
+            <div class="col-lg-4 col-md-6 mb-4  wow fadeInUp" data-wow-delay="0.1s">
+                {% if loop.index < 4 %}
+                    {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date|readableDate, postTeaser = b.data.teaser, postLink = b.url, linkText = "Read this post." %}
+                {% endif %}
+            </div>    
+            {% endfor %}
+        </div>
+    </div>
 </div>
        

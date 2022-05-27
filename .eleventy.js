@@ -1,4 +1,4 @@
-// const pluginDate = require("eleventy-plugin-date");
+const pluginDate = require("eleventy-plugin-date");
 const markdownIt =require("markdown-it");
 const markdownItKatex = require("markdown-it-katex");
 const katex = require("katex");
@@ -15,10 +15,15 @@ const markdownLib = markdownIt(options).use(markdownItKatex);
 const ItemCard = require("./src/_includes/components/ItemCard");
 const PostCard = require("./src/_includes/components/PostCard");
 
+// Filters 
+const getSimilarTopics = function(topicA, topicB){
+  return topicA.filter(Set.prototype.has, new Set(topicB)).length;
+}
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
-    // eleventyConfig.addPlugin(pluginDate);
+    eleventyConfig.addPlugin(pluginDate);
     // eleventyConfig.addPlugin(mathjaxPlugin);
     
     // latex filter for katex 
@@ -41,6 +46,15 @@ module.exports = function(eleventyConfig) {
     // Shortcodes
     eleventyConfig.addShortcode("ItemCard", ItemCard);
     eleventyConfig.addShortcode("PostCard", PostCard);
+
+    // Filter configs 
+    eleventyConfig.addNunjucksFilter("similarTopics", function(collection, path, topics){
+      return collection.filter((post) => {
+        return getSimilarTopics(post.data.topics, topics) >= 1 && post.data.page.inputPath !== path;
+      }).sort((a,b) => {
+        return getSimilarTopics(b.data.topics, topics) - getSimilarTopics(a.data.topics, topics);
+      });
+    });
 
 
 
