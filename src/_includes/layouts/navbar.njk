@@ -5,27 +5,28 @@
         {# <h6 class="m-0">BhealthyAge</h6> #}
 
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
         <span class="fa fa-bars"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
             <a href="/" class="nav-item nav-link active">Home</a>
             {# <a href="about.html" class="nav-item nav-link">Research</a> #}
             <div class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
                 <div class="dropdown-menu m-0">
-                    <a href="" class="dropdown-item">Research topics</a>
-                    <a href="" class="dropdown-item">Publications</a>
-                    <a href="team.html" class="dropdown-item">Meetings</a>
+                    <a href="/topics/" class="dropdown-item">Research topics</a>
+                    <a href="/publications" class="dropdown-item">Publications</a>
+                    <a href="/meetings/" class="dropdown-item">Meetings</a>
                 </div>
             </div>
             <a href="/team/" class="nav-item nav-link">Team</a>
+            <a href="/education/" class="nav-item nav-link">Education</a>
             
-            <a href="" class="nav-item nav-link">News</a>
+            <a href="/news/" class="nav-item nav-link">News</a>
             <a href="/blog/" class="nav-item nav-link">Blog</a>
 
-            <a href="" class="nav-item nav-link">Vacancies</a>
+            <a href="/vacancies/" class="nav-item nav-link">Vacancies</a>
             <a href="" class="nav-item nav-link">Contact</a>
         </div>
         {# <a href="" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">Free Quote</a> #}

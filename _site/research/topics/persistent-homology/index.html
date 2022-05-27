@@ -27,11 +27,13 @@
 <!-- Customized Bootstrap Stylesheet -->
 <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
-<!-- Katex fonts -->
-<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
 
 <!-- Template Stylesheet -->
 <link href="/assets/css/style.css" rel="stylesheet">
+
+
+<!-- Katex fonts -->
+<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
 
 
 
@@ -58,27 +60,28 @@
         
 
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
         <span class="fa fa-bars"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
             <a href="/" class="nav-item nav-link active">Home</a>
             
             <div class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
                 <div class="dropdown-menu m-0">
-                    <a href="" class="dropdown-item">Research topics</a>
-                    <a href="" class="dropdown-item">Publications</a>
-                    <a href="team.html" class="dropdown-item">Meetings</a>
+                    <a href="/topics/" class="dropdown-item">Research topics</a>
+                    <a href="/publications" class="dropdown-item">Publications</a>
+                    <a href="/meetings/" class="dropdown-item">Meetings</a>
                 </div>
             </div>
             <a href="/team/" class="nav-item nav-link">Team</a>
+            <a href="/education/" class="nav-item nav-link">Education</a>
             
-            <a href="" class="nav-item nav-link">News</a>
+            <a href="/news/" class="nav-item nav-link">News</a>
             <a href="/blog/" class="nav-item nav-link">Blog</a>
 
-            <a href="" class="nav-item nav-link">Vacancies</a>
+            <a href="/vacancies/" class="nav-item nav-link">Vacancies</a>
             <a href="" class="nav-item nav-link">Contact</a>
         </div>
         
@@ -87,7 +90,7 @@
 
 
 
-        </div>
+        
         
 
         
@@ -104,6 +107,7 @@
 
 
         
+        </div>
         
                             
 
@@ -133,10 +137,10 @@
         
         <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
             
-            <p class="mb-1">Mohamed's preprint about new applications of deep learning on connectomis 
+            <p class="mb-1">Jane's preprint about new applications of deep learning on connectomis 
 is live on [bioArxiv](https://bioarxiv.org)!
 </p>
-            <small class="text-muted"> Invalid DateTime </small>
+            <small class="text-muted"> May 20, 2022 </small>
         </a>
            
        
@@ -146,7 +150,7 @@ is live on [bioArxiv](https://bioarxiv.org)!
             <p class="mb-1">John's preprint on brain functional connectivity and dynamical systems 
 is live on [bioArxiv](https://bioarxiv.org)
 </p>
-            <small class="text-muted"> Invalid DateTime </small>
+            <small class="text-muted"> May 2, 2022 </small>
         </a>
            
        
@@ -262,7 +266,7 @@ is live on [bioArxiv](https://bioarxiv.org)
     <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
 
     <!-- Template Javascript -->
     <script src="/assets/js/main.js"></script>

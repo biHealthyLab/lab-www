@@ -28,7 +28,7 @@
                 <div class="row ml-2">
                     {% for b in collections.blog | reverse %}
                     <div class="col-lg-6 mb-3">
-                        {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date | readableDate, postTeaser = b.data.teaser, postLink = b.url, linkText = "Read this post." %}
+                        {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date|readableDate, postTeaser = b.data.teaser, postLink = b.url %}
                     </div>    
                     {% endfor %}
                 </div>

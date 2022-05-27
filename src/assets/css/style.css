@@ -438,7 +438,7 @@
 }
 .navbar .navbar-nav .nav-link {
     position: relative;
-    height: 100px;
+    /* height: 100px; */
     margin-left: 25px;
     padding: 35px 0;
     color: var(--dark);
@@ -599,6 +599,10 @@
 
     .page-header {
         padding: 3rem 0;
+    }
+
+    .hero {
+      padding: 5rem 0 3rem 0;
     }
 }
 
@@ -853,6 +857,7 @@
 
 .post_card:hover {
   background: #fff;
+  border: 1px solid var(--primary);
 }
 
 
