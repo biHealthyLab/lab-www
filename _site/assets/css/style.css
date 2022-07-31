@@ -88,7 +88,12 @@
   background: var(--dark);
   color: #FFFFFF;
 }
-
+/* Personal page */
+.member_profile__profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 /* Modals and overlays  */
 .modal {
