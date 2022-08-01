@@ -1,5 +1,5 @@
 {
-    "permalink": "/team/~{{ user_name }}/index.html",
+    "permalink": "/team/~{{ username }}/index.html",
     "layout": "layouts/team/personal_page.njk",
     "tags": ["members"]
 }

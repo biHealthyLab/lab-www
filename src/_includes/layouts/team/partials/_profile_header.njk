@@ -1,0 +1,67 @@
+
+
+
+
+<div class="container page-header">
+   <div class="row">
+      <div class="col-md-12">
+         <div id="content" class="content content-full-width">
+            <!-- begin profile -->
+            <div class="profile">
+               <div class="profile-header">
+                  <!-- BEGIN profile-header-cover -->
+                  <div class="profile-header-cover"></div>
+                  <!-- END profile-header-cover -->
+                  <!-- BEGIN profile-header-content -->
+                  <div class="profile-header-content">
+                     <!-- BEGIN profile-header-img -->
+                     <div class="profile-header-img">
+                        <img class="img-fluid" src="{{ profile_img }}" alt="">
+                     </div>
+                     <!-- END profile-header-img -->
+                     <!-- BEGIN profile-header-info -->
+                     <div class="profile-header-info">
+                        <h4 class="m-t-10 m-b-5"><b>{{ full_name}}</b>, {{ credentials }}</h4>
+                        <p class="m-b-1 small">{{ position }}</p>
+                        <div class="profile-teaser">
+                            {% if teaser %}
+                                <span>
+                            <i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                           <span>{{ teaser }}</span>
+                            {% endif %}
+                            
+                        </div>
+                        <div class"profile-social mt-10 mb-2">
+
+                            <a type="button" class="btn btn-outline-light btn-rounded btn-sm" href="mailto:{{ social.email }}"
+                         data-mdb-ripple-color="light"><i class="fas fa-envelope"></i></a>
+                         {% if social.researchgate %}
+                            <a href="{{ social.researchgate | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                         {% endif %}
+
+                         {% if social.twitter %}
+                            <a href="{{ social.twitter | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                         {% endif %}
+
+                         {% if social.linkedin %}
+                            <a href="{{ social.linkedin | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
+                data-mdb-ripple-color="light"><i class="fab fa-linkedin"></i></a>
+                         {% endif %}
+                            
+                         </div>
+                     </div>
+                     <!-- END profile-header-info -->
+                  </div>
+                  <!-- END profile-header-content -->
+                  
+               </div>
+            </div>
+            <!-- end profile -->
+    
+         </div>
+      </div>
+   </div>
+</div>
+

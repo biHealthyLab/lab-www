@@ -1,9 +1,11 @@
 {
     "title": "Biomedical Imaging and Healthy Aging Laboratory",
+    "shortName": "bHealthyAging Lab",
     "language": "en-US",
     "metaDescription": "Dr. Habib Benali's Lab",
     "homeTitle": "Biomedical Imaging and Healthy Aging Laboratory",
     "logo": "/assets/img/logo_brain.png",
-    "homeTeaser": "Understanding brain activity in healthy aging and shedding light on factors predicting conversion to neurodegenerative disease."
+    "homeTeaser": "Understanding brain activity in healthy aging and shedding light on factors predicting conversion to neurodegenerative disease.",
+    "contactEmail": "ddd@concordia.ca"
 
 }

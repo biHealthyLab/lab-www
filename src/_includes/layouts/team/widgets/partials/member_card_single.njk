@@ -26,10 +26,10 @@
         </smal>
 
         <p>
-            <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark"><i class="fas fa-link"></i> </button>
-            <button type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></button>
+            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="{{ m.url }}"><i class="fas fa-link"></i> </a>
+            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:{{ m.data.social.email }}"
+                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
             <button type="button" class="btn btn-outline-dark btn-floating btn-sm"
                 data-mdb-ripple-color="dark"><i class="fab fa-researchgate"></i></button>
         </p>
