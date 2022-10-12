@@ -1,0 +1,7 @@
+<ul class="sponsor-grid">
+    {% for partner in partners %}
+        {# <div class="sponsor"> #}
+        <a class="sponsor" href="{{ partner.link }}"><img src="{{ partner.logo | url }}" alt="{{ partner.name }}"></a>
+       {# </div> #}
+    {% endfor %}
+</ul>

@@ -1,5 +1,5 @@
 ---
-title: Complex networks and brain connectomics
+title: Network Model
 illustration: "/media/images/topics/tau_accum.png"
 tags: ["network"]
 short_description: |

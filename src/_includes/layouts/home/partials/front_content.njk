@@ -6,10 +6,13 @@
   {# {% if (loop.index < 1) %} #}
    
     <h2 class="mb-4">{{ front.data.headline }}</h2>
-
-    <div class="col-12 wow zoomIn" data-wow-delay="0.1s">
-        <img class="img-fluid" src="{{ front.data.featured_img | url }}">
+    <div id="diagram">
+      {% include "layouts/research/widgets/topics_diagram.njk" %}
     </div>
+
+    {# <div class="col-12 wow zoomIn" data-wow-delay="0.1s">
+        <img class="img-fluid" src="{{ front.data.featured_img | url }}">
+    </div> #}
     
     <div class="container mt-4 mb-4">
         {{ front.templateContent | latex | safe }}
