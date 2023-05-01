@@ -1,19 +1,33 @@
-
-<figure> 
-  {# <figcaption></figcaption> #}
-  <ul class="tree">
-    <li>
-        <span class="default">Multimodal Image recording and Simulation</span>
-        <ul>
-            <li><span class="default">Neuro-Glio-Vascular Model</span></li>
+<div class="container text-center">
+  <h2 class="divider mb-4">Our key research themes</h2>
+  <figure> 
+    {# <figcaption></figcaption> #}
+    <ul class="tree">
+      <li>
+      {% for item in themesTree %}
+        {% if item.level == 1 %}
+          <span class="default" onclick="location.href=`/topics/`">{{ item.title }}</span>
+          {% if item.children %}
+          <ul>
+            {% for child in item.children %}
             <li>
-                <span class="default">Network Model</span>
+               <span class="default" onclick="location.href=`/topics/`">{{ child.title }}</span>
+               {% if child.children %}
                 <ul>
-                    <li><span class="target">Predictive Physiopathology in Healthy Aging Subjects</span></li>
+                 {% for greatchild in child.children %}
+                  <li>
+                     <span class="target" onclick="location.href=`/topics/`">{{ greatchild.title }}</span>
+                  </li>
+                 {% endfor %}
                 </ul>
+               {% endif %}
             </li>
-            <li><span class="default">Tau Protein Accumulation Model</span></li>
-        </ul>
-    </li>
-  </ul>
-</figure>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </li>
+    </ul>
+  </figure>
+</div>

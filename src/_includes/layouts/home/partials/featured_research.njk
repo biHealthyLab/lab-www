@@ -1,0 +1,60 @@
+<section id="featured">
+   
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 featured-heading">
+           <h1 class="headline text-muted"><span>Featured research</span></h1>
+        </div>
+    </div>
+
+<!-- Page Content -->
+{% set cls = cycler("odd", "even") %}
+{% for t in collections.topics | reverse %}
+    {% if cls.current == 'odd' %}
+    <div class="content-section-odd">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">{{ t.data.title }}</h3>
+                    <div class="lead">{{ t.data.short_description }}</div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="clearfix"></div>
+                    <img class="img-responsive" src="{{ t.data.illustration | url}}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-odd -->
+    {% else %}
+
+    <div class="content-section-even">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">{{ t.data.title }}</h3>
+                    <div class="lead">{{ t.data.short_description }}</div>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="{{ t.data.illustration | url }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-even -->
+    {% endif %}
+{% endfor %}
+</section>

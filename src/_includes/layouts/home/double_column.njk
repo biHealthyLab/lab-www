@@ -1,0 +1,24 @@
+<div class="container-xxl">
+    <div class="row  mb-5 py-6">
+            {# <div class="col-lg-8"> #}
+        <div class="col-md-9 row">
+            
+            {% block page_content_left %}
+                {% include "./partials/front_content.njk" %}
+            {% endblock %}
+
+            
+        </div>    
+        {# </div> #}
+        <div class="col-md-3">
+            {% block page_sidepanel_right %}
+                {% include "layouts/news/widgets/latest_news.njk" %}
+
+                <br> 
+
+                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
+            {% endblock %}
+
+        </div>
+    </div>
+</div>

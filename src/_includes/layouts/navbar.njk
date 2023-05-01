@@ -10,26 +10,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
-            <a href="/" class="nav-item nav-link active">Home</a>
-            {# <a href="about.html" class="nav-item nav-link">Research</a> #}
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research</a>
-                <div class="dropdown-menu m-0">
-                    <a href="/topics/" class="dropdown-item">Research topics</a>
-                    <a href="/publications" class="dropdown-item">Publications</a>
-                    <a href="/meetings/" class="dropdown-item">Meetings</a>
-                </div>
-            </div>
-            <a href="/team/" class="nav-item nav-link">Team</a>
-            <a href="/education/" class="nav-item nav-link">Education</a>
-            
-            <a href="/news/" class="nav-item nav-link">News</a>
-            <a href="/blog/" class="nav-item nav-link">Blog</a>
-
-            {# <a href="/vacancies/" class="nav-item nav-link">Vacancies</a> #}
-            {# <a href="" class="nav-item nav-link">Contact</a> #}
+            {% for navitem in navitems %}
+                <a href="{{ navitem.dir | url }}" class="nav-item nav-link {{ 'active' if navitem.dir == page.url }}">{{ navitem.anchor }}</a>
+            {% endfor %}
         </div>
-        {# <a href="" class="btn btn-light rounded-pill text-primary py-2 px-4 ms-lg-5">Free Quote</a> #}
     </div>
 </nav>
 

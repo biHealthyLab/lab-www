@@ -1,0 +1,42 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+{% include "layouts/page_header.njk" %}
+{% endblock %}
+
+
+{% block page_main_content %}
+   <div class="row">
+            {# <div class="col-lg-8"> #}
+        <div class="col-md-8 mb-4">
+            {# <div class="container-fluid"> #}
+            {% block page_content_left %}
+               
+            {% endblock %}
+            {# </div> #}
+            
+        </div>    
+        {# </div> #}
+        <div class="col-md-4 mb-5">
+            {% block page_sidepanel_right %}
+                {% include "layouts/news/widgets/latest_news.njk" %}
+
+                <br> 
+
+                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
+            {% endblock %}
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block widgets_middle %}
+   {# {% include "layouts/widgets/middle_content.njk" %} #}
+{% endblock %}
+
+
+{% block widget_bottom %}
+{% endblock %}
+

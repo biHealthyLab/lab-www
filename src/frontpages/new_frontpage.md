@@ -3,23 +3,8 @@ headline: Welcome to the Biomedical Imaging and Healty Aging Laboratory
 featured_img: media/images/topics/brain-changes.jpg
 ---
 
-Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod
+The main goal of our multidisciplinary research is to better understand **brain activity in healthy aging** and to shed light on factors predicting conversion to **neurodegenerative disease**. 
 
-### Our goals
+Indeed, understanding neuronal activity, brain metabolism and patho-physiological process will enable the development of innovative mathematical models (non-linear ordinary differential equation system) by combining biological and biomedical images from the basic modelling of the brain's anatomo-functional circuits to models of tau protein accumulation (partial differential equation formalism). In such “virtual brain activity and pathology” environment, the outcome of brain disease development for individual subjects can be foreseen by simulations. 
 
-Tempor **erat elitr** rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod
-
-> Tempor erat elitr rebum at clita. Diam dolor diam >ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-
-1. Clita erat ipsum et lorem et sit, sed stet no labore
-2. lorem sit. Sanctus clita duo justo et tempor eirmod
-
-This a block of code:
-
-    def this_code():
-        return false
-
-This a $$\TeX$$ math formula:
-$$ H(X, \mathbb{Z}) = \ker \partial / im \partial $$
-
-Therefore $$\beta_0 = 2$$ and $$\beta_1=3$$.
+Numerical simulation tools would allow prediction of the progress of the disease as well as an understanding of its causes, which remain uncertain. This numerical approach is a new paradigm of the study of the patho-physiological process in healthy aging of subjects at-risk for neurodegenerative disease. This approach, referred to as “**predictive physiopathology**”, offer better health through prevention.

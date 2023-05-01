@@ -10,6 +10,9 @@
   --dark: #045080;
   --lightdark: #b3c1c9;
   --shadow: 0px 5px 10px rgba(18, 18, 18, 0.2);
+  --custom-orange: #f9ab05;
+  --custom-green-light: #a9c45e;
+  --custom-green: #66921b;
 }
 
 
@@ -130,12 +133,41 @@
   background: var(--dark);
   color: #FFFFFF;
 }
+
+.btn-more {
+  /* height: 100px; */
+  font-size: larger;
+  border-radius: 0%;
+}
+
+.btn-more-light {
+  color: var(--light);
+  border: var(--light) 1px solid;
+}
+
+.btn-more-light:hover {
+  background-color: var(--lightdark);
+  color: var(--dark);
+}
+
+
+.btn-more-dark {
+  color: var(--dark);
+  border: var(--dark) 1px solid;
+}
+
+.btn-more-dark:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
 /* Personal page */
 .member_profile__profile_img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+
+
 
 .profile-header {
   position: relative;
@@ -694,7 +726,7 @@
   .divider::after,
   .divider::before {
     content: " ";
-    border: 0.8px solid var(--light);
+    border: 1px solid var(--light);
     flex: 1;
   }
 
@@ -808,7 +840,7 @@
     margin-left: 25px;
     padding: 35px 0;
     color: var(--dark);
-    font-weight: 300;
+    font-weight:  300;
     outline: none;
     transition: .5s;
     text-transform: uppercase;
@@ -939,27 +971,6 @@
 }
 
 
-/* Sponsors */
-.sponsor-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-  gap: 4rem;
-  margin: 0 auto;
-  max-width: 700px;
-}
-
-.sponsor-grid li p {
-  margin-top: 1rem;
-  font-family: system-ui;
-  text-align: center;
-}
-
-.sponsor img {
-  aspect-ratio: 1 / 1;
-  width: 100%;
-  object-fit: contain;
-}
-/* Sponsors End */
 
 /*** Background Hero ***/
 
@@ -977,23 +988,128 @@
   }
 }
 
+header {
+  position: relative;
+  width: 100%;
+}
 
 
-.bg-header {
+.viewport-header {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase {
+  display: block;
+  width: 100vw;
+  /* margin: 0;
+  padding-left: 0;
+  padding-right: 0; */
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+
+ #bground-video {
+  object-fit: cover;
+  width: 100vw;
+  /* margin: 0;
+  padding-left: 0;
+  padding-right: 0; */
+  height: 100vh;
+  /* box-sizing: border-box; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* video { */
+  /* object-fit: cover;
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0; */
+  /* min-width: 100%; 
+  min-height: 100%; */
+  /* transform: translate(-50%,-50%); */
+  /* z-index: -1; */
+/* } */
+
+
+.masterhead  {
     /* margin-bottom: 3rem; */
-    height: auto;
+    /* top: 50px; */
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute; */
+    padding-top: 70vh;
+    padding-bottom: 20px;
+    /* bottom: 0; */
     /* padding: 22rem 0 6rem 0; */
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to top, rgb(35, 122, 176,0.9), rgb(7, 70, 110,0.5)), url(../img/team_16x9.jpg) ;
+    /* padding-top: 10rem;
+    box-sizing: border-box;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background: linear-gradient(to top, rgb(35, 122, 176,0.7), rgb(7, 70, 110,0.5)), url(../img/team_16x9.jpg) ;
     /* background: url(../img/brain_bottom.png) center bottom no-repeat; */
     /* background-color: var(--primary); */
     /* background-position: center; */
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    /* animation: animatedbg 60s linear infinite alternate; */
+    animation: animatedbg 20s linear infinite alternate;
     /* font-size: larger; */
+    /* object-fit: contain; */
+
+}
+
+@media (min-width: 1200px) {
+  .overlay {
+    background-image: linear-gradient(to bottom right,#002f4b,#121010);
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    /* margin: 0; */
+    /* padding-top: 10rem; */
+    /* padding-bottom: calc(10rem - 4.5rem); */
+    /* box-sizing: border-box; */
+    /* padding: 15% 32px; */
+    line-height: 1.5;
+    text-align: center;
+    /* :last-child { margin-bottom: 0; }
+    h1 {font-size: 32pt; font-weight: bold; text-shadow: 0 0 .3em #000; margin: 0 0 1em;}
+    p {font-size: 11pt;text-shadow: 0 0 .3em #000;margin: 1em 0;}
+    a {color: #fff;} */
+  }
+  
+}
+
+
+.bg-header {
+  margin-bottom: 3rem;
+  padding: 12rem 0 3rem 0;
+  
+  /* background: linear-gradient(to top, rgb(35, 122, 176,0.9), rgb(7, 70, 110,0.5)), url(../img/team_16x9.jpg) ; */
+  /* background: url(../img/brain_bottom.png) center bottom no-repeat; */
+  /* background-color: var(--primary); */
+  /* background-position: center; */
+  /* background-size: 100%; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: scroll; */
+  /* animation: animatedbg 60s linear infinite alternate; */
+  /* font-size: larger; */
 }
 
 .bg-header h1 {
@@ -1010,12 +1126,7 @@
 }
 
 @media (min-width: 992px) {
-  .bg-header {
-    height: 100vh;
-    min-height: 40rem;
-    /* padding-top: 4.5rem;
-    padding-bottom: 0; */
-  }
+  
   .bg-header p {
     font-size: 2rem;
   }
@@ -1024,29 +1135,470 @@
   }
 }
 @media (min-width: 1200px) {
-  .bg-header, .bg-header .h1 {
+  .masterhead, .masterhead .h1 {
     font-size: 3.5rem;
   }
 }
 
-@media (max-width: 991.98px) {
-    .bg-header p {
-        font-size: 1.15rem;
-    }
-
-    .page-header {
-        padding: 3rem 0;
-    }
-
-
-    .hero {
-      padding: 5rem 0 3rem 0;
-    }
-}
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: rgba(256, 256, 256, .5);
 }
+
+
+ /* Section formatting  */
+
+.intro-header {
+  top: 50px;
+  height: 100vh;
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  /* position: absolute; */
+  /* z-index: 10; */
+  /*text-align: right;*/
+  /* color: #fffefe; */
+  /* background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.8)) no-repeat center center; */
+  /*background: url(../img/bgds/smart_wbdv.jpeg) no-repeat center center;*/
+  /* background-size: cover;    */
+}
+
+
+.intro-message {
+  position: absolute;
+  width: 100vw;
+  /* margin: 0;
+  padding-left: 0;
+  padding-right: 0; */
+  height: 100vh;
+  padding-top: 40vh;
+  /* padding-bottom: 10%; */
+  
+  text-align: center;
+  /* margin-right: 0;
+  margin-left: 0; */
+  background: linear-gradient(to bottom right,#0c3a6b,#000f14);
+  opacity: .8;
+  z-index: 10;
+
+}
+
+.main-title {
+   text-align: right;
+   padding-top: 5%;
+}
+
+.second-message {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 20%;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  /*font-size: 4em;*/
+}
+
+
+.intro-message .main-title > h1,
+.intro-message .main-teaser > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 3em;
+}
+
+.intro-message > div > p {
+  font-size: 1.7em;
+}
+
+.intro-message > h1 > span,
+.intro-message > h3 > span {
+  background: rgba(0,0,0,0.5);
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  
+}
+
+.code-block {
+  /*background-color: rgba(0, 0, 0,0.5);*/
+  /*padding-top: 15px;*/
+  /*padding-bottom: 15px;*/
+  /*font-size: 16px;*/
+  font-size: 1.5em;
+  /*font-family: sans-serif;*/
+}
+
+.code-block > span {
+  background: rgba(0,0,0,0.9);
+  padding-right: 15px;
+  padding-left: 15px;
+  /*margin-bottom: 5px;*/
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+
+}
+
+.intro-divider {
+  /*width: 400px;*/
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3,
+.intro-message > h4 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+/* Sponsors */
+.sponsor-grid {
+  margin-top: 5px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); */
+  /* gap: 2rem; */
+  /* margin: 0 auto; */
+  /* max-width: 100%; */
+  text-align: center;
+}
+
+.sponsor-grid li p {
+  margin-top: 1rem;
+  font-family: system-ui;
+  text-align: center;
+}
+
+.sponsor img {
+  /* aspect-ratio: 1 / 1; */
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+/* Sponsors End */
+
+
+@media (max-width: 991.98px) {
+  .bg-header p {
+      font-size: 1.15rem;
+  }
+
+  .page-header {
+      padding: 3rem 0;
+  }
+
+
+  .hero {
+    padding: 5rem 0 3rem 0;
+  }
+
+  .intro-header {
+    top: 0px;
+    height: 100vh;
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    /* position: absolute; */
+    /* z-index: 10; */
+    /*text-align: right;*/
+    /* color: #fffefe; */
+    /* background: linear-gradient(to top,rgba(0,0,0,0.5), rgba(0,0,0,0.8)) no-repeat center center; */
+    /*background: url(../img/bgds/smart_wbdv.jpeg) no-repeat center center;*/
+    /* background-size: cover;    */
+  }
+
+ 
+
+
+  
+
+}
+
+@media(max-width:767px) {
+  /*.code-block {
+      display: block;
+  }*/
+  /* #bground-video {
+    display: none;
+  } */
+
+  /* .intro-message {
+      padding-bottom: 5%;
+  } */
+  
+
+  /* .intro-message {
+    padding-top: 30vh;
+    padding-bottom: 10%;
+    
+  
+  } */
+  
+  /* .intro-message {
+    padding-top: 20vh;
+    padding-bottom: 20px;
+  } */
+
+
+
+  .intro-message > h1 {
+      font-size: 3em;
+  }
+
+  ul.intro-social-buttons > li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+  }
+
+  ul.intro-social-buttons > li:last-child {
+      margin-bottom: 0;
+  }
+
+  .intro-divider {
+      width: 100%;
+  }
+
+
+  .sponsor-grid {
+    padding-top: 0;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); */
+    /* gap: 2rem; */
+    /* margin: 0 auto; */
+    /* max-width: 300px; */
+  }
+
+  .sponsor img {
+    width: 50px;
+  }
+}
+
+
+
+
+/* About section  */
+.about-section {
+  padding: 200px 0;
+  background-color: var(--dark);
+  opacity: .8;
+  color:var(--light);
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 16px;
+}
+
+
+.services-heading {
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.content-section-even {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: linear-gradient(to top,rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/bgds/banner.png)  no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+.list-group {
+  border: 0;
+}
+
+.list-group-item {
+ border-radius: 5px;
+}
+
+
+section h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+section h3.section-subheading {
+  margin-bottom: 10px;
+  text-transform: none;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.about-card {
+  position: relative;
+  height: 400px;
+  text-align: center; 
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.01);
+  /*background-color: rgba(0, 15, 10, 0.6);*/
+  /*border-top-width: 0;
+  border-bottom-width: 2px;*/
+  border: 1px solid #f1f1f1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+
+
+
+.research-img {
+  z-index: 100;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  max-width: 140px;
+  max-height: 140px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+ border: 7px solid #f1f1f1;
+ margin: 0 auto;
+ color: #fff;
+
+}
+
+.research-img img {
+  width: 140px;
+  height: 140px;
+  max-width: 140px;
+  max-height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid #f1f1f1;
+
+} 
+
+
+
+.about-description {
+  margin: 20px;
+
+}
+
+
+
+/* Featured research  */
+
+.featured-heading {
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.content-section-even {
+  padding: 50px 0;
+  background-color: var(--light);
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-even {
+  padding: 50px 0;
+  background-color: var(--lightdark);
+  /* border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7; */
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+
+
+
+/* headlines with lines */
+.headline {
+   overflow: hidden;
+   text-align: center;
+}
+.headline > span{
+  position: relative;
+  display: inline-block;
+}
+.headline > span:before, .headline > span:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid #e0e0e0;
+  width: 591px; /* half of limiter*/
+  margin: 0 20px;
+}
+.headline > span:before{
+  right: 100%;
+}
+.headline > span:after{
+  left: 100%;
+}
+
+.partner-logos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*height: 70px;*/
+  width: auto;
+  text-align: center;
+  /*filter: grayscale(100%);*/
+}
+
+.partner-logos .btn,
+.partner-logos .btn:hover,
+.partner-logos .btn:focus,
+.partner-logos .btn:active {
+  width: 70px;
+  height: 70px;
+  cursor: default;
+  border: none;
+  /*filter: contrast(175%) hue-rotate(90deg);*/
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+
 
 
 /*** Service ***/
@@ -1167,8 +1719,8 @@
   height: 90px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   object-fit: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%); */
 }
 .member_card__profile {
   padding: 0px 20px;

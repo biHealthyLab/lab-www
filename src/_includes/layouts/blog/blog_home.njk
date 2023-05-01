@@ -1,47 +1,14 @@
-{% extends "layouts/base.njk" %}
-
-{% block page_header %}
-{% include "layouts/page_header.njk" %}
-{% endblock %}
+{% extends "layouts/generic_page.njk" %}
 
 
-{% block page_main_content %}
-   <div class="row">
-            {# <div class="col-lg-8"> #}
-        <div class="col-md-8 mb-4">
-            {# <div class="container-fluid"> #}
-            {% block page_content_left %}
-                <div class="row ml-2">
-                    {% for b in collections.blog | reverse %}
-                    <div class="col-lg-6 mb-3">
-                        {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date|readableDate, postTeaser = b.data.teaser, postLink = b.url %}
-                    </div>    
-                    {% endfor %}
-                </div>
-            {% endblock %}
-            {# </div> #}
-            
+{% block page_content_left %}
+    <div class="row ml-2">
+        {% for b in collections.blog | reverse %}
+        <div class="col-lg-6 mb-3">
+            {% PostCard featuredImg = b.data.featured_img, postTitle = b.data.title, postAuthor = b.data.author, postDate = b.data.post_date|readableDate, postTeaser = b.data.teaser, postLink = b.url %}
         </div>    
-        {# </div> #}
-        <div class="col-md-4 mb-5">
-            {% block page_sidepanel_right %}
-                {% include "layouts/news/widgets/latest_news.njk" %}
-
-                <br> 
-
-                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
-            {% endblock %}
-
-        </div>
+        {% endfor %}
     </div>
 {% endblock %}
+            
 
-
-
-{% block widgets_middle %}
-   {# {% include "layouts/widgets/middle_content.njk" %} #}
-{% endblock %}
-
-
-{% block widget_bottom %}
-{% endblock %}

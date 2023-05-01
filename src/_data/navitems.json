@@ -1,0 +1,34 @@
+[
+    {
+        "anchor": "Home",
+        "dir": "/" 
+    },
+    {
+        "anchor": "About",
+        "dir": "/about/"
+    },
+    {
+        "anchor": "Research",
+        "dir": "/topics/"
+    },
+    {
+        "anchor": "Publications",
+        "dir": "/publications/"
+    },
+    {
+        "anchor": "Team",
+        "dir": "/team/"
+    },
+    {
+        "anchor": "News",
+        "dir": "/news/"
+    },
+    {
+        "anchor": "Resources",
+        "dir": "/resources/"
+    },
+    {
+        "anchor": "Blog",
+        "dir": "/blog/"
+    }
+]

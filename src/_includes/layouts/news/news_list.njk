@@ -1,61 +1,29 @@
-{% extends "layouts/base.njk" %}
-
-{% block page_header %}
-{% include "layouts/page_header.njk" %}
-{% endblock %}
+{% extends "layouts/generic_page.njk" %}
 
 
-{% block page_main_content %}
-   <div class="row">
-            {# <div class="col-lg-8"> #}
-        <div class="col-md-8 mb-4">
-            {# <div class="container-fluid"> #}
-            {% block page_content_left %}
-                <div class="col-md-10 mx-auto ml-2">
-                    
-                    {% for n in collections.news | reverse %}
-                    {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-                        <a class="list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
-                            <small class="text-muted"> {{ n.data.news_date|readableDate}} </small> <br>
-                            <b>{{ n.data.title |safe }}</b>
-                            
-                        </a> 
-                    {# </div> #}
 
-                    <div class="collapse" id="news-{{ n.data.title|slugify }}">
-                        <div class="card-body">
-                            {{ n.templateContent|safe }}
-                        </div>
-                    </div>     
-                    {% endfor %}
-                    
-                    
-                </div>
-            {% endblock %}
-            {# </div> #}
-            
-        </div>    
+
+{% block page_content_left %}
+    <div class="col-md-10 mx-auto ml-2">
+        
+        {% for n in collections.news | reverse %}
+        {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
+            <a class="list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
+                <small class="text-muted"> {{ n.data.news_date|readableDate}} </small> <br>
+                <b>{{ n.data.title |safe }}</b>
+                
+            </a> 
         {# </div> #}
-        <div class="col-md-4 mb-5">
-            {% block page_sidepanel_right %}
-                {% include "layouts/news/widgets/latest_news.njk" %}
 
-                <br> 
-
-                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
-            {% endblock %}
-
-        </div>
+        <div class="collapse" id="news-{{ n.data.title|slugify }}">
+            <div class="card-body">
+                {{ n.templateContent|safe }}
+            </div>
+        </div>     
+        {% endfor %}
+        
+        
     </div>
 {% endblock %}
-
-
-
-{% block widgets_middle %}
-   {# {% include "layouts/widgets/middle_content.njk" %} #}
-{% endblock %}
-
-
-{% block widget_bottom %}
-{% endblock %}
+            
 

@@ -1,33 +1,44 @@
 [
     {
         "ID": 1,
+        "level": 1,
         "title": "Multimodal Image Recording and Simulation",
         "parentId": "",
-        "pageLink": ""
-    },
-    {
-        "ID": 2,
-        "title": "Neuro-Glio-Vascular Model",
-        "parentId": 1,
-        "pageLink": ""
-    },
-    {
-        "ID": 3,
-        "title": "Network Model",
-        "parentId": 1,
-        "pageLink": ""
-    },
-    {
-        "ID": 4,
-        "title": "Tau Protein Accumulation Model",
-        "parentId": 1,
-        "pageLink": ""
-    },
-    {
-        "ID": 5,
-        "title": "Predictive Physiopathology in Healthy Aging Subjects",
-        "parentId": 3,
-        "pageLink": ""
+        "pageLink": "",
+        "children": [
+            {
+                "ID": 2,
+                "level": 2,
+                "title": "Neuro-Glia-Vascular Computational Model",
+                "parentId": 1,
+                "pageLink": ""
+            },
+            {
+                "ID": 3,
+                "level": 2,
+                "title": "Network Model",
+                "parentId": 1,
+                "pageLink": "",
+                "children": [
+                    {
+                        "ID": 5,
+                        "level": 3,
+                        "title": "Predictive Physiopathology in Healthy Aging",
+                        "parentId": 3,
+                        "pageLink": ""
+                    }
+
+                ]
+
+            },
+            {
+                "ID": 4,
+                "level":2,
+                "title": "Tau Protein Accumulation Model",
+                "parentId": 1,
+                "pageLink": ""
+            }
+        ]
     }
 
 ]

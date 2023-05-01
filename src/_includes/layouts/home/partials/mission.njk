@@ -1,0 +1,47 @@
+<!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="">
+        <div class="col-lg-6 col-md-6 mx-auto services-heading">
+          <h1 class="text-white"><span>Who we are</span></h1>
+          
+          <br>
+          <p class="lead">{{ site.mission }}<br> <br> 
+            <a class="btn btn-more btn-more-light mt-5" href="/about/">More about us</a>
+          </p>
+          
+        </div>
+      </div>
+      <div class="">
+        <div class="container">
+          <div class="row">
+            {% for item in site.about %}
+            <div class="col-lg-4 col-md-4">
+              <div class="bindcard hovercard">
+                
+                <div class="about-img">
+                 
+                    <img class="img-circle img-responsive" src="img/about/{{ item.img }}" alt="">
+                  
+                </div>
+
+                
+
+                <div class="about-description">
+                  <div class="text-center"> <h4>{{ item.title }} </h4></div>
+                  
+                  <p class="text-muted">
+                    {{ item.text }}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            {% endfor %}
+            
+           
+          </div>
+        </div> 
+      </div>  
+
+
+    </section>

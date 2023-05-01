@@ -1,0 +1,33 @@
+<div class="main-areas-section">
+        <div class="container">
+        <h1 class="headline"><span>What we do</span></h1>
+
+          <div class="row">
+            {% for t in collections.topics %}
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="about-card">
+                
+                <span class="research-img">
+                    <img class="img-fluid" src="{{ t.data.illustration | url }}" alt=""> 
+                </span>
+
+                
+
+                <div class="about-description">
+                  <div class="text-center"> <h4>{{ t.data.title }} </h4></div>
+                  
+                  <p class="text-muted">
+                    {# {{ t.data.short_description }} #}
+                    {% for subT in t.data.subThemes %}
+                      {{subT}}.
+                    {% endfor %}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            {% endfor %}
+           
+          </div>
+        </div> 
+      </div>  

@@ -5,8 +5,19 @@
     "metaDescription": "Dr. Habib Benali's Lab",
     "labDirector": "Dr. Habib Benali",
     "homeTitle": "Biomedical Imaging and Healthy Aging Laboratory",
-    "logo": "/assets/img/logo_brain.png",
-    "homeTeasers": ["Doing Science for healthy aging", "Shedding light on factors predicting conversion to neurodegenerative diseases"],
-    "contactEmail": "ddd@concordia.ca"
+    "logo": "/assets/img/logo-v4-4.png",
+    "mainTeaser": "Doing Neuroscience and bioEngineering for healthy brain",
+    "mission": "We are a multidsciplinary reseach team of neuroscientists, clinicians, engineers, and mathematicians who study the brain with the shared goal to shed light on factors predicting conversion to neurodegenerative deseases.",
+    "homeTeasers": [
+        "Shedding light on factors predicting conversion to neurodegenerative diseases", 
+        "Developping Biomedical Imaging, Simulation, and Mathematical formalism"
+    ],
+    "backgroundVid": "/assets/img/brain_img.mp4",
+    "contactEmail": "contact@bhealthylab.org",
+    "phone": "(514) 000-0000",
+    "quickLinks": [
+        {"link":"https://www.concordia.ca", "anchor": "Concordia University"},
+        {"link":"https://www.concordia.ca/research/perform.html", "anchor":"PERFORM Center"}
+    ]
 
 }
