@@ -1,0 +1,16 @@
+<section class="section-xxl">
+    <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
+            
+            <h1 class="mb-5 headline"><span>Former members and Alumni</span></h1>
+        </div>
+        <div class="row team_card__container g-4">
+
+
+        {% for m in collections.alumni | sortByCategory %}
+        <div class="member_card col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='{{m.url | url}}'">   
+            {% include "./member_card_single.njk" %}   
+        </div>
+        {% endfor %}
+    </div>
+</section>

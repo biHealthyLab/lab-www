@@ -12,7 +12,7 @@ social:
   researchgate: "https://www.researchgate.net/profile/El-Kaioum-Moutuou"
   twitter: "https://twitter.com/elkaioum"
   linkedin: "https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/"
-main_research_areas: |
+keywords: |
   Complex Networks, Algebraic Topology, Brain Connectomics, Multilayer Networks
 presentation: |
   Dr. Moutuou is a trained mathematician ...

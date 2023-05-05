@@ -9,7 +9,7 @@ teaser: Is it possible to make a connection between brain geometry and brain con
 social:
   email: "pouriapirian1993@gmail.com"
   linkedin: "https://www.linkedin.com/in/pouria-pirian/"
-main_research_areas: |
+keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 ---
 

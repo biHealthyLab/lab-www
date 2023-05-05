@@ -1,68 +1,25 @@
-{% extends "layouts/base.njk" %}
-
-{% block page_header %}
-{% include "layouts/page_header.njk" %}
-{% endblock %}
+{% extends "layouts/generic_page.njk" %}
 
 
-{% block page_main_content %}
-   <div class="row">
-            {# <div class="col-lg-8"> #}
-        <div class="col-md-8 mb-4">
+
+
             
-            {% block page_content_left %}
-            <div class="container-fluid row wow fadeInUp" data-wow-delay="0.1s">
-                <div class="mb-4 mt-4">
-                    <h3 class="divider mb-4 mt-4"> Our team members </h3>
-                    {% for m in collections.members %}
-                        {# {% if m.data.category|lower == "faculty" %} #}
-                        <div class="mb-4">
-                        {% include "layouts/team/widgets/partials/member_card_single.njk" %}
-                        </div> 
-                        {# {% endif %}   #}
-                    {% endfor %}
-                </div>
-
-                
-
-                <div class="mb-4 mt-4">
-                    <h3 class="divider mb-4 mt-4"> Our collaborators </h3>
-                    
-                </div>
-
-                <div class="mb-4 mt-4">
-                    <h3 class="divider mb-4 mt-4"> Alumni </h3>
-                    
-                </div>
-
-
-
-                
-            </div>    
-            {% endblock %}
-            {# </div> #}
-            
-        </div>    
-        {# </div> #}
-        <div class="col-md-4 mb-5">
-            {% block page_sidepanel_right %}
-                {% include "layouts/news/widgets/latest_news.njk" %}
-
-                <br> 
-
-                {% include "layouts/calendar/widgets/meetings_calendar.njk" %}
-            {% endblock %}
-
+{% block page_content_left %}
+<div class="container-fluid row wow fadeInUp" data-wow-delay="0.1s">
+    <div class="mb-4 mt-4">
+        <h2 class="headline mb-4 mt-4"><span>Team members </span></h2>
+        {% for m in collections.members | sortByCategory %}
+        <div class="container mb-2">
+        {% include "./widgets/partials/member_card_single.njk" %} 
         </div>
+            
+        {% endfor %}
     </div>
+
+
+
+    
+</div>    
 {% endblock %}
-
-
-
-{% block widgets_middle %}
-   {# {% include "layouts/widgets/middle_content.njk" %} #}
-{% endblock %}
-
-
-{% block widget_bottom %}
-{% endblock %}
+{# </div> #}
+        

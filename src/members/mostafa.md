@@ -12,7 +12,7 @@ social:
   twitter:
   researchgate:
   linkedin: "https://www.linkedin.com/in/mostafasharifzadeh"
-main_research_areas: |
+keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 presentation: |
   M. Sharifzadeh is currently pursuing his Ph.D. degree in Electrical and Computer Engineering with Concordia University, Montreal, QC, Canada, co-supervised by Dr. Habib Benali and Dr. Hassan Rivaz. He is a member of IMage Processing And Characterization of Tissue (IMPACT), as well as Biomedical Imaging for Healthy Aging laboratories, and his current research is mainly focused on improving the performance of the ultrasound modality for biomedical applications by employing deep learning approaches.

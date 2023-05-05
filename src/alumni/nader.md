@@ -9,6 +9,6 @@ profile_img: /media/images/team/nader.JPG
 teaser:
 social:
   email: "habib.benali@concordia.ca"
-main_research_areas: |
+keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 ---

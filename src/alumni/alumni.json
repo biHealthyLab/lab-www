@@ -1,3 +1,5 @@
-{
+{ 
+    "permalink": "/alumni/~{{ username }}/index.html",
+    "layout": "layouts/team/personal_page.njk",
     "tags": ["alumni"]
 }

@@ -1,0 +1,28 @@
+{% for p in publications %}
+<div class="card-body bcard clickable wow fadeInUp" data-wow-delay="0.1s">
+    <span>
+        <b>{{loop.index}} - </b>
+    </span>
+    <span>
+        <a href="https://doi.org/{{p.doi}}">{{p.title}}</a>.
+    </span>
+    <span>
+    {% for a in p.authors %}
+        {{ a }},
+    {% endfor %}
+    </span>
+    <span>
+        {{p.journal}},  
+    </span>
+    <span>
+        {{p.year}}. 
+    </span>
+    {% if p.doi %}
+    <span>
+        <a href="https://doi.org/{{p.doi}}">doi:{{p.doi}}</a>
+    <span>
+    {% endif %}
+</div>
+                  
+    
+{% endfor %}

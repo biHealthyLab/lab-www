@@ -1,0 +1,58 @@
+[
+
+    {
+        "name": "V. Jirsa",
+        "affiliations": ["INSERM"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "R. McIntosh",
+        "affiliations": ["Simon Fraser University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "A. Schmuel",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "H. Berry",
+        "affiliations": ["INRIA"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "K. Jerbi",
+        "affiliations": ["UdeM"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "H Cherkow",
+        "affiliations": ["Baycrest"],
+        "locations": ["ON ", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "T. Glatard",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC","Canada"],
+        "url": ""
+    },
+    {
+        "name": "P. Lago",
+        "affiliations": ["Concordia University"], 
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "M.-O. Habert",
+        "affiliations": ["Sorbone University"],
+        "locations": ["Paris, France"],
+        "url": ""
+    }
+
+]

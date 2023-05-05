@@ -9,7 +9,7 @@ teaser: Can multimodal imaging help in finding a correlation between brain dynam
 social:
   email: "moghadam.bme@gmail.com"
   linkedin: "https://www.linkedin.com/in/shima-panahi-moghadam/"
-main_research_areas: |
+keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity
 presentation: |
   Shima is a graduate research assistant (MASc.) at Biomedical Healthy Aging Lab. She joined the Lab

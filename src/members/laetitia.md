@@ -13,7 +13,7 @@ social:
   twitter: "https://twitter.com/JeancolasL"
   researchgate: "https://www.researchgate.net/profile/Laetitia-Jeancolas"
   linkedin: "https://www.linkedin.com/in/laetitia-jeancolas-30a1a7198/"
-main_research_areas: |
+keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 presentation: |
    Dr. Jeancolas main project, done in collaboration with Paris Brain Institute (ICM) and IM2A, focuses on multimodal predictive modeling of Alzheimer’s disease (INSIGHT cohort). Specifically, Laetitia studies the neurovascular coupling in participants with subjective memory loss. She is also specialized in the analysis of voice impairments in neurodegenerative diseases and their use for automatic and early detection and disease monitoring. Her research interests are wide-ranging, – centering around the use of signal processing, machine learning and neuroimaging techniques for the early detection of neurodegenerative diseases and the understanding of their mechanisms.

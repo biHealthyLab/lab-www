@@ -175,12 +175,21 @@
   border-radius: 50%;
 }
 
-
+.profile-header-wrapper {
+  background: linear-gradient(to top, rgb(35, 122, 176,0.7), rgb(7, 70, 110,0.8)), url(../img/neurons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+  padding: 12rem 0 3rem 0;
+  /* position: absolute; */
+}
 
 .profile-header {
   position: relative;
   overflow: hidden
 }
+
+
 
 .profile-header .profile-header-cover {
   background-color: var(--primary);
@@ -188,19 +197,19 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  left: 0;
+  /* left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .profile-header .profile-header-cover:before {
   content: '';
   position: absolute;
-  top: 0;
+  /* top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .55) 100%)
 }
 
