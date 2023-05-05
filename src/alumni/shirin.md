@@ -2,7 +2,7 @@
 username: shirin
 full_name: Shirin Panahi Moghadam
 credentials: BSc.
-category: student
+category: 2
 position: Master's student
 profile_img: /media/images/team/shirin.jpg
 teaser:

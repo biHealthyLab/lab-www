@@ -20,6 +20,17 @@ const getSimilarTopics = function(topicA, topicB){
   return topicA.filter(Set.prototype.has, new Set(topicB)).length;
 }
 
+// Sorting by order
+function sortByOrder(values) {
+  let vals = [...values];     // this *seems* to prevent collection mutation...
+  return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
+}
+
+function sortByCategory(values) {
+  let vals = [...values];     // this *seems* to prevent collection mutation...
+  return vals.sort((a, b) => Math.sign(a.data.category - b.data.category));
+}
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
@@ -34,6 +45,11 @@ module.exports = function(eleventyConfig) {
           return katex.renderToString(cleanEquation, { throwOnError: false });
         });
       });
+
+    // Sorting
+    eleventyConfig.addFilter("sortByOrder", sortByOrder);
+    eleventyConfig.addFilter("sortByCategory", sortByCategory);
+
 
 
     eleventyConfig.addPassthroughCopy("src/assets/css/");

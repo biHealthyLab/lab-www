@@ -8,7 +8,7 @@
       <div class="row team_card__container g-4">
 
 
-      {%- for m in collections.members -%}
+      {% for m in collections.members | sortByCategory %}
       {# <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" href="#profileModal-{{ m.data.full_name | slug }}"> #}
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='{{m.url | url}}'">  
           
@@ -16,7 +16,7 @@
             
          
       </div>
-      {%- endfor -%}
+      {% endfor %}
 
     </div>
                   

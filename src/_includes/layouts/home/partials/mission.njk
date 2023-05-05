@@ -1,17 +1,23 @@
 <!-- About Section -->
     <section id="about" class="about-section">
-      <div class="">
-        <div class="col-lg-6 col-md-6 mx-auto services-heading">
-          <h1 class="text-white"><span>Who we are</span></h1>
+      <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
+            
+            <h1 class="mb-5 headline text-white"><span>Who we are</span></h1>
+        </div>
+        <div class="col-lg-6 col-md-6 mx-auto services-heading wow fadeInUp" data-wow-delay="0.1s">
+
           
-          <br>
-          <p class="lead">{{ site.mission }}<br> <br> 
-            <a class="btn btn-more btn-more-light mt-5" href="/about/">More about us</a>
-          </p>
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            
+            <p class="lead">{{ site.mission }}<br> <br> 
+              <a class="btn btn-more btn-more-light mt-5" href="/about/">More about us</a>
+            </p>
+          </div>
           
         </div>
       </div>
-      <div class="">
+      {# <div class="">
         <div class="container">
           <div class="row">
             {% for item in site.about %}
@@ -41,7 +47,7 @@
            
           </div>
         </div> 
-      </div>  
+      </div>   #}
 
 
     </section>

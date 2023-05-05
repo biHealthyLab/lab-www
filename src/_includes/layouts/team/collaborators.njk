@@ -1,0 +1,36 @@
+<!-- Collaborators Section -->
+<section class="research-areas-section">
+    <div class="container">
+        <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
+            
+            <h1 class="mb-5 headline"><span>Our collaborators</span></h1>
+        </div>
+        <div class="row" >
+            {% for c in collaborators %}
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="card-body bcard clickable">
+                  
+                    <a href="{{c.url | url}}"><b>{{c.name}}</b></a><br>
+                    <small>
+                    {% for aff in c.affiliations %}
+                        {{aff}}{%- if not loop.last -%}, {% endif -%}
+                    {% endfor %}
+                    </small>
+
+                    <br>
+                    <i class="text-muted">
+                    {% for loc in c.locations %}
+                        {{loc}} {%- if not loop.last -%}, {% endif -%}
+                    {% endfor %}
+                    </i>
+                
+
+                </div>
+            </div>
+            {% endfor %}
+
+            
+            
+        </div>
+    </div>
+</section>

@@ -3,7 +3,7 @@ title: Arsalan Rahimabadi
 username: arsalan
 full_name: Arsalan Rahimabadi
 credentials: MSc
-category: student
+category: 2
 position: PhD student
 profile_img: /media/images/team/avatar.jpg
 teaser: Modeling the spatial-temporal evolution of Alzheimer’s disease
@@ -11,6 +11,8 @@ social:
   email: "arsalan.rahimabadi@concordia.ca"
 main_research_areas: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
+presentation: |
+  Arsalan Rahimabadi is a Ph.D. student in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods.
 ---
 
 ### A brief introduction

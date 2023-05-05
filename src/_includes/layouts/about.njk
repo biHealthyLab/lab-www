@@ -9,33 +9,27 @@
 
 <section id="about">
     <!-- Header -->
-<div class="intro-header">
-    <div class="masterhead">
-        <div class="container">
-            
-            <div class="col-lg-6 col-md-6 col-sm-6 mx-auto main-title">
-                <hr class="intro-divider">
-                {# <div class="col-lg-8 text-center text-lg-start"> #}
-                    <h1 class="text-white mb-4 animated zoomIn">{{ title |safe }}</h1>
+    <div class="intro-header">
+        <div class="masterhead">
+            <div class="container"> 
+                <div class="col-lg-6 col-md-6 col-sm-6 mx-auto main-title wow fadeInUp" data-wow-delay="0.1s">
+                    <hr class="intro-divider">
                     
-                    {# <p class="text-white pb-3 animated zoomIn" style="font"> {{ site.homeTeasers |safe }} </p> #}
-                    {# <a href="" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">More ...</a> #}
-                {# </div> #}
-            
-                {# <div class="col-lg-6 text-center text-lg-start">
-                    <img class="img-fluid animated zoomIn" src="media/images/team/team.jpg" alt="">
+                    <h1 class="text-white mb-4 animated zoomIn">{{ title |safe }}</h1>
                 </div>
-                #}
             </div>
+        
         </div>
-    
     </div>
-</div>
 </section>
-
-
 {% endblock %}
 
 {% block page_main_content %}
+
+{% include "./team/widgets/partials/member_hero.njk" %}
+
+{% include "./team/collaborators.njk" %}
+
+
             
 {% endblock %}

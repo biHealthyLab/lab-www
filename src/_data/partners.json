@@ -1,18 +1,32 @@
 [
     {
+        "name": "Concordia University",
+        "logo": "/media/images/sponsors/concordia-log.png",
+        "link": "https://www.concordia.ca/"
+    },
+    {
+        "name": "Faculty of Arts and Science",
+        "logo": "/media/images/sponsors/faculty-of-arts-and-sci.png",
+        "link": "https://www.concordia.ca/artsci.html"
+    },
+    {
+        "name": "Gina Cody School of Engineering and Computer Science",
+        "logo": "/media/images/sponsors/gina-cody.png",
+        "link": "https://www.concordia.ca/ginacody.html"
+    },
+    {
         "name": "PERFORM Center",
         "logo": "/media/images/sponsors/perform.png",
         "link": "https://www.concordia.ca/research/perform.html"
     },
     {
-        "name": "Canadian Institutes of Health Research",
-        "logo": "/media/images/sponsors/cihr.jpeg",
-        "link": "https://cihr-irsc.gc.ca/e/193.html"
-    },
-    {
         "name": "Natural Sciences and Engineering Research Council of Canada",
         "logo": "/media/images/sponsors/NSERC.png",
         "link": "https://www.nserc-crsng.gc.ca/index_eng.asp"
+    },
+    {
+        "name": "Canadian Institutes of Health Research",
+        "logo": "/media/images/sponsors/cihr.jpeg",
+        "link": "https://cihr-irsc.gc.ca/e/193.html"
     }
-
 ]

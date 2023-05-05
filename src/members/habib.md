@@ -1,10 +1,10 @@
 ---
 title: Dr. Habib Benali
-user_name: habib
+username: habib
 full_name: Habib Benali
 credentials: PhD
-category: faculty
-position: Professor & Scientific Director of PERFORM Center
+category: 0
+position: PI & Lab Director 
 profile_img: /media/images/team/habib.JPG
 teaser: How can multimodal imaging and computational modeling be used to better understand which factors promote a healthy lifestyle?
 social:

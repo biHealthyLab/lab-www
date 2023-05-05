@@ -1,0 +1,160 @@
+[
+    {
+        "name": "C. Grova",
+        "affiliations": ["Concordia University", "McGill University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "H. Rivaz",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "P. Maquet",
+        "affiliations": ["Cyclotron Research Center"],
+        "locations": ["Liège, Belgium"],
+        "url": ""
+    },
+    {
+        "name": "D. Petrovska-Delacretaz",
+        "affiliations": ["University of Paris-Saclay"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "V. Jirsa",
+        "affiliations": ["INSERM"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "R. McIntosh",
+        "affiliations": ["Simon Fraser University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "A. Vidal",
+        "affiliations": ["Every University"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "A. Evans",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "A. Schmuel",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "J.-M. Lina",
+        "affiliations": ["ETS"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "H. Berry",
+        "affiliations": ["INRIA"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "K. Jerbi",
+        "affiliations": ["UdeM"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "O. Colliot",
+        "affiliations": ["INRIA", "ICM"],
+        "locations": ["France"],
+        "url": ""
+    },
+    {
+        "name": "N. Bouguila",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "H Cherkow",
+        "affiliations": ["Baycrest"],
+        "locations": ["ON ", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "N. Philips",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "J.P. Soucy",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"], 
+        "url": ""
+    },
+    {
+        "name": "P. Rosa-Neto",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"], 
+        "url": ""
+    },
+    {
+        "name": "J. Doyon",
+        "affiliations": ["McGill University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "K. Li",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "T. Glatard",
+        "affiliations": ["Concordia University"],
+        "locations": ["QC","Canada"],
+        "url": ""
+    },
+    {
+        "name": "H. Abdi",
+        "affiliations": ["University of Texas at Dallas"],
+        "locations": ["TX", "USA"],
+        "url": ""
+    },
+    {
+        "name": "P. Lago",
+        "affiliations": ["Concordia University"], 
+        "locations": ["QC", "Canada"],
+        "url": ""
+    },
+    {
+        "name": "B. Dubois",
+        "affiliations": ["Sorbone University"],
+        "locations": ["Paris, France"],
+        "url": ""
+    },
+    {
+        "name": "M.-O. Habert",
+        "affiliations": ["Sorbone University"],
+        "locations": ["Paris, France"],
+        "url": ""
+    },
+    {
+        "name": "J. Near",
+        "affiliations": ["McGill University", "PERFORM Center"],
+        "locations": ["QC", "Canada"],
+        "url": ""
+    }
+]
+
+

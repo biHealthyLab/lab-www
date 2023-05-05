@@ -2,7 +2,7 @@
 username: shima
 full_name: Shima Panahi Moghadam
 credentials: BSc.
-category: student
+category: 2
 position: Graduate Research Assistant
 profile_img: /media/images/team/shima.jpg
 teaser: Can multimodal imaging help in finding a correlation between brain dynamics and circadian glutamate variations induced by a Motor Skill Learning task?
@@ -11,6 +11,14 @@ social:
   linkedin: "https://www.linkedin.com/in/shima-panahi-moghadam/"
 main_research_areas: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity
+presentation: |
+  Shima is a graduate research assistant (MASc.) at Biomedical Healthy Aging Lab. She joined the Lab
+  in September 2021 to work on a multimodal approach for investigating motor skill learning (MSL) induced plasticity in the human brain. In this study, the relationship between MSL, spatiotemporal
+  patterns of neural activity, and glutamate (the main excitatory transmitter in the central nervous
+  system) activity is assessed across at least one sleep-wake cycle.
+  Accordingly, we acquire bimodal EEG-MRS and EEG-fMRI data to establish regional relationships
+  between glutamate concentrations as captured by MRS and changes in neural activity as captured by
+  EEG and fMRI.
 ---
 
 ### Introduction
