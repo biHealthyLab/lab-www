@@ -10,7 +10,7 @@ teaser: Modeling the spatial-temporal evolution of Alzheimer’s disease
 social:
   email: "arsalan.rahimabadi@concordia.ca"
 keywords: |
-  Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
+  Dynamical systems, neurodegenerative diseases, Mathematical Modeling, Tauopathy
 presentation: |
   Arsalan Rahimabadi is a Ph.D. student in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods.
 ---

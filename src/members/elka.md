@@ -13,7 +13,18 @@ social:
   twitter: "https://twitter.com/elkaioum"
   linkedin: "https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/"
 keywords: |
-  Complex Networks, Algebraic Topology, Brain Connectomics, Multilayer Networks
+  Brain Connectomics, Complex Networks, Algebraic Topology, Multilayer Networks, Persistent Homology, Spectral Theory, Information Theory
 presentation: |
-  Dr. Moutuou is a trained mathematician ...
+  Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Spectral Theory, and Complex Systems to develop a novel mathematical framework and computational tools for analysing the topology and dynamics of the anatomo-functional networks of the human brain activities. 
 ---
+
+
+### Selected publications
+
+- _Cross-homology: Topology and spectral persistent cross-hubs of higher-order multilayer network_. E. M., OBK. Ali, H. Benali, (2023, submitted).
+- _Foundations of topological racks and quandles_. M. Elhamdadi, E.M. Journal of Knot Theory and Its Ramifications, 2016, https://doi.org/10.1142/S0218216516400022
+- _Graded Brauer groups of a groupoid with involution_. E.M., 2014, Journal of Functional Analysis. https://doi.org/10.1016/j.jfa.2013.12.019
+
+ 
+
+
