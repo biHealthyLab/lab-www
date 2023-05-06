@@ -6,7 +6,7 @@ credentials: PhD
 category: 1
 position: Research scientist
 profile_img: /media/images/team/elka.jpg
-teaser: How can Algebraic Topology and Complex Networks help in unveiling the mysteries of the brain?
+teaser: Studying the brain through Algebraic Topology and Complex Networks.
 social:
   email: "elkaioum.moutuou@concordia.ca"
   researchgate: "https://www.researchgate.net/profile/El-Kaioum-Moutuou"

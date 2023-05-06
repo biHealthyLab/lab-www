@@ -1473,9 +1473,32 @@ section h3.section-subheading {
   font-weight: 400;
 }
 
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-flex-content {
+  height: 100%;
+  /* padding: 20px 20px 10px;
+  color: #fff; */
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  /* padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto; */
+}
+
 .bhealthy-card {
   position: relative;
-  height: 400px;
+  /* height: 400px; */
   text-align: center; 
   padding-top: 20px;
   margin: 10px 0 20px 0;

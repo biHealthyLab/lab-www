@@ -1,0 +1,11 @@
+---
+news_date: 2023-02-04
+title: |
+  Arsalan's preprint "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression"
+  is live on [bioArxiv](doi.org/10.1101/2023.02.04.527149)
+---
+
+#### Abstract
+
+In a variety of practical applications, there is a need to investigate diffusion or reaction-diffusion processes on complex structures, including brain networks, that can be modeled as weighted undirected and directed graphs. As an instance, the celebrated Fisher-Kolmogorov-Petrovsky-Piskunov (Fisher-KPP) reaction-diffusion equation are becoming increasingly popular for use in graph frameworks by substituting the standard graph Laplacian operator for the continuous one to study the progression of neurodegenerative diseases such as tauopathies including Alzheimer’s disease (AD). However, due to the porous structure of neuronal fibers, the spreading of toxic species can be governed by an anomalous diffusion process rather than a normal one, and if this is the case, the standard graph Laplacian cannot adequately describe the dynamics of the spreading process. To capture such more complicated dynamics, we propose a diffusion equation with a nonlinear Laplacian operator and a generalization of the Fisher-KPP reaction-diffusion equation on undirected and directed networks using extensions of fractional polynomial (FP) functions. A complete analysis is also provided for the extended FP diffusion equation, including existence, uniqueness, and convergence of solutions, as well as stability of equilibria. Moreover, for the extended FP Fisher-KPP reaction-diffusion equation, we derive a family of positively invariant sets allowing us to establish existence, uniqueness, and boundedness of solutions. Finally, we conclude by investigating nonlinear diffusion on a directed one-dimensional lattice and then modeling tauopathy progression in the mouse brain to gain a deeper understanding of the potential applications of the proposed extended FP equations.
+

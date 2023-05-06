@@ -6,36 +6,31 @@
             <h1 class="mb-5 headline"><span>What we do</span></h1>
           </div>
 
-          <div class="row">
+          <div class="row row-flex">
             {% for t in collections.topics | sortByOrder %}
-           
-            <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='{{t.url | url}}'">
-              <div class="bhealthy-card bcard">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='{{t.url | url}}'">
+              <div class="bhealthy-card bcard row-flex-content">
                 
                 <span class="research-img">
                     <img class="img-fluid" src="{{ t.data.illustration | url }}" alt=""> 
                 </span>
-
-                
-
-                <div class="about-description">
-                  <div class="text-center"> <h5>{{ t.data.title }} </h5></div>
+                <div class="mt-3">
+                  <div class=""> <h5>{{ t.data.title }} </h5></div>
                   
                   <p>
                     {# {{ t.data.short_description }} #}
                     {% for subT in t.data.subThemes %}
-                      <span class="{% if loop.last %}emphasize{% endif %}">{{subT}}</span>
+                      {# <span class="{% if loop.last %}emphasize{% endif %}">{{subT}}</span> #}
+                      <span>{{subT}}</span>
                       {% if not loop.last %}
                         &#x2022
                       {% endif %}
 
                     {% endfor %}
-
-                    <br>
+                    </p>
+                    <p class="emphasize text-bottom">{{t.data.goal }}</p>
                     {# <a class="btn btn-more btn-more-dark mt-5" href="{{ t.url }}">More ...</a> #}
-                  </p>
-
-                 
+                  
                 </div>
 
               </div>

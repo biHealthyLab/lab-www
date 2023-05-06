@@ -8,7 +8,7 @@
         
         {% for n in collections.news | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-            <a class="list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
+            <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
                 <small class="text-muted"> {{ n.data.news_date|readableDate}} </small> <br>
                 <b>{{ n.data.title |safe }}</b>
                 

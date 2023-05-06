@@ -1,5 +1,19 @@
 [
     {
+        "authors": ["Rahimabadi A", "Benali H"],
+        "title": "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression",
+        "journal": "bioArxiv",
+        "year": 2023,
+        "doi": "doi.org/10.1101/2023.02.04.527149"
+    },
+    {
+        "authors": ["Rahimabadi A", "Benali H"],
+        "title": "Comment on the article “Spatially-extended nucleation-aggregation-fragmentation models for the dynamics of prion-like neurodegenerative protein-spreading in the brain and its connectome",
+        "journal": "Journal of theoretical biology, 486 (2020) 110102",
+        "year": 2022,
+        "doi": ""
+    },
+    {
         "authors": [
             "Dubois B",
             " Hampel H",

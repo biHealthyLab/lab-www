@@ -1,0 +1,14 @@
+[
+    {
+        "anchor": "Research",
+        "dir": "/topics/"
+    },
+    {
+        "anchor": "Resources",
+        "dir": "/resources/"
+    },
+    {
+        "anchor": "Blog",
+        "dir": "/blog/"
+    }
+]
