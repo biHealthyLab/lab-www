@@ -2,7 +2,7 @@
     "title": "Biomedical Imaging and Healthy Aging Laboratory",
     "shortName": "bHealthyAge Lab",
     "language": "en-US",
-    "metaDescription": "Dr. Habib Benali's Lab",
+    "metaDescription": "Brain Healthy Aging",
     "labDirector": "Dr. Habib Benali",
     "homeTitle": "Biomedical Imaging and Healthy Aging Laboratory",
     "logo": "/assets/img/logo-v4-4.png",
@@ -13,8 +13,8 @@
         "Developping Biomedical Imaging, Simulation, and Mathematical formalism"
     ],
     "backgroundVid": "/assets/img/brain_img.mp4",
-    "contactEmail": "contact@bhealthylab.org",
-    "phone": "(514) 000-0000",
+    "contactEmail": "habib.benali@concordia.ca",
+    "phone": "(514) 848-2424",
     "quickLinks": [
         {"link":"https://www.concordia.ca", "anchor": "Concordia University"},
         {"link":"https://www.concordia.ca/research/perform.html", "anchor":"PERFORM Center"}
