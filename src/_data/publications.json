@@ -1,5 +1,12 @@
 [
     {
+        "authors": ["Ahmadi F", "Simchi M", "Perry J. M.", "Frenette S.", "Benali  H.", "Soucy J. P.", "Massarweh G.", "Shih S. C."],
+        "title": "Integrating machine learning and digital microfluidics for screening experimental conditions",
+        "yournal": "Lab on a chip, 23(1), 81-91",
+        "year": 2023,
+        "doi": ""
+    },
+    {
         "authors": ["Rahimabadi A", "Benali H"],
         "title": "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression",
         "journal": "bioArxiv",
