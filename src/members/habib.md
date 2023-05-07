@@ -4,7 +4,7 @@ username: habib
 full_name: Habib Benali
 credentials: PhD
 category: 0
-position: PI & Lab Director, Professor, Department of Electrical and Computer Engieering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute
+position: PI & Lab Director, Professor, Department of Electrical and Computer Engineering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute
 profile_img: /media/images/team/habib.JPG
 teaser: How can multimodal imaging and computational modeling be used to better understand which factors promote a healthy lifestyle?
 social:
