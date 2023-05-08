@@ -5,7 +5,7 @@ full_name: Milad Soltanzadeh
 credentials: BSc.
 category: 4
 position: Master's student
-profile_img: /media/images/team/avatar.jpg
+profile_img: /media/images/team/milad.jpeg
 teaser:
 social:
   email: "milad.soltanzadeh@mail.concordia.ca"
