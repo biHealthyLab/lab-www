@@ -5,7 +5,7 @@ full_name: Elkaïoum Moutuou
 credentials: PhD
 category: 1
 position: Research scientist
-profile_img: /media/images/team/elka.jpg
+profile_img: /media/images/team/elka.jpeg
 teaser: Studying the brain through Algebraic Topology and Complex Networks.
 social:
   email: "elkaioum.moutuou@concordia.ca"
