@@ -1,5 +1,12 @@
 [
     {
+        "authors": ["Moutuou EM", " Ali OBK", "Benali  H."],
+        "title": "Cross-homology: Topology and spectral persistent cross-hubs of higher-order multilayer networks",
+        "journal": "arXiv",
+        "year": "2023",
+        "url": "https://arxiv.org/abs/2305.05860"
+    },
+    {
         "authors": ["Ahmadi F", "Simchi M", "Perry J. M.", "Frenette S.", "Benali  H.", "Soucy J. P.", "Massarweh G.", "Shih S. C."],
         "title": "Integrating machine learning and digital microfluidics for screening experimental conditions",
         "yournal": "Lab on a chip, 23(1), 81-91",
