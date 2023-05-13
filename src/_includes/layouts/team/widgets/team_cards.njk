@@ -10,7 +10,7 @@
 
       {% for m in collections.members | sortByCategory %}
       {# <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" href="#profileModal-{{ m.data.full_name | slug }}"> #}
-      <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='{{m.url | url}}'">  
+      <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
           {% include "./partials/member_card_single.njk" %}   
             

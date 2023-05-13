@@ -35,7 +35,7 @@ During her PhD, Laetitia Jeancolas worked on the early detection of Parkinson's 
 
 She expanded her PhD work during a postdoc at ICM where she focused more precisely on the neural correlates of the Parkinson-related voice impairments.
 Since, she has continued to work in this field through several collaborations with ICM, Télécom SudParis, Lille university, McGill university and Concordia university, supervising several PhD students, and M.S. research projects, on Parkinson and Alzheimer’s speech impairments and PD hypomimia.
-Other Curriculum: Laetitia also enjoys volunteering in areas outside of academia. She handled mistreated wild animals in a rehabilitation animal shelter in the Amazon, has given many remedial courses to underprivileged students, led activities in an organization for mentally challenged individuals, and has been a scout supervisor and a hospital worker.
+
 
 ### Selected Publications
 
@@ -44,3 +44,7 @@ Other Curriculum: Laetitia also enjoys volunteering in areas outside of academia
 - Jeancolas L., et al. “X-vectors: New Quantitative Biomarkers for Early Parkinson's Disease from Speech." Front. Neuroinform. 15:578369. doi: 10.3389/fninf.2021.578369
 
 - Jeancolas L., et al. “Comparison of Telephone Recordings and Professional Microphone Recordings for Early Detection of Parkinson’s Disease, Using Mel-Frequency Cepstral Coefficients with Gaussian Mixture Models.” In Interspeech 2019, 3033–37. ISCA, 2019.
+
+### Contact
+
+  Email: laetitia.jeancolas@concordia.ca

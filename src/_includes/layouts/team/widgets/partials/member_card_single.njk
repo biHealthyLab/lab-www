@@ -30,8 +30,21 @@
                 data-mdb-ripple-color="dark" href="{{ m.url }}"><i class="fas fa-link"></i> </a>
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:{{ m.data.social.email }}"
                 data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
-            <button type="button" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="dark"><i class="fab fa-researchgate"></i></button>
+
+                         {% if m.data.social.researchgate %}
+                            <a href="{{ m.data.social.researchgate | url}}" class="btn btn-outline-dark btn-floating btn-sm"
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                         {% endif %}
+
+                         {% if m.data.social.twitter %}
+                            <a href="{{ m.data.social.twitter | url}}" class="btn btn-outline-dark btn-floating btn-sm"
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                         {% endif %}
+
+                         {% if m.data.social.linkedin %}
+                            <a href="{{ m.data.social.linkedin | url}}" class="btn btn-outline-dark btn-floating btn-sm"
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                         {% endif %}
         </p>
     </div>
 </div>
