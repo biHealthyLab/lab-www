@@ -14,7 +14,8 @@ social:
   researchgate: "https://www.researchgate.net/profile/Laetitia-Jeancolas"
   linkedin: "https://www.linkedin.com/in/laetitia-jeancolas-30a1a7198/"
 keywords: |
-  Neuroimaging, Parkinson disease, Alzheimer's disease Voice Impairment, Neurodegeneration
+ Alzheimer's disease, Parkinson's disease, neuroimaging, early detection, voice analysis, ASL, signal processing, machine learning, classification, predictive modeling, statistics
+
 presentation: |
    Dr. Jeancolas main project, done in collaboration with Paris Brain Institute (ICM) and IM2A, focuses on multimodal predictive modeling of Alzheimer’s disease (INSIGHT cohort). Specifically, Laetitia studies the neurovascular coupling in participants with subjective memory loss. She is also specialized in the analysis of voice impairments in neurodegenerative diseases and their use for automatic and early detection and disease monitoring. Her research interests are wide-ranging, – centering around the use of signal processing, machine learning and neuroimaging techniques for the early detection of neurodegenerative diseases and the understanding of their mechanisms.
 ---
@@ -40,6 +41,9 @@ Since, she has continued to work in this field through several collaborations wi
 ### Selected Publications
 
 - Jeancolas L., et al. "Voice Characteristics from Isolated Rapid Eye Movement Sleep Behavior Disorder to Early Parkinson’s Disease."Parkinsonism & Related Disorders, 95 (2022), https://doi.org/10.1016/j.parkreldis.2022.01.003.
+
+- Jeancolas L., et al., (2022) « Can Infants Generalize Tool Use From Spoon to Rake at 18 Months? » Journal of Motor Learning and Development, 2022, 1‑17. https://doi.org/10.1123/jmld.2022-0006. 
+
 
 - Jeancolas L., et al. “X-vectors: New Quantitative Biomarkers for Early Parkinson's Disease from Speech." Front. Neuroinform. 15:578369. doi: 10.3389/fninf.2021.578369
 
