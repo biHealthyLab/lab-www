@@ -1,9 +1,12 @@
-{% extends "layouts/generic_page.njk" %}
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+{% include "layouts/page_header.njk" %}
+{% endblock %}
 
 
-
-
-{% block page_content_left %}
+{% block page_main_content %}
+<div class="container-xxl">
     <div class="col-md-10 mx-auto ml-2">
         
         {% for n in collections.news | reverse %}
@@ -11,6 +14,11 @@
             <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
                 <small class="text-muted"> {{ n.data.news_date|readableDate}} </small> <br>
                 <b>{{ n.data.title |safe }}</b>
+                <br>
+
+                <div class="text-center arrow">
+                    <i class="fa fa-chevron-down"></i>
+                </div>
                 
             </a> 
         {# </div> #}
@@ -24,6 +32,7 @@
         
         
     </div>
+</div>
 {% endblock %}
             
 

@@ -4,7 +4,7 @@ username: arsalan
 full_name: Arsalan Rahimabadi
 credentials: MSc
 category: 2
-position: PhD student
+position: PhD candidate
 profile_img: /media/images/team/arsalan.jpg
 teaser: Modeling the spatial-temporal evolution of Alzheimer’s disease
 social:
@@ -12,12 +12,12 @@ social:
 keywords: |
   Dynamical systems, neurodegenerative diseases, Mathematical Modeling, Tauopathy
 presentation: |
-  Arsalan Rahimabadi is a Ph.D. student in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods.
+  Arsalan Rahimabadi is a Ph.D. candidate in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods.
 ---
 
 ### A brief introduction
 
-Arsalan Rahimabadi is a Ph.D. student in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods. 
+Arsalan Rahimabadi is a Ph.D. candidate in the Electrical and Computer Engineering Department at Concordia University. His current research is focused on modeling tauopathy progression in the brain. He has expertise in dynamical systems analysis, pathological nonlinear systems, modeling, identification, control theories, and fault detection and isolation methods. 
 
 
 ### Educational background

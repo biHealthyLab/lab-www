@@ -21,7 +21,7 @@ presentation: |
 
 ### Selected publications
 
-- _Cross-homology: Topology and spectral persistent cross-hubs of higher-order multilayer network_. E. M., OBK. Ali, H. Benali, (2023, submitted). preprint: [arxiv:2305.05860](https://arxiv.org/pdf/2305.05860.pdf)
+- _Topology and spectral interconnectivities of higher-order multilayer network_. E. M., OBK. Ali, H. Benali, (2023, submitted). preprint: [arxiv:2305.05860](https://arxiv.org/pdf/2305.05860.pdf)
 - _Foundations of topological racks and quandles_. M. Elhamdadi, E.M. Journal of Knot Theory and Its Ramifications, 2016, https://doi.org/10.1142/S0218216516400022
 - _Graded Brauer groups of a groupoid with involution_. E.M., 2014, Journal of Functional Analysis. https://doi.org/10.1016/j.jfa.2013.12.019
 

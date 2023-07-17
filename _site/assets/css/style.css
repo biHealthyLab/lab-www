@@ -406,6 +406,14 @@
 
 /* End Personal page */
 
+/* Arrows */
+.arrow {
+  cursor: pointer;
+}
+.arrow:hover {
+  color: var(--custom-orange);
+}
+
 /* Modals and overlays  */
 .modal {
     position: fixed;

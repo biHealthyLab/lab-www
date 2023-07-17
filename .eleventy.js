@@ -57,6 +57,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/js/");
     eleventyConfig.addPassthroughCopy("src/assets/img/");
     eleventyConfig.addPassthroughCopy("src/media/images/");
+    eleventyConfig.addPassthroughCopy("src/media/files/");
+
 
     
     // Shortcodes

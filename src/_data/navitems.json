@@ -12,12 +12,16 @@
         "dir": "/publications/"
     },
     {
-        "anchor": "Team",
-        "dir": "/team/"
-    },
-    {
         "anchor": "News",
         "dir": "/news/"
+    },
+    {
+        "anchor": "Events",
+        "dir": "/events/"
+    },
+    {
+        "anchor": "Resources",
+        "dir": "/resources/"
     }
     
 ]

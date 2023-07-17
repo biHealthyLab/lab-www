@@ -1,9 +1,15 @@
-{% extends "layouts/generic_page.njk" %}
+{% extends "layouts/base.njk" %}
 
-{% block page_content_left %}
+{% block page_header %}
+{% include "layouts/page_header.njk" %}
+{% endblock %}
 
-<div class="container">
+{% block page_main_content %}
+
+<div class="container-xxl">
+    <div class="col-md-10 mx-auto">
     {% include "./widgets/pub_list.njk" %}
+    </div>
 </div>
                
 {% endblock %}
