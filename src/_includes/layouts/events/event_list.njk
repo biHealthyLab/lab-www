@@ -12,7 +12,7 @@
         {% for e in collections.events | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
             <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
-               <h6 class="mb-1">  <small class="text-muted"> {{ e.data.event_date | readableDate }} </small> -- <i>{{ e.data.title |safe }}</i></h6> 
+               <h6 class="mb-1">  <small class="text-muted"> {{ e.data.date | readableDate }} </small> -- <i>{{ e.data.title |safe }}</i></h6> 
                 {% if e.data.speaker %}
                     <p><i class="fas fa-microphone-alt"></i> <b> {{ e.data.speaker }} </b></p>
                     <p><i class="fas fa-map-marker-alt"></i> {{ e.data.place }} </p>

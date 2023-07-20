@@ -9,7 +9,7 @@
         {% if (loop.index < 5) %}
         <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
             
-            <h6 class="mb-1">  <small class="text-muted"> {{ meeting.data.meeting_date | readableDate }} </small> -- <i>{{ meeting.data.title |safe }}</i></h6> 
+            <h6 class="mb-1">  <small class="text-muted"> {{ meeting.data.date | readableDate }} </small> -- <i>{{ meeting.data.title |safe }}</i></h6> 
             {% if meeting.data.speaker %}
                 <p><i class="fas fa-microphone-alt"></i> <b> {{ meeting.data.speaker }} </b></p>
                 <p><i class="fas fa-map-marker-alt"></i> {{ meeting.data.place }} </p>

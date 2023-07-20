@@ -1,7 +1,7 @@
 ---
 title: "Implicit Differentiation of Lasso-type Model: Application to Neuroimaging"
 speaker: Quentin Bertrand (UdeM, MILA)
-event_date: 2023-07-13
+date: 2023-07-13
 place: EV
 ---
 
