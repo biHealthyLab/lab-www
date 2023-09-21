@@ -7,8 +7,7 @@
 
 {% block page_main_content %}
 <div class="container-xxl">
-    <div class="col-md-6 mx-auto ml-2">
-        
+    <div class="col-md-6 mx-auto ml-2">  
         {% for e in collections.events | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
             <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
@@ -20,19 +19,15 @@
 
                 <div class="text-center arrow">
                     <i class="fa fa-chevron-down"></i>
-                </div>
-                
+                </div> 
             </a> 
         {# </div> #}
-
         <div class="collapse" id="news-{{ e.data.title|slugify }}">
             <div class="card-body">
                 {{ e.templateContent|safe }}
             </div>
         </div>     
         {% endfor %}
-        
-        
     </div>
 </div>
 {% endblock %}
