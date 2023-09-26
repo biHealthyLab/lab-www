@@ -41,3 +41,8 @@ analysis. From 2014, he is a post-doctoral fellow at the University
 Medical Center Hamburg-Eppendorf in Hamburg, Germany. Where he continues
 to develop ideas on computational analysis and modeling of brain network
 connectivity and dynamics.
+
+### References
+
+https://doi.org/10.1371/journal.pcbi.1003530
+https://doi.org/10.1016/j.neuroimage.2023.120212
