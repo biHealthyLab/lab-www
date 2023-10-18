@@ -1,0 +1,15 @@
+---
+title: "Advantages and limitations in simultaneous EEG-fMRI recording"
+speaker: Makoto Uji (RIKEN CBS, Japan)
+date: 2023-10-18
+place: Virtual
+---
+
+
+### Abstract
+
+Simultaneous recording of electroencephalography (EEG) and functional magnetic resonance imaging (fMRI) is a very promising non-invasive neuroimaging technique. However, EEG data obtained from the simultaneous EEG-fMRI recording are strongly influenced by MRI-related artefacts, namely gradient artefacts (GA) and ballistocardiogram (BCG). When compared to the GA correction, the BCG correction is more challenging to remove due to its inherent variabilities and dynamic changes over time, especially for longer data acquisition of sleep and resting state EEG-fMRI. Conventionally, the BCG artefacts are corrected based on R-peaks detected from the electrocardiogram (ECG), but the ECG is also distorted in the MRI scanner, sometimes becoming problematic. I will discuss two potential solutions, which are software (spatial filtering beamforming technique) and hardware (Carbon-wired loop) solutions. Both solutions appear promising for the BCG corrections without relying on the ECG recordings. Furthermore, I will discuss how to implement these methods for the sleep EEG-fMRI studies at both 3T and 7T MRI, to better understand brain activity during sleep. These methodological developments and applications allow us to advance our understanding of how the sleeping brain works, the functions of sleep and the implications of insufficient sleep. Sleep EEG-fMRI could enable us to push the frontiers of sleep science and unravel the mysteries of sleep. 
+
+### Short Bio
+
+Dr Makoto Uji is a research scientist at Dr Masako Tamaki’s Cognitive Somnology lab in RIKEN Centre for Brain Science (CBS), Japan. He received his PhD in sport science in Liverpool John Moores University, UK. After his PhD, he has learned simultaneous electroencephalography (EEG) - functional magnetic resonance imaging (fMRI) method from Dr Stephen Mayhew and Dr Karen Mullinger when he was a postdoc at the University of Birmingham, UK. Especially, for the last 5 years, he has been applying this simultaneous EEG-fMRI method in sleep and sleep disorder studies in Dr Christophe Grova’s lab and Dr Thanh Dang-Vu’s lab at Concordia University, Canada and Dr Masako Tamaki’s lab at RIKEN CBS. His research interest is to better understand how the human sleeping brain works and the functional role of sleep in maintaining healthy cognitions and brain maintenance, and also to unveil a link between the healthy brain functions and aging brain during sleep.
