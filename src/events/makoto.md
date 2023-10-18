@@ -1,6 +1,6 @@
 ---
 title: "Advantages and limitations in simultaneous EEG-fMRI recording"
-speaker: Makoto Uji (RIKEN CBS, Japan)
+speaker: Makoto Uji (RIKEN Center for Brain Science, Wako, Saitama, Japan)
 date: 2023-10-18
 place: Virtual
 ---
