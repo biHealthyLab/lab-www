@@ -40,13 +40,13 @@ Since, she has continued to work in this field through several collaborations wi
 
 ### Selected Publications
 
-  Jeancolas, L., et al., (2022) « Voice Characteristics from Isolated Rapid Eye Movement Sleep Behavior Disorder to Early Parkinson’s Disease ». *Parkinsonism & Related Disorders 95* : 86‑91. https://doi.org/10.1016/j.parkreldis.2022.01.003. 
+  - Jeancolas, L., et al., (2022) « Voice Characteristics from Isolated Rapid Eye Movement Sleep Behavior Disorder to Early Parkinson’s Disease ». *Parkinsonism & Related Disorders 95* : 86‑91. https://doi.org/10.1016/j.parkreldis.2022.01.003. 
  
-  Jeancolas L., et al., (2021) « X-Vectors: New Quantitative Biomarkers for Early Parkinson’s Disease Detection From Speech ». *Frontiers in Neuroinformatics 15*. https://doi.org/10.3389/fninf.2021.578369. 
+  - Jeancolas L., et al., (2021) « X-Vectors: New Quantitative Biomarkers for Early Parkinson’s Disease Detection From Speech ». *Frontiers in Neuroinformatics 15*. https://doi.org/10.3389/fninf.2021.578369. 
  
-  Jeancolas L., et al., (2019) « Comparison of Telephone Recordings and Professional Microphone Recordings for Early Detection of Parkinson’s Disease, Using Mel-Frequency Cepstral Coefficients with Gaussian Mixture Models ». In *Interspeech 2019*, 3033‑37. Graz, Austria: ISCA. https://doi.org/10.21437/Interspeech.2019-2825. 
+  - Jeancolas L., et al., (2019) « Comparison of Telephone Recordings and Professional Microphone Recordings for Early Detection of Parkinson’s Disease, Using Mel-Frequency Cepstral Coefficients with Gaussian Mixture Models ». In *Interspeech 2019*, 3033‑37. Graz, Austria: ISCA. https://doi.org/10.21437/Interspeech.2019-2825. 
  
-  Jeancolas L., et al., (2022) « Can Infants Generalize Tool Use From Spoon to Rake at 18 Months? » *Journal of Motor Learning and Development*, 2022, 1‑17. https://doi.org/10.1123/jmld.2022-0006. 
+  - Jeancolas L., et al., (2022) « Can Infants Generalize Tool Use From Spoon to Rake at 18 Months? » *Journal of Motor Learning and Development*, 2022, 1‑17. https://doi.org/10.1123/jmld.2022-0006. 
 
 
 ### Videos
