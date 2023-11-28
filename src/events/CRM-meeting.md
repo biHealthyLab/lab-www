@@ -8,7 +8,7 @@ location: Centre de Recherches Mathématiques (UdeM)
 link: https://www.crmath.ca/en/activities/#/type/activity/id/3888
 ---
 
-**This is two-week scientific meeting organized by the bHealthyAge Lab and the CRM (Centre de Recherches Mathématiques). All the presentations will take place at CRM (Université de Montréal).**
+**This is a two-week scientific meeting organized by the bHealthyAge Lab and the CRM (Centre de Recherches Mathématiques). All the presentations will take place at CRM (Université de Montréal).**
 
 
 ### Overview
