@@ -107,7 +107,8 @@
   background-color: green;
 }
 
-.btn-Award {
+.btn-Award,
+.btn-Invited {
   background-color: rgb(212,175,55);
 }
 
