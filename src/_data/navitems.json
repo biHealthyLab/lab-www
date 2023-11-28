@@ -18,5 +18,9 @@
     {
         "anchor": "Events",
         "dir": "/events/"
-    }   
+    },
+    {
+        "anchor": "Resources",
+        "dir": "/resources/"
+    }  
 ]

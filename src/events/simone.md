@@ -2,7 +2,7 @@
 title: "The mathematical foundations of deep learning: from rating impossibility to practical existence theorems"
 speaker: Simone Brugiapaglia (Concordia)
 date: 2023-03-20
-place: EV building
+location: EV building
 ---
 
 ### Abstract

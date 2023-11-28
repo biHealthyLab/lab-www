@@ -2,6 +2,7 @@
 title: "Mastering a Motor Skill: Encoding, Consolidation and the Role of Sleep"
 speaker: Ella Gabitov (MNI, McGill)
 date: 2023-11-15
+location: EV
 ---
 
 ### Abstract

@@ -10,17 +10,27 @@
     <div class="col-md-6 mx-auto ml-2">  
         {% for e in collections.events | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-            <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
-               <h6 class="mb-1">  <small class="text-muted"> {{ e.data.date | readableDate }} </small> -- <i>{{ e.data.title |safe }}</i></h6> 
+            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
+               {% if e.data.type %}<p><span class="badge bg-success">{{ e.data.type }}</span></p>{% endif %}
+              
+               <h5>{{e.data.title}}</h5>
+               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> {{ e.data.date | readableDate }} {% if e.data.end_date %} &#8213; {{ e.data.end_date | readableDate }}{% endif %} </small></p> 
                 {% if e.data.speaker %}
                     <p><i class="fas fa-microphone-alt"></i> <b> {{ e.data.speaker }} </b></p>
-                    <p><i class="fas fa-map-marker-alt"></i> {{ e.data.place }} </p>
+                {% endif %}
+                {% if e.data.organizers %}
+                    <p><i class="fas fa-edit"></i> Organizers: <b> {{ e.data.organizers }} </b></p>
+                {% endif %}
+                <p><i class="fas fa-map-marker-alt"></i> {{ e.data.location }} </p>
+
+                {% if e.data.notes_file %}
+                <p><span class="badge bg-secondary" type='button' onclick="window.location.href='/media/files/{{e.data.notes_file}}'"><i class="fas fa-file-pdf"></i> Slides available</span></p>
                 {% endif %}
 
                 <div class="text-center arrow">
                     <i class="fa fa-chevron-down"></i>
                 </div> 
-            </a> 
+            </div> 
         {# </div> #}
         <div class="collapse" id="news-{{ e.data.title|slugify }}">
             <div class="card-body">

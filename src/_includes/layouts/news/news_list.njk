@@ -7,23 +7,28 @@
 
 {% block page_main_content %}
 <div class="container-xxl">
-    <div class="col-md-10 mx-auto ml-2">
+    <div class="col-md-6 mx-auto ml-2">
         
         {% for n in collections.news | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-            <a class="bcard list-group-item list-group-item-action flex-column align-items-start" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}">
-                <small class="text-muted"> {{ n.data.news_date|readableDate}} </small> <br>
-                <b>{{ n.data.title |safe }}</b>
-                <br>
+            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}"> 
+                {% if n.data.type %}<p><span class="badge btn-{{n.data.type}}">{{ n.data.type }}</span></p>{% endif %}
+                <small class="text-muted"> {{ n.data.date|readableDate}} </small> <br>
+                <strong>{% if n.data.thumbs_up == 'Yes' %}
+                    <i class="fa fa-thumbs-up"></i>
+                {% endif %} {{ n.data.title |safe }}</strong>
 
                 <div class="text-center arrow">
                     <i class="fa fa-chevron-down"></i>
                 </div>
                 
-            </a> 
+            </div> 
         {# </div> #}
 
         <div class="collapse" id="news-{{ n.data.title|slugify }}">
+            {% if n.data.link %}
+                <p><i class="fas fa-link"></i> <a href="{{n.data.link|url}}" target="_blank">Link here!</a></p>
+            {% endif %}
             <div class="card-body">
                 {{ n.templateContent|safe }}
             </div>

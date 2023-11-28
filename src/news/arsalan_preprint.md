@@ -1,8 +1,10 @@
 ---
-news_date: 2023-02-04
+type: Preprint
+date: 2023-02-04
 title: |
   Arsalan's preprint "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression"
-  is live on [bioArxiv](doi.org/10.1101/2023.02.04.527149)
+  is now live.
+link: doi.org/10.1101/2023.02.04.527149
 ---
 
 #### Abstract

@@ -2,7 +2,7 @@
 title: "Modelling Tau Propagation in Mice – Current Progress"
 speaker: Daniel Lamontagne-Kam (UdeM)
 date: 2023-11-01
-place: EV
+location: EV
 ---
 
 ### Abstract

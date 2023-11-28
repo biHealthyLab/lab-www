@@ -2,7 +2,7 @@
 title: "Auditory connections: music, sleep, complex tasks, and brain stimulation"
 speaker: Emily Coffey (Concordia)
 date: 2023-04-20
-place: EV building
+location: EV building
 ---
 
 

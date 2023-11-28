@@ -97,6 +97,31 @@
     transition: .5s;
 }
 
+.btn-Preprint {
+  background-color: rgb(94, 7, 7);
+}
+
+.btn-Publication,
+.btn-Peer-reviwed,
+.btn-Workshop {
+  background-color: green;
+}
+
+.btn-Award {
+  background-color: rgb(212,175,55);
+}
+
+.btn-Recognition {
+  background-color: purple;
+}
+
+
+.btn-Invitation,
+.btn-Conference,
+.btn-Presentation {
+  background-color: rgb(6, 67, 128);
+}
+
 .btn.btn-primary,
 .btn.btn-outline-primary:hover {
     color: #FFFFFF;
