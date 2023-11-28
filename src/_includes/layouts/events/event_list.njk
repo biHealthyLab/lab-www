@@ -11,7 +11,7 @@
         {% for e in collections.events | reverse %}
         {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
             <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
-               {% if e.data.type %}<p><span class="badge bg-success">{{ e.data.type }}</span></p>{% endif %}
+               {% if e.data.type %}<p><span class="badge btn-{{ e.data.type }}">{{ e.data.type }}</span></p>{% endif %}
               
                <h5>{{e.data.title}}</h5>
                <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> {{ e.data.date | readableDate }} {% if e.data.end_date %} &#8213; {{ e.data.end_date | readableDate }}{% endif %} </small></p> 
@@ -24,7 +24,7 @@
                 <p><i class="fas fa-map-marker-alt"></i> {{ e.data.location }} </p>
 
                 {% if e.data.notes_file %}
-                <p><span class="badge bg-secondary" type='button' onclick="window.location.href='/media/files/{{e.data.notes_file}}'"><i class="fas fa-file-pdf"></i> Slides available</span></p>
+                <p><span class="badge bg-secondary" type='button' onclick="window.location.href='/media/files/{{e.data.notes_file}}'"><i class="fas fa-file-pdf"></i>  Slides available</span></p>
                 {% endif %}
 
                 <div class="text-center arrow">

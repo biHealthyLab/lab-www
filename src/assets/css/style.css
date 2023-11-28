@@ -111,7 +111,8 @@
   background-color: rgb(212,175,55);
 }
 
-.btn-Recognition {
+.btn-Recognition,
+.btn-Seminar {
   background-color: purple;
 }
 

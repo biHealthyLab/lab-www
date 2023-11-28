@@ -1,5 +1,6 @@
 ---
 title: "ITwo sides of the same coin: Structural vs. Functional brain connectivity"
+type: Seminar
 speaker: Arnaud Messé (UKE Hamburg)
 date: 2023-09-08
 location: EV building

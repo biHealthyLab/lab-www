@@ -1,5 +1,5 @@
 ---
-type: Workshop & Scientific meeting
+type: Workshop and Scientific meeting
 title: "Inferring Neural Networks from Electrophysiological and Functional Imaging"
 organizers: Habib Benali
 date: 2023-11-20

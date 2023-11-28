@@ -1,5 +1,6 @@
 ---
 title: "Synchronisation study of a dynamical model of intracellular calcium concentrations in motoneuron network generating Mixed-Mode Oscillations"
+type: Seminar
 speaker: Alexandre Vidal (Université d'Evry, France)
 date: 2022-06-20
 location: Perform Center
