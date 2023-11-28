@@ -20,12 +20,16 @@
                         <h4 class="m-t-10 m-b-5"><b>{{ full_name}}</b>, {{ credentials }}</h4>
                         <p class="m-b-1"><small>{{ position }}</small></p>
                         <div class="profile-teaser mb-2">
-                            {% if teaser %}
-                                <span>
+                           {% if teaser %}
+                           <span>
                             <i class="fas fa-brain" aria-hidden="true"></i></span>
                            <span>{{ teaser }}</span>
                             {% endif %}
-                            
+                        </div>
+                        <div>
+                           <smal class="text-white">
+                              <i class="fas fa-flag"></i> <i>{{ keywords }}</i>
+                              </smal>
                         </div>
                         <div class"profile-social mt-10 mb-2 mt-5">
 

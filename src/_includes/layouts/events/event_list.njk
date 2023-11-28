@@ -24,7 +24,7 @@
                 <p><i class="fas fa-map-marker-alt"></i> {{ e.data.location }} </p>
 
                 {% if e.data.notes_file %}
-                <p><span class="badge bg-secondary" type='button' onclick="window.location.href='/media/files/{{e.data.notes_file}}'"><i class="fas fa-file-pdf"></i>  Slides available</span></p>
+                <p><span class="badge bg-secondary" type='button' onclick="window.open('/media/files/{{e.data.notes_file}}', '_blank')"><i class="fas fa-file-pdf"></i>  Slides available</span></p>
                 {% endif %}
 
                 <div class="text-center arrow">
