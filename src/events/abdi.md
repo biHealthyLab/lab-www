@@ -1,5 +1,6 @@
 ---
 title: "DisTATIS and  covSTATIS: or How to Perform Multivariate Analysis on Sets of Distance and Covariance Tables"
+type: Seminar
 speaker: Dr. Hervé Abdi (TX, USA)
 date: 2023-05-04
 location: EV
