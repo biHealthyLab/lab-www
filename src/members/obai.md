@@ -11,7 +11,7 @@ social:
   email: ""
   
 keywords: |
-  
+ neuron-glial paradigm; whole-brain network dynamics; network mass modeling; multilayer network modeling; bifurcation analyses; structural connectivity; functional connectivity; local field potential; glutamate; gamma-aminobutyric acid (GABA) 
 presentation: |
   Biophysical neuron-glia mass network modeling approach
 ---

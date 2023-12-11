@@ -11,7 +11,7 @@ social:
   email: ""
   
 keywords: |
-  
+  Stroke, fMRI, neurovascular coupling, CBF, perfusion, perilesional tissue, VMHC, homotopic connectivity, hemodynamic, HRF
 presentation: |
   Neurovascular coupling and blood flow physiological mechanisms in stroke
 
