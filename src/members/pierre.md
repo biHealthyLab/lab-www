@@ -6,7 +6,7 @@ credentials: MSc.
 category: 2
 position: PhD candidate
 profile_img: /media/images/team/pierre.jpg
-teaser: 
+teaser: "Neurovascular coupling and blood flow physiological mechanisms in stroke"
 social:
   email: ""
   

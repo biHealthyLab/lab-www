@@ -6,7 +6,7 @@ credentials: MSc.
 category: 2
 position: PhD candidate
 profile_img: /media/images/team/avatar.jpg
-teaser: 
+teaser: "Biophysical neuron-glia mass network modeling approach"
 social:
   email: ""
   
