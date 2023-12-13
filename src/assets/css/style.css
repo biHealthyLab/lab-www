@@ -124,6 +124,10 @@
   background-color: rgb(6, 67, 128);
 }
 
+.btn-Scholarship {
+  background-color: rgb(167, 6, 6);
+}
+
 .btn.btn-primary,
 .btn.btn-outline-primary:hover {
     color: #FFFFFF;
