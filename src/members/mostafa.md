@@ -4,7 +4,7 @@ username: mostafa
 full_name: Mostafa Sharifzadeh
 credentials: MSc
 category: 2
-position: PhD student
+position: PhD candidate
 profile_img: /media/images/team/mostafa.jpg
 teaser: How can we push the limits of ultrasound modality by leveraging deep learning techniques?
 social:
@@ -13,7 +13,7 @@ social:
   researchgate:
   linkedin: "https://www.linkedin.com/in/mostafasharifzadeh"
 keywords: |
-  Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
+   Deep Learning, Ultrasound Imaging, and Biomedical Signal Analysis
 presentation: |
   M. Sharifzadeh is currently pursuing his Ph.D. degree in Electrical and Computer Engineering with Concordia University, Montreal, QC, Canada, co-supervised by Dr. Habib Benali and Dr. Hassan Rivaz. He is a member of IMage Processing And Characterization of Tissue (IMPACT), as well as Biomedical Imaging for Healthy Aging laboratories, and his current research is mainly focused on improving the performance of the ultrasound modality for biomedical applications by employing deep learning approaches.
 ---
@@ -31,7 +31,7 @@ Professional background – He worked for two years as a full-time Software Deve
 
 ### Publications:
 
-1. Sharifzadeh, M., Benali, H. and Rivaz, H., 2022. Investigating Shift Variance of Convolutional Neural Networks in Ultrasound Image Segmentation. IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, 69(5), pp.1703-1713. IEEE Xplore, arXiv
+1. Sharifzadeh, M., Benali, H. and Rivaz, H., 2022. Investigating Shift Variance of Convolutional Neural Networks in Ultrasound Image Segmentation. IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, 69(5), pp.1703-1713. IEEE Xplore
 2. Sharifzadeh, M., Benali, H. and Rivaz, H., 2020. Phase Aberration Correction: A Convolutional Neural Network Approach. IEEE Access, 8, pp.162252-162260. IEEE Xplore
 3. Tehrani, A.K., Sharifzadeh, M., Boctor, E. and Rivaz, H., 2022. Bi-Directional Semi-Supervised Training of Convolutional Neural Networks for Ultrasound Elastography Displacement Estimation. IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, 69(4), pp.1181-1190. IEEE Xplore, arXiv
 4. Sharifzadeh, M., Benali, H. and Rivaz, H., 2021, September. An Ultra-Fast Method for Simulation of Realistic Ultrasound Images. In 2021 IEEE International Ultrasonics Symposium (IUS) (pp. 1-4). IEEE. IEEE Xplore, arXiv
