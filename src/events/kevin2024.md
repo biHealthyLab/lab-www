@@ -1,0 +1,19 @@
+---
+title: "Will AI soon be conscious?"
+type: Seminar
+speaker: "Dr. J. Kevin O’Regan"
+date: 2024-02-15
+location: EV
+---
+
+
+### Abstract 
+
+Despite current explosive developments, most workers at the forefront of AI believe that consciousness is still far away for machines. I will argue the contrary.
+My work over the last 20 years shows that a coherent theory can be made of even the most basic aspect of consciousness, namely “feel”. This ultimate “what it’s like” to have sensations like the redness of red or the suffering of pain, is usually thought to be the primary obstacle to machine consciousness. But I will show how this supposedly “hard problem of consciousness” dissipates when you take what I call a “sensorimotor” approach.
+The sensorimotor approach is not just a philosophical trick. It makes empirical predictions about colour perception, sensory substitution, and change blindness, and is a scientific theory.
+It predicts that within the next 5-10 years machines will be as conscious as humans or even more so. Humans will realize they’re not so special and will be faced with severe ethical problems.
+ 
+### Short Bio
+
+Kevin O'Regan was director of the Laboratoire Psychologie de la Perception, CNRS, Université Paris Descartes, and is now emeritus director of research at the Integrative Neuroscience and Cognition Center, CNRS & Université Paris Cité. After doing his PhD on eye movements in reading he became interested in visual stability and discovered the phenomenon of change blindness. His current work concerns the sensorimotor approach to phenomenal consciousness and its applications to robotics. See http://kevin-oregan.net and http://whatfeelingislike.net .
