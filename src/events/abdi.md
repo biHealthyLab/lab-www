@@ -4,6 +4,7 @@ type: Seminar
 speaker: Dr. Hervé Abdi (TX, USA)
 date: 2023-05-04
 location: EV
+notes_file: 'https://drive.google.com/file/d/1_SuJ_GVsm0rWMedihfCMhi7dALOYjnet/view'
 ---
 
 ### Abstract

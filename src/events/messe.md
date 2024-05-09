@@ -4,7 +4,7 @@ type: Seminar
 speaker: Arnaud Messé (UKE Hamburg)
 date: 2023-09-08
 location: EV building
-notes_file: "messe-2023.pdf"
+notes_file: "https://drive.google.com/drive/folders/1vfHL5_BKe_dFYdsy1HtjaL3QNW0Egv99?usp=drive_link"
 ---
 
 

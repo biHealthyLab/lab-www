@@ -4,6 +4,7 @@ type: Seminar
 speaker: "Dr. Bratislav Misic (McGill University)"
 date: 2024-03-14
 location: EV and Online
+notes_file: 'https://drive.google.com/drive/folders/1ObNijkjIqo14EZWKAO5Nvko7j6d61gt4?usp=drive_link'
 ---
 
 

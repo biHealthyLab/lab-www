@@ -4,7 +4,7 @@ type: Seminar
 speaker: Quentin Bertrand (UdeM, MILA)
 date: 2023-07-13
 location: EV
-notes_file: "quentin_bertrand.pdf"
+notes_file: "https://drive.google.com/file/d/1nycIekWN3OB1ut_XqD41tM3Kz_Y3B_Du/view?usp=drive_link"
 ---
 
 

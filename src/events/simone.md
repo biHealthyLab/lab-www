@@ -4,7 +4,7 @@ type: Seminar
 speaker: Simone Brugiapaglia (Concordia)
 date: 2023-03-20
 location: EV building
-notes_file: "simone-2023.pdf"
+notes_file: "https://drive.google.com/file/d/1f4ixBM2aX_n1ughDuL0xhmhw-Bi4ohr8/view?usp=drive_link"
 ---
 
 ### Abstract

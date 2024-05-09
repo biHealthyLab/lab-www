@@ -4,6 +4,7 @@ type: Seminar
 speaker: Ella Gabitov (MNI, McGill)
 date: 2023-11-15
 location: EV
+notes_file: 'https://drive.google.com/drive/folders/1Zeq87Lu-5IjihzqST9DnyxGT1GDV8GCz?usp=drive_link'
 ---
 
 ### Abstract
