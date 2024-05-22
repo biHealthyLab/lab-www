@@ -4,7 +4,7 @@ type: Seminar
 speaker: Daniel Lamontagne-Kam (UdeM)
 date: 2023-11-01
 location: EV
-notes_file: 'https://drive.google.com/drive/folders/1Luum-76BwE3R9iMOmpt7mhmbvGmxU159?usp=drive_link'
+notes_file: 'https://docs.google.com/presentation/d/1siNGPhFgxc2fqHVzAuoyeGzMxC2tmngN/edit?usp=drive_link&ouid=113600805097184572848&rtpof=true&sd=true'
 ---
 
 ### Abstract
