@@ -18,6 +18,7 @@
     "quickLinks": [
         {"link":"https://www.concordia.ca", "anchor": "Concordia University"},
         {"link":"https://www.concordia.ca/research/perform.html", "anchor":"PERFORM Center"}
-    ]
+    ],
+    "youtube": "https://www.youtube.com/@bHealthyAgeLab"
 
 }

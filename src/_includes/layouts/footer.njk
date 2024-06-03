@@ -20,17 +20,15 @@
                 <p><i class="fa fa-phone-alt me-3"></i>{{ site.phone }}</p>
                 <p><i class="fa fa-envelope me-3"></i>{{site.contactEmail}}</p>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    {# <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> #}
+                    
+                    <a class="btn btn-outline-light btn-social" href="{{ site.youtube | url }}" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Quick Links</h5>
                 {% for ql in site.quickLinks %}
-                    <a class="btn btn-link" href="{{ ql.link | url}}">{{ ql.anchor }}</a>
+                    <a class="btn btn-link" href="{{ ql.link | url}}" target="_blank">{{ ql.anchor }}</a>
                 {% endfor %}
             </div>
             
