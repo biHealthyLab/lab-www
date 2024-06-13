@@ -16,6 +16,7 @@
     "contactEmail": "habib.benali@concordia.ca",
     "phone": "(514) 848-2424",
     "quickLinks": [
+        {"link":"https://www.youtube.com/@bHealthyAgeLab", "anchor": "Our Youtube channel"},
         {"link":"https://www.concordia.ca", "anchor": "Concordia University"},
         {"link":"https://www.concordia.ca/research/perform.html", "anchor":"PERFORM Center"}
     ],
