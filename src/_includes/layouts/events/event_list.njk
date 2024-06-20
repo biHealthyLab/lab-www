@@ -27,6 +27,10 @@
                 <p><span class="badge bg-secondary" type='button' onclick="window.open('{{e.data.notes_file}}', '_blank')"><i class="fas fa-file-pdf"></i>  Slides available</span></p>
                 {% endif %}
 
+                {% if e.data.video %}
+                <p><i class="fab fa-youtube"></i> <a class="btn btn-outline-danger btn-social" href="{{ e.data.video | url }}" target="_blank">Watch the presentation</a></p>
+                {% endif %}
+
                 <div class="text-center arrow">
                     <i class="fa fa-chevron-down"></i>
                 </div> 
