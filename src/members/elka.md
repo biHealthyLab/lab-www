@@ -4,7 +4,7 @@ username: elka
 full_name: Elkaïoum Moutuou
 credentials: PhD
 category: 1
-position: Research scientist
+position: Research Associate
 profile_img: /media/images/team/elka.jpeg
 teaser: Studying the brain through Algebraic Topology and Complex Networks.
 social:
@@ -13,7 +13,7 @@ social:
   twitter: "https://twitter.com/elkaioum"
   linkedin: "https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/"
 keywords: |
-  Network Neuroscience, Algebraic Topology, Brain Connectomics, Complex Networks, Multilayer Networks, Persistent Homology, Spectral Theory, Information Theory
+  Network Neuroscience, Algebraic Topology,  Connectomics, Complex Networks, Multilayer Networks, Persistent Homology, Spectral Theory, Quantum Information Theory
 presentation: |
   Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Spectral Theory, and Complex Systems to develop a novel mathematical framework and computational tools for analysing the topology and dynamics of the anatomo-functional networks of the human brain activities. 
 ---
