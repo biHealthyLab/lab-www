@@ -28,7 +28,7 @@
                 {% endif %}
 
                 {% if e.data.video %}
-                <p><i class="fab fa-youtube"></i> <a class="btn btn-outline-danger btn-social" href="{{ e.data.video | url }}" target="_blank">Watch the presentation</a></p>
+                <p><i class="fab fa-youtube"></i> <span class="btn btn-outline-danger btn-social" onclick="window.open('{{e.data.video | url}}', '_blank')">Video</span></p>
                 {% endif %}
 
                 <div class="text-center arrow">
