@@ -4,6 +4,7 @@ type: Seminar
 speaker: Ramana Kumar Vinjamuri (University of Maryland, Baltimore)
 date: 2024-08-01
 location: EV
+video: 'https://www.youtube.com/watch?v=4wDQKXJc3t0'
 ---
 
 ### Abstract

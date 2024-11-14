@@ -4,6 +4,7 @@ type: Seminar
 speaker: "Thanh Dang Vu (Concordia)"
 date: 2024-08-27
 location: EV
+video: 'https://www.youtube.com/watch?v=p8bdU84Lz6k'
 ---
 
 ### Abstract
