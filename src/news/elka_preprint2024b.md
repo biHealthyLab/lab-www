@@ -1,0 +1,11 @@
+---
+type: Preprint
+date: 2024-08-24
+title: |
+ Dr. E. Moutuou and Dr. H. Benali's preprint "Brain functions emerge as thermal equilibrium states of the connectome" is now live on ArXiv.
+link: https://arxiv.org/abs/2408.14221
+---
+
+### Abstract
+
+A fundamental paradigm in neuroscience is that cognitive functions -- such as perception, learning, memory, and locomotion -- are shaped by the brain's structural organization. However, the theoretical principles explaining how this physical architecture governs its function remain elusive. Here, we propose an algebraic quantum mechanics (AQM) framework in which the functional states of a structural connectome emerge as thermal equilibrium states of an algebraic quantum system defined on the underlying directed multigraph. These equilibrium states, derived from the Kubo-Martin-Schwinger (KMS) states formalism, capture the contribution of each neuron to the overall information flow. We apply this framework to the connectome of the nematode {\em Caenorhabditis elegans}, providing a detailed description of the KMS states, exploring their functional implications, and predicting functional networks based on anatomical connectivity. Ultimately, our approach reveals functional circuits predicted by the topology of the connectome and illuminates on the mechanisms linking structure to function.
