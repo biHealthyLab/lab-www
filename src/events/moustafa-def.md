@@ -1,6 +1,6 @@
 ---
 title: "PhD thesis defence - Simplifying Interpretation of Ultrasound Imaging: Deep Learning Approaches for Phase Aberration Correction and Automatic Segmentation"
-type: Thesis
+type: Thesis defence
 speaker: Mostafa Sharifzadeh
 date: 2024-11-29
 location: EV and Online
