@@ -4,7 +4,7 @@ type: Seminar
 speaker: "William Clarke & Saad Jbabdi (Oxford University, UK)"
 date: 2025-12-03
 location: Online
-----
+---
 
 ### Abstract
 
