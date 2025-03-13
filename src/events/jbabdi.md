@@ -2,7 +2,7 @@
 title: "Dynamic Magnetic Resonance Spectroscopy in FSL"
 type: Seminar
 speaker: "William Clarke & Saad Jbabdi (Oxford University, UK)"
-date: 2025-12-03
+date: 2025-03-12
 location: Online
 ---
 
