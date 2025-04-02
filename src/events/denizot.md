@@ -1,6 +1,6 @@
 ---
 title: "Dissecting the Mechanisms Regulating Astrocyte Function at the Nanoscale with Computational Models"
-type: Invited Speaker
+type: Seminar
 speaker: "Audrey Denizot (Inria Lyon Centre, France)"
 date: 2025-04-02
 location: EV
