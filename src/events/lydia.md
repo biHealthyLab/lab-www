@@ -2,7 +2,7 @@
 title: "Contribution of neuroimaging to the understanding and diagnosis of Parkinsonism"
 type: Seminar
 speaker: "Lydia Chougar (McGill)"
-date: 2025-10-03
+date: 2024-10-03
 location: EV
 ---
 
