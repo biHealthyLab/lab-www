@@ -6,4 +6,4 @@ date: 2025-04-16
 location: EV
 ---
 
-This is the first part of a three-part seminar series (April–June) on **Bayesian Modelling**, focused on practical, immediately applicable concepts.
+This is the first part of a three-part seminar series (April–June) on *Bayesian Modelling*, focused on practical, immediately applicable concepts.
