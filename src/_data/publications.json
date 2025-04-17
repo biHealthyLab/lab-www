@@ -1,9 +1,17 @@
 [
     {
+        "authors":["Obaï Bin Ka’b Ali" ,"Alexandre Vidal", "Christophe Grova","Habib Benali"],
+        "title": "Dialogue mechanisms between astrocytic and neuronal networks: A whole-brain modelling approach",
+        "journal": "PLoS Comput Biol",
+        "year": 2025,
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012683",
+        "doi": "https://doi.org/10.1371/journal.pcbi.1012683"
+    },
+    {
         "authors": ["Moutuou EM", " Ali OBK", "Benali  H."],
         "title": "Topology and spectral interconnectivities of higher-order multilayer networks",
         "journal": "Front. Complex Syst",
-        "year": "2023",
+        "year": 2023,
         "url": "https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full",
         "doi": "10.3389/fcpxs.2023.1281714"
     },
