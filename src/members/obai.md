@@ -2,9 +2,9 @@
 title: Obaï Bin Ka'b Ali
 username: obai
 full_name: Obaï Bin Ka'b Ali
-credentials: MSc.
-category: 2
-position: PhD candidate
+credentials: PhD
+category: 1
+position: Research Scientist
 profile_img: /media/images/team/avatar.jpg
 teaser: "Biophysical neuron-glia mass network modeling approach"
 social:

@@ -13,9 +13,9 @@ social:
   twitter: "https://twitter.com/elkaioum"
   linkedin: "https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/"
 keywords: |
-  Network Neuroscience, Algebraic Topology,  Connectomics, Complex Networks, Multilayer Networks, Persistent Homology, Spectral Theory, Quantum Information Theory
+  Algebraic Topology, Mathematical Physics, Network Neuroscience,  Connectomics, Complex Systems, Multilayer Networks, Persistent Homology, Spectral Theory, Quantum Information Theory
 presentation: |
-  Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Spectral Theory, and Complex Systems to develop a novel mathematical framework and computational tools for analysing the topology and dynamics of the anatomo-functional networks of the human brain activities. 
+  Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Algebraic Quantum Mechanis, and Complex Systems to develop a novel mathematical framework and computational tools for analysing the topology and dynamics of the anatomo-functional networks of the human brain activities. 
 ---
 
 
