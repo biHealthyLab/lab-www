@@ -1,7 +1,7 @@
 ---
 username: shima
 full_name: Shima Panahi Moghadam
-credentials: MSc.
+credentials: MSc., BSc.
 category: 2
 position: Former Graduate Research Assistant
 profile_img: /media/images/team/shima.jpg
