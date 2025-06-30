@@ -2,7 +2,7 @@
 username: shima
 full_name: Shima Panahi Moghadam
 credentials: MSc.
-category: 4
+category: 2
 position: Former Graduate Research Assistant
 profile_img: /media/images/team/shima.jpg
 teaser: Can multimodal imaging help in finding a correlation between brain dynamics and circadian glutamate variations induced by a Motor Skill Learning task?
