@@ -3,7 +3,7 @@ title: Giridhar Sunil
 username: giridhar
 full_name: Giridhar Sunil
 credentials: B.Tech
-category: 3
+category: 2
 position: MaSc candidate
 profile_img: /media/images/team/giridhar.jpeg
 teaser: Modeling the Dynamic Topological Properties of Information Flow in the Structural Connectome of Caenorhabditis elegans
