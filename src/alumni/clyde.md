@@ -3,7 +3,7 @@ title: Clyde Belasso
 username: clyde
 full_name: Clyde Belasso
 credentials: MSc.
-category: 4
+category: 2
 position: Master's student
 profile_img: /media/images/team/clyde.png
 teaser: |

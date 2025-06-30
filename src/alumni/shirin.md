@@ -3,7 +3,7 @@ title: Shirin Panahi Moghadam
 username: shirin
 full_name: Shirin Panahi Moghadam
 credentials: MSC, BSc.
-category: 4
+category: 2
 position: Master's student
 profile_img: /media/images/team/shirin.jpg
 teaser:

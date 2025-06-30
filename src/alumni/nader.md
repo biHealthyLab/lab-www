@@ -3,7 +3,7 @@ title: Dr. Nader Riyahi-Alam
 username: nader
 full_name: Nader Riyahi-Alam
 credentials: PhD
-category: 1
+category: 2
 position: Visiting Scholar & Senior Researcher
 profile_img: /media/images/team/nader.JPG
 teaser:

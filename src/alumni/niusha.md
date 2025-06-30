@@ -3,7 +3,7 @@ title: Niusha Gomar
 username: niusha
 full_name: Niusha Gomar
 credentials: MSc., BSc.
-category: 4
+category: 2
 position: Master's student
 profile_img: /media/images/team/niusha.jpg
 teaser: |

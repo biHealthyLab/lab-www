@@ -2,7 +2,7 @@
 username: pouria
 full_name: Pouria Pirian
 credentials: MSc.
-category: 2
+category: 4
 position: PhD student
 profile_img: /media/images/team/avatar.jpg
 teaser: Is it possible to make a connection between brain geometry and brain connectivity?
