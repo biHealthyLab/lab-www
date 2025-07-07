@@ -13,6 +13,8 @@ social:
   Scholar: https://scholar.google.ca/citations?view_op=list_works&hl=en&user=jfmE2lcAAAAJ&gmla=ANZ5fUN2MvlRdsiMlGFkowHKCxVSDCzVyBIV1JJ2rzB8ssahdLFlWJW_e3tZk-dYXjjF4AQJwhUmi3APiaQ1JCeBlO_qcq4yQq7nSbfBCip0XdnjVG4
 keywords: |
   Statistics, Neuroimaging, Functional and Anatomical Connectivity
+presentation: |
+  I am a MASc student under the supervision of Dr. Habib Benali. My research focuses on analyzing resting-state fMRI data to investigate the relationship between brain glutamate levels and motor-related neural activity patterns. By integrating multimodal neuroimaging data, I aim to explore how fluctuations in glutamate concentration are reflected in BOLD signal dynamics, particularly in brain regions involved in motor memory consolidation.
 ---
 
 ### A brief introduction
