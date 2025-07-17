@@ -1,43 +1,49 @@
 ---
 username: shima
 full_name: Shima Panahi Moghadam
-credentials: MSc., BSc.
+credentials: M.A.Sc., B.Sc
 category: 2
-position: Former Graduate Research Assistant
+position: "Data Scientist | Graduate Research Assistant"
 profile_img: /media/images/team/shima.jpg
 teaser: Can multimodal imaging help in finding a correlation between brain dynamics and circadian glutamate variations induced by a Motor Skill Learning task?
 social:
-  email: "moghadam.bme@gmail.com"
+  email: "shima.panahi108@gmail.com"
   linkedin: "https://www.linkedin.com/in/shima-panahi-moghadam/"
 keywords: |
-  Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity
+  Python Programming, Machine Learning, Signal Processing, Statistical Modeling
 presentation: |
-  Shima was a graduate research assistant (MASc.) at Biomedical Healthy Aging Lab. She joined the Lab
-  in September 2021 to work on a multimodal approach for investigating motor skill learning (MSL) induced plasticity in the human brain. In this study, the relationship between MSL, spatiotemporal
-  patterns of neural activity, and glutamate (the main excitatory transmitter in the central nervous
-  system) activity is assessed across at least one sleep-wake cycle.
-  Accordingly, we acquire bimodal EEG-MRS and EEG-fMRI data to establish regional relationships
-  between glutamate concentrations as captured by MRS and changes in neural activity as captured by
-  EEG and fMRI.
+  Shima Panahi completed her M.A.Sc. in Electrical and Computer Engineering at Concordia University. She worked as a graduate research assistant under the supervision of Dr. Habib Benali, the Canada Research Chair in Biomedical Imaging and Healthy Aging. She was selected in September 2021 to lead the development of an end-to-end data science workflow at PERFORM Center.
 ---
 
 ### Introduction
 
-Shima was a graduate research assistant (MASc.) at Biomedical Healthy Aging Lab. She joined the Lab
-in September 2021 to work on a multimodal approach for investigating motor skill learning (MSL) induced plasticity in the human brain. In this study, the relationship between MSL, spatiotemporal
-patterns of neural activity, and glutamate (the main excitatory transmitter in the central nervous
-system) activity is assessed across at least one sleep-wake cycle.
-Accordingly, we acquire bimodal EEG-MRS and EEG-fMRI data to establish regional relationships
-between glutamate concentrations as captured by MRS and changes in neural activity as captured by
-EEG and fMRI.
 
-Shima was responsible for data acquisition as a protocol coordinator and data analysis of EEG-MRS where
-she will quantify the temporal dynamics of cortical glutamate associated with sleep-dependent
-consolidation of newly acquired motor memories during the first night of sleep following MSL, so as to
-correlate glutamate dynamics to whole-brain network dynamics across sleep stages.
+Shima Panahi completed her M.A.Sc. in Electrical and Computer Engineering at Concordia University. She worked as a graduate research assistant under the supervision of Dr. Habib Benali, the Canada Research Chair in Biomedical Imaging and Healthy Aging. She was selected in September 2021 to lead the development of an end-to-end data science workflow at PERFORM Center.
 
 
-### Publications
+Her graduate studies were supported by competitive awards from the Natural Sciences and Engineering Research Council of Canada (NSERC), and Concordia University internal scholarships. She contributed to the study funded by the Canadian Institutes of Health Research (CIHR).
 
-- Shima Panahi Moghadam, Saeid Rashidi, "Implementation of Artificial Features in Improvement of Biometrics Based PPG", 6th International Conference on Computer and Knowledge Engineering,
-  Ferdowsi University of Mashhad, Mashhad, Iran (accepted and indexed by IEEE).
+
+She was responsible for building a pipeline for preprocessing and analyzing datasets related to a novel multimodal neuroimaging study, as well as testing and implementing the 42-hour data collection protocol for this study which involved collecting synchronized EEG-fMRI, MRS, and polysomnography data from multiple human subjects during one sleep-wake cycle.
+Through statistical analysis and linear modeling, she investigated the existence of a correlation between neural electrophysiology and biochemical activity across one sleep–wake cycle, as measured by EEG and MRS under different conditions.
+
+
+**Link to thesis**:https://spectrum.library.concordia.ca/id/eprint/994723/
+
+
+### Educational and Professional Background
+
+
+As part of her work on remote health monitoring systems at the Science and Research Branch of Azad University, she developed signal processing and machine learning algorithms for biometric authentication using physiological signals. Notably, she proposed a novel signal segmentation algorithm that significantly improved classification accuracy. Her work was published at the International Conference on Computer and Knowledge Engineering (ICCKE).
+
+At the University of Tehran, she contributed to the fNIRS research team, focusing on software development and circuit board analysis for fNIRS system design.
+
+
+Shima was ranked as the top student during her B.Sc. studies in Medical Engineering-Bioelectric. For her undergraduate thesis, she developed a device for monitoring heart rate variability. 
+
+
+### Publication
+
+**Shima Panahi Moghadam Namini, Saeed Rashidi**, "*Implementation of artificial features in improvement of biometrics based PPG," 2016 6th International Conference on Computer and Knowledge Engineering (ICCKE)*. DOI: 10.1109/ICCKE.2016.7802164
+
+**Contact**: shima.panahi108@gmail.com
