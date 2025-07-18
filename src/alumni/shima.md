@@ -21,7 +21,7 @@ presentation: |
 Shima Panahi completed her M.A.Sc. in Electrical and Computer Engineering at Concordia University. She worked as a graduate research assistant under the supervision of Dr. Habib Benali, the Canada Research Chair in Biomedical Imaging and Healthy Aging. She was selected in September 2021 to lead the development of an end-to-end data science workflow at PERFORM Center.
 
 
-Her graduate studies were supported by competitive awards from the Natural Sciences and Engineering Research Council of Canada (NSERC), and Concordia University internal scholarships. She contributed to the study funded by the Canadian Institutes of Health Research (CIHR).
+Her graduate studies were supported by competitive awards from the Natural Sciences and Engineering Research Council of Canada (NSERC), and Concordia University internal scholarships. 
 
 
 She was responsible for building a pipeline for preprocessing and analyzing datasets related to a novel multimodal neuroimaging study, as well as testing and implementing the 42-hour data collection protocol for this study which involved collecting synchronized EEG-fMRI, MRS, and polysomnography data from multiple human subjects during one sleep-wake cycle.
