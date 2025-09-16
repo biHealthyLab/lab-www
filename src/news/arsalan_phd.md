@@ -1,4 +1,5 @@
 ---
+thumbs_up: Yes
 type: Thesis defence
 date: 2025-09-02
 title: |
