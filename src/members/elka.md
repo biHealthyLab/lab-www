@@ -4,7 +4,7 @@ username: elka
 full_name: Elkaïoum Moutuou
 credentials: PhD
 category: 1
-position: PI & Research Associate
+position: Research Associate
 profile_img: /media/images/team/elka.jpeg
 teaser: Studying the brain through Algebraic Topology and Complex Networks.
 social:
