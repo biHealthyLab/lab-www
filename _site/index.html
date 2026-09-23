@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-<title>BhealthyAge :: Biomedical Imaging and Healthy Aging Lab </title>
+    
+
+<meta charset="utf-8">
+<title>Biomedical Imaging and Healthy Aging Lab | bHealthyAge Lab</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="Neuroimaging, Networks, Brain networks, Functional connectivity, homology, simplicial homology, network neuroscience" name="keywords">
-<meta content="Brain Healthy Aging, Dr. Habib Benali&#39;s Lab" name="description">
+<meta content="Dr. Habib Benali&#39;s Lab" name="description">
+
+<link href="https://b-healthy-age.com/" rel="canonical">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="bHealthyAge Lab">
+<meta property="og:title" content="Biomedical Imaging and Healthy Aging Lab | bHealthyAge Lab">
+<meta property="og:description" content="Dr. Habib Benali&#39;s Lab">
+<meta property="og:url" content="https://b-healthy-age.com/">
+<meta property="og:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Biomedical Imaging and Healthy Aging Lab | bHealthyAge Lab">
+<meta name="twitter:description" content="Dr. Habib Benali&#39;s Lab">
+<meta name="twitter:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
 
 <!-- Favicon -->
-<link href="/assets/img/favicon.ico" rel="icon">
+<link href="/assets/img/logo-v4-4.png" rel="icon" type="image/png">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,24 +35,43 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
 
-<!-- Libraries Stylesheet -->
-<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
 <!-- Customized Bootstrap Stylesheet -->
 <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
 
 <!-- Template Stylesheet -->
-<link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/style.css?v=2026-09-23-6" rel="stylesheet">
 
 
-<!-- Katex fonts -->
-<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
+<!-- MathJax renders TeX expressions written as $...$ or $$...$$ in Markdown. -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]},
+    processEscapes: true,
+    tags: 'ams'
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Biomedical Imaging and Healthy Aging Laboratory",
+  "alternateName": "bHealthyAge Lab",
+  "url": "https://b-healthy-age.com",
+  "logo": "https://b-healthy-age.com/assets/img/logo-v4-4.png",
+  "email": "habib.benali@concordia.ca",
+  "telephone": "(514) 848-2424",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Concordia University",
+    "url": "https://www.concordia.ca/"
+  }
+}
+</script>
 
 
     
@@ -48,35 +82,28 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="bg-white p-0">
-        
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        
-
-
         
         
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
     <a href="/" class="navbar-brand p-0">
-        
-        <img src="/assets/img/logo-v4-4.png" alt="Logo">
-        
-
+        <img src="/assets/img/logo-v4-4.png" alt="bHealthyAge Lab home" width="304" height="108">
     </a>
-    <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
-        <span class="fa fa-bars"></span>
+    <a class="btn btn-outline-danger btn-social navbar-youtube" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-nav-toggle aria-controls="navbarMain" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="fa fa-bars" aria-hidden="true"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
             
-                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="/" class="nav-item nav-link active" aria-current="page">Home</a>
             
                 <a href="/about/" class="nav-item nav-link ">About</a>
+            
+                <a href="/team/" class="nav-item nav-link ">Team</a>
             
                 <a href="/publications/" class="nav-item nav-link ">Publications</a>
             
@@ -89,24 +116,26 @@
 </nav>
 
 
-
         
         
 
-        
-        
+        <main id="main-content">
+            
 <section id="home">
     <!-- Header -->
 	<div class="intro-header">
 		
 			
 				<div class="showcase col-lg-12">
-                    <video id="bground-video" autoplay loop playsinline muted>
-                        <source src="/assets/img/brain_img.mp4" type="video/mp4">
+                    <video id="bground-video" autoplay loop playsinline muted preload="metadata" poster="/assets/img/team_16x9.webp" aria-hidden="true" tabindex="-1">
+                        <source src="/assets/img/brain_img-optimized.mp4" type="video/mp4">
                     </video>
+					<button type="button" class="hero-video-toggle btn btn-outline-light" data-video-toggle aria-label="Pause background video">
+						<i class="fas fa-pause" aria-hidden="true"></i>
+					</button>
 					<div class="intro-message">
                         <div class="main-teaser">
-                            <h1 class="text-white animated zoomIn">Doing Neuroscience and bioEngineering for healthy brain</h1>
+                            <h1 class="text-white animated zoomIn">Advancing neuroscience and bioengineering for a healthier brain</h1>
                         </div>
                         <div class="container main-title">
                             <hr class="intro-divider">
@@ -129,23 +158,20 @@
 
 
 
-        
-        
-        
-        
+            
     <!-- About Section -->
     <section id="about" class="about-section">
       <div class="container">
         <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
             
-            <h1 class="mb-5 headline text-white"><span>Who we are</span></h1>
+            <h2 class="mb-5 headline text-white"><span>Who we are</span></h2>
         </div>
         <div class="col-lg-6 col-md-6 mx-auto services-heading wow fadeInUp" data-wow-delay="0.1s">
 
           
           <div class="wow fadeInUp" data-wow-delay="0.1s">
             
-            <p class="lead">We are a multidsciplinary reseach team of neuroscientists, clinicians, engineers, and mathematicians who study the brain with the shared goal to shed light on factors predicting conversion to neurodegenerative deseases.<br> <br> 
+            <p class="lead">We are a multidisciplinary research team of neuroscientists, clinicians, engineers, and mathematicians who study the brain with the shared goal of identifying factors that predict progression to neurodegenerative diseases.<br> <br> 
               <a class="btn btn-more btn-more-light mt-5" href="/about/">More about us</a>
             </p>
           </div>
@@ -158,37 +184,65 @@
     </section>
 
 
-    <div class="py-6 row">
+    <div class="py-6 row home-partners">
         <div class="row">
             <div class="container">
 
     <div class="col-lg-8 col-md-10 col-sm-10 mx-auto">
         <div class="sponsor-grid wow fadeInUp" data-wow-delay="0.1s">
         
-        <a class="btn sponsor" href="https://www.concordia.ca/"><img src="/media/images/sponsors/concordia-log.png" alt="Concordia University"></a>
+        <a class="btn sponsor" href="https://www.concordia.ca/" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/concordia-log.webp" type="image/webp">
+            <img src="/media/images/sponsors/concordia-log.png" alt="Concordia University" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
-        <a class="btn sponsor" href="https://www.concordia.ca/artsci.html"><img src="/media/images/sponsors/faculty-of-arts-and-sci.png" alt="Faculty of Arts and Science"></a>
+        <a class="btn sponsor" href="https://www.concordia.ca/artsci.html" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/faculty-of-arts-and-sci.webp" type="image/webp">
+            <img src="/media/images/sponsors/faculty-of-arts-and-sci.png" alt="Faculty of Arts and Science" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
-        <a class="btn sponsor" href="https://www.concordia.ca/ginacody.html"><img src="/media/images/sponsors/gina-cody.png" alt="Gina Cody School of Engineering and Computer Science"></a>
+        <a class="btn sponsor" href="https://www.concordia.ca/ginacody.html" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/gina-cody.webp" type="image/webp">
+            <img src="/media/images/sponsors/gina-cody.png" alt="Gina Cody School of Engineering and Computer Science" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
-        <a class="btn sponsor" href="https://www.concordia.ca/research/perform.html"><img src="/media/images/sponsors/perform.png" alt="PERFORM Center"></a>
+        <a class="btn sponsor" href="https://www.concordia.ca/research/perform.html" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/perform.webp" type="image/webp">
+            <img src="/media/images/sponsors/perform.png" alt="PERFORM Center" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
-        <a class="btn sponsor" href="https://www.nserc-crsng.gc.ca/index_eng.asp"><img src="/media/images/sponsors/NSERC.png" alt="Natural Sciences and Engineering Research Council of Canada"></a>
+        <a class="btn sponsor" href="https://www.nserc-crsng.gc.ca/index_eng.asp" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/NSERC.webp" type="image/webp">
+            <img src="/media/images/sponsors/NSERC.png" alt="Natural Sciences and Engineering Research Council of Canada" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
-        <a class="btn sponsor" href="https://cihr-irsc.gc.ca/e/193.html"><img src="/media/images/sponsors/cihr.jpeg" alt="Canadian Institutes of Health Research"></a>
+        <a class="btn sponsor" href="https://cihr-irsc.gc.ca/e/193.html" target="_blank" rel="noopener noreferrer">
+          <picture>
+            <source srcset="/media/images/sponsors/cihr.webp" type="image/webp">
+            <img src="/media/images/sponsors/cihr.jpeg" alt="Canadian Institutes of Health Research" loading="lazy" decoding="async">
+          </picture>
+        </a>
         
         
         </div>
     </div>
 
 </div>        
-
-
 
         </div>
     </div>
@@ -197,16 +251,20 @@
 
           <div class="mx-auto mb-5 text-center wow fadeInUp" data-wow-delay="0.1s">
             
-            <h1 class="mb-5 headline"><span>What we do</span></h1>
+            <h2 class="mb-5 headline"><span>What we do</span></h2>
           </div>
 
           <div class="row row-flex">
             
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-2 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='/research/topics/neuroimaging-and-signals/'">
-              <div class="bhealthy-card bcard row-flex-content">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+              <a class="research-area-link d-block h-100" href="/research/topics/neuroimaging-and-signals/">
+              <div class="bhealthy-card bcard row-flex-content h-100">
                 
                 <span class="research-img">
-                    <img class="img-fluid" src="/media/images/topics/tauopathy-progression.png" alt=""> 
+                    <picture>
+                      <source srcset="/media/images/topics/tauopathy-progression.webp" type="image/webp">
+                      <img class="img-fluid" src="/media/images/topics/tauopathy-progression.png" alt="Illustration for NeuroImaging &amp; Signals" width="140" height="140" loading="lazy" decoding="async">
+                    </picture>
                 </span>
                 <div class="mt-3">
                   <div class=""> <h5>NeuroImaging &amp; Signals </h5></div>
@@ -296,14 +354,18 @@
                 </div>
 
               </div>
+              </a>
             </div>
-            </a>
             
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-2 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='/research/topics/brain-simulation/'">
-              <div class="bhealthy-card bcard row-flex-content">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+              <a class="research-area-link d-block h-100" href="/research/topics/brain-simulation/">
+              <div class="bhealthy-card bcard row-flex-content h-100">
                 
                 <span class="research-img">
-                    <img class="img-fluid" src="/media/images/topics/metab.png" alt=""> 
+                    <picture>
+                      <source srcset="/media/images/topics/metab.webp" type="image/webp">
+                      <img class="img-fluid" src="/media/images/topics/metab.png" alt="Illustration for Brain Simulation" width="140" height="140" loading="lazy" decoding="async">
+                    </picture>
                 </span>
                 <div class="mt-3">
                   <div class=""> <h5>Brain Simulation </h5></div>
@@ -365,14 +427,18 @@
                 </div>
 
               </div>
+              </a>
             </div>
-            </a>
             
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-2 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='/research/topics/computational-models/'">
-              <div class="bhealthy-card bcard row-flex-content">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+              <a class="research-area-link d-block h-100" href="/research/topics/computational-models/">
+              <div class="bhealthy-card bcard row-flex-content h-100">
                 
                 <span class="research-img">
-                    <img class="img-fluid" src="/media/images/topics/computational.png" alt=""> 
+                    <picture>
+                      <source srcset="/media/images/topics/computational.webp" type="image/webp">
+                      <img class="img-fluid" src="/media/images/topics/computational.png" alt="Illustration for Computational Models" width="140" height="140" loading="lazy" decoding="async">
+                    </picture>
                 </span>
                 <div class="mt-3">
                   <div class=""> <h5>Computational Models </h5></div>
@@ -427,14 +493,18 @@
                 </div>
 
               </div>
+              </a>
             </div>
-            </a>
             
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-2 wow fadeInUp" data-wow-delay="0.1s" onclick="window.location.href='/research/topics/mathematical-neuroscience/'">
-              <div class="bhealthy-card bcard row-flex-content">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+              <a class="research-area-link d-block h-100" href="/research/topics/mathematical-neuroscience/">
+              <div class="bhealthy-card bcard row-flex-content h-100">
                 
                 <span class="research-img">
-                    <img class="img-fluid" src="/media/images/topics/filtration.jpg" alt=""> 
+                    <picture>
+                      <source srcset="/media/images/topics/filtration.webp" type="image/webp">
+                      <img class="img-fluid" src="/media/images/topics/filtration.jpg" alt="Illustration for Mathematical Neuroscience" width="140" height="140" loading="lazy" decoding="async">
+                    </picture>
                 </span>
                 <div class="mt-3">
                   <div class=""> <h5>Mathematical Neuroscience </h5></div>
@@ -503,13 +573,121 @@
                 </div>
 
               </div>
+              </a>
             </div>
-            </a>
             
            
           </div>
         </div> 
-      </div>  
+      </div>
+
+
+    <section class="latest-news-section" aria-labelledby="latest-news-heading">
+  <div class="container">
+    <div class="mx-auto mb-5 text-center">
+      <h2 id="latest-news-heading" class="headline"><span>Latest news</span></h2>
+    </div>
+    <div class="row g-4">
+      
+        
+          <div class="col-lg-4 col-md-6">
+            <article class="latest-news-card">
+              
+                <div class="latest-news-card__image">
+                  <img src="/media/images/team/giridhar.webp" alt="Giridhar Sunil successfully defended his Master&#39;s thesis" loading="lazy" decoding="async">
+                </div>
+              
+              <div class="latest-news-card__body">
+                <span class="badge btn-Thesis defence mb-3">Thesis defence</span>
+                <time datetime="2026-09-21">September 21, 2026</time>
+                <h3 class="h5">Giridhar Sunil successfully defended his Master's thesis</h3>
+                <a class="latest-news-card__link" href="/news/giridhar-msc-defence/">Read this update <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        
+      
+        
+          <div class="col-lg-4 col-md-6">
+            <article class="latest-news-card">
+              
+                <div class="latest-news-card__image">
+                  <img src="/media/images/uploads/functional-memory-figure-1.svg" alt="Thermodynamic cascade showing hierarchical functional memory in a directed network" loading="lazy" decoding="async">
+                </div>
+              
+              <div class="latest-news-card__body">
+                <span class="badge btn-Preprint mb-3">Preprint</span>
+                <time datetime="2026-06-24">June 24, 2026</time>
+                <h3 class="h5">New preprint on weight geometry and functional memory</h3>
+                <a class="latest-news-card__link" href="/news/preprint-functional-memory-2026/">Read this update <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        
+      
+        
+          <div class="col-lg-4 col-md-6">
+            <article class="latest-news-card">
+              
+                <div class="latest-news-card__image">
+                  <img src="/media/images/uploads/thermodynamic-connectivity-figure-1.png" alt="Diagram showing four functional communication regimes across synaptic and extrasynaptic networks" loading="lazy" decoding="async">
+                </div>
+              
+              <div class="latest-news-card__body">
+                <span class="badge btn-Preprint mb-3">Preprint</span>
+                <time datetime="2026-04-02">April 2, 2026</time>
+                <h3 class="h5">New preprint on thermodynamic connectivity and extrasynaptic signaling</h3>
+                <a class="latest-news-card__link" href="/news/preprint-thermodynamic-connectivity-2026/">Read this update <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <p class="mt-4 text-center"><a class="btn btn-more btn-more-dark" href="/news/">View all news</a></p>
+  </div>
+</section>
+
 
 
     
@@ -518,11 +696,7 @@
    
 
 
-        
-        
-       
-        
-        
+            
 
 
     
@@ -531,7 +705,7 @@
   <div class="container">
       <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s">
           
-        <h1 class="headline"><span>Our team</span></h1>
+        <h2 class="headline"><span>Our team</span></h2>
 
       </div>
       <div class="row team_card__container g-4">
@@ -541,18 +715,20 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~habib/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/habib.JPG"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/habib.webp" type="image/webp">
+                  <img src="/media/images/team/habib.JPG" alt="Portrait of Habib Benali" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Habib Benali, <small>PhD</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~habib/">Habib Benali, <small>PhD</small></a></b> <br>
                     
-                <small class="text-muted"><i> PI &amp; Lab Director, Professor, Department of Electrical and Computer Engineering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute</i> </small>
+                <small class="text-muted"><i> Lab Director, Professor, Department of Electrical and Computer Engineering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute</i> </small>
                 </p>
                 
             </div>
@@ -564,16 +740,18 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
-        Neuroimaging, Computational Neuroscience, Mathematical Models and Statistics, Signal and Image Processing, Functional and Anatomical Connectivity, Healthy Aging, Motor Learning, Neurodegenerative Deseases 
+        <small class="text-muted member-keywords">
+        Neuroimaging, Computational Neuroscience, Mathematical Models and Statistics, Signal and Image Processing, Functional and Anatomical Connectivity, Healthy Aging, Motor Learning, Neurodegenerative Diseases
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~habib/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~habib/" aria-label="View Habib Benali's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:habib.benali@concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Habib Benali"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
 
@@ -582,7 +760,8 @@
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -590,16 +769,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~elka/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/elka.jpeg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/elka.webp" type="image/webp">
+                  <img src="/media/images/team/elka.jpeg" alt="Portrait of Elkaïoum Moutuou" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Elkaïoum Moutuou, <small>PhD</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~elka/">Elkaïoum Moutuou, <small>PhD</small></a></b> <br>
                     
                 <small class="text-muted"><i> Research Associate</i> </small>
                 </p>
@@ -613,34 +794,37 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
-        Algebraic Topology, Mathematical Physics, Network Neuroscience,  Connectomics, Complex Systems, Multilayer Networks, Persistent Homology, Spectral Theory, Quantum Information Theory
+        <small class="text-muted member-keywords">
+        Operator Algebras, Algebraic Topology, Mathematical Physics, Network Neuroscience, Connectomics, Complex Systems
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~elka/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~elka/" aria-label="View Elkaïoum Moutuou's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:elkaioum.moutuou@concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Elkaïoum Moutuou"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
                             <a href="https://www.researchgate.net/profile/El-Kaioum-Moutuou" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Elkaïoum Moutuou on ResearchGate"><i class="fab fa-researchgate" aria-hidden="true"></i></a>
                          
 
                          
                             <a href="https://twitter.com/elkaioum" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Elkaïoum Moutuou on X or Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                          
 
                          
                             <a href="https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Elkaïoum Moutuou on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -648,16 +832,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~laetitia/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/laetitia.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/laetitia.webp" type="image/webp">
+                  <img src="/media/images/team/laetitia.jpg" alt="Portrait of Laetitia Jeancolas" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Laetitia Jeancolas, <small>PhD</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~laetitia/">Laetitia Jeancolas, <small>PhD</small></a></b> <br>
                     
                 <small class="text-muted"><i> Postdoctoral Researcher &amp; Lab coordinator</i> </small>
                 </p>
@@ -671,34 +857,37 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Alzheimer&#39;s disease, Parkinson&#39;s disease, neuroimaging, early detection, voice analysis, ASL, signal processing, machine learning, classification, predictive modeling, statistics
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~laetitia/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~laetitia/" aria-label="View Laetitia Jeancolas's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:laetitia.jeancolas@concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Laetitia Jeancolas"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
                             <a href="https://www.researchgate.net/profile/Laetitia-Jeancolas" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Laetitia Jeancolas on ResearchGate"><i class="fab fa-researchgate" aria-hidden="true"></i></a>
                          
 
                          
                             <a href="https://twitter.com/JeancolasL" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Laetitia Jeancolas on X or Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                          
 
                          
                             <a href="https://www.linkedin.com/in/laetitia-jeancolas-30a1a7198/" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Laetitia Jeancolas on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -706,16 +895,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~obai/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/avatar.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/avatar.webp" type="image/webp">
+                  <img src="/media/images/team/avatar.jpg" alt="Portrait of Obaï Bin Ka&#39;b Ali" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Obaï Bin Ka&#39;b Ali, <small>PhD</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~obai/">Obaï Bin Ka&#39;b Ali, <small>PhD</small></a></b> <br>
                     
                 <small class="text-muted"><i> Research Scientist</i> </small>
                 </p>
@@ -729,16 +920,15 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         neuron-glial paradigm; whole-brain network dynamics; network mass modeling; multilayer network modeling; bifurcation analyses; structural connectivity; functional connectivity; local field potential; glutamate; gamma-aminobutyric acid (GABA) 
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~obai/"><i class="fas fa-link"></i> </a>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~obai/" aria-label="View Obaï Bin Ka&#39;b Ali's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
 
                          
 
@@ -747,7 +937,8 @@
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -755,16 +946,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~arsalan/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/arsalan.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/arsalan.webp" type="image/webp">
+                  <img src="/media/images/team/arsalan.jpg" alt="Portrait of Arsalan Rahimabadi" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Arsalan Rahimabadi, <small>MSc</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~arsalan/">Arsalan Rahimabadi, <small>MSc</small></a></b> <br>
                     
                 <small class="text-muted"><i> PhD candidate</i> </small>
                 </p>
@@ -778,16 +971,18 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Dynamical systems, neurodegenerative diseases, Mathematical Modeling, Tauopathy
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~arsalan/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~arsalan/" aria-label="View Arsalan Rahimabadi's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:arsalan.rahimabadi@concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Arsalan Rahimabadi"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
 
@@ -796,7 +991,8 @@
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -804,16 +1000,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~mostafa/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/mostafa.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/mostafa.webp" type="image/webp">
+                  <img src="/media/images/team/mostafa.jpg" alt="Portrait of Mostafa Sharifzadeh" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Mostafa Sharifzadeh, <small>MSc</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~mostafa/">Mostafa Sharifzadeh, <small>MSc</small></a></b> <br>
                     
                 <small class="text-muted"><i> PhD candidate</i> </small>
                 </p>
@@ -827,16 +1025,18 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Deep Learning, Ultrasound Imaging, and Biomedical Signal Analysis
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~mostafa/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~mostafa/" aria-label="View Mostafa Sharifzadeh's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:mostafa.sharifzade@gmail.com"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Mostafa Sharifzadeh"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
 
@@ -844,11 +1044,12 @@
 
                          
                             <a href="https://www.linkedin.com/in/mostafasharifzadeh" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Mostafa Sharifzadeh on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -856,16 +1057,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~pierre/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/pierre.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/pierre.webp" type="image/webp">
+                  <img src="/media/images/team/pierre.jpg" alt="Portrait of Pierre Berroir" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Pierre Berroir, <small>MSc.</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~pierre/">Pierre Berroir, <small>MSc.</small></a></b> <br>
                     
                 <small class="text-muted"><i> PhD candidate</i> </small>
                 </p>
@@ -879,16 +1082,15 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Stroke, fMRI, neurovascular coupling, CBF, perfusion, perilesional tissue, VMHC, homotopic connectivity, hemodynamic, HRF
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~pierre/"><i class="fas fa-link"></i> </a>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~pierre/" aria-label="View Pierre Berroir's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
 
                          
 
@@ -897,7 +1099,8 @@
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -905,16 +1108,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~giridhar/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/giridhar.jpeg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/giridhar.webp" type="image/webp">
+                  <img src="/media/images/team/giridhar.jpeg" alt="Portrait of Giridhar Sunil" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Giridhar Sunil, <small>B.Tech</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~giridhar/">Giridhar Sunil, <small>B.Tech</small></a></b> <br>
                     
                 <small class="text-muted"><i> MaSc candidate</i> </small>
                 </p>
@@ -928,16 +1133,18 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Extrasynaptic Connectome, KMS States, Persistent Homology, Topology
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~giridhar/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~giridhar/" aria-label="View Giridhar Sunil's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:giridhar.sunil@concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Giridhar Sunil"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
 
@@ -945,11 +1152,12 @@
 
                          
                             <a href="https://www.linkedin.com/in/giridhar-s-a25949325/" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Giridhar Sunil on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -957,16 +1165,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~bahar/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/bahar.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/bahar.webp" type="image/webp">
+                  <img src="/media/images/team/bahar.jpg" alt="Portrait of Bahar Moadeli" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Bahar Moadeli, <small>BSc</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~bahar/">Bahar Moadeli, <small>BSc</small></a></b> <br>
                     
                 <small class="text-muted"><i> Master’s Student</i> </small>
                 </p>
@@ -980,16 +1190,18 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         Statistics, Neuroimaging, Functional and Anatomical Connectivity
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~bahar/"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~bahar/" aria-label="View Bahar Moadeli's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:b_moadel@live.concordia.ca"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email Bahar Moadeli"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            
 
                          
 
@@ -997,11 +1209,12 @@
 
                          
                             <a href="https://www.linkedin.com/in/bahar-moadeli-8a329a24b/" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="Bahar Moadeli on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -1009,16 +1222,18 @@
       
       <div class="member_card col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">  
           
-          <div class="bcard clickable rounded h-100" onclick="window.open(`/team/~leila/`, `_blank`)">   
+          <article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="/media/images/team/leila.jpg"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="/media/images/team/leila.webp" type="image/webp">
+                  <img src="/media/images/team/leila.jpg" alt="Portrait of Leila Mousavi" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>Leila Mousavi, <small>BSc</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="/team/~leila/">Leila Mousavi, <small>BSc</small></a></b> <br>
                     
                 <small class="text-muted"><i> Master’s Student</i> </small>
                 </p>
@@ -1032,16 +1247,15 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
-        Multimodal, brain connectomes, neural networks, Alzheimer, neuroimaging
+        <small class="text-muted member-keywords">
+        Multimodal brain connectomes, neural networks, Alzheimer&#39;s disease, neuroimaging
 
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="/team/~leila/"><i class="fas fa-link"></i> </a>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="/team/~leila/" aria-label="View Leila Mousavi's profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            
 
                          
 
@@ -1050,7 +1264,8 @@
                          
         </p>
     </div>
-</div>   
+</article>
+   
             
          
       </div>
@@ -1074,7 +1289,7 @@
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/arsalan.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/arsalan.jpg" alt="Portrait of Arsalan Rahimabadi"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1143,7 +1358,7 @@
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/elka.jpeg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/elka.jpeg" alt="Portrait of Elkaïoum Moutuou"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1161,9 +1376,18 @@
                             <div class="col-md-8 mx-auto mt-4" style="text-align: left;">
                                 <h3>Selected publications</h3>
 <ul>
-<li><a href="https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full"><em>Topology and spectral interconnectivities of higher-order multilayer network</em></a>. E. M., OBK. Ali, H. Benali, <strong>Front. Complex Syst.</strong>, 2023</li>
-<li><a href="https://doi.org/10.1142/S0218216516400022"><em>Foundations of topological racks and quandles</em></a>. M. Elhamdadi, E.M. Journal of Knot Theory and Its Ramifications, 2016.</li>
-<li><a href="https://doi.org/10.1016/j.jfa.2013.12.019"><em>Graded Brauer groups of a groupoid with involution</em></a>. E.M., 2014, Journal of Functional Analysis.</li>
+<li>
+<p><a href="https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc"><em>Brain functions emerge as thermal equilibrium states of the connectome</em></a>. E. Moutuou, H. Benali, <strong>Physical Research Research</strong>, 2025</p>
+</li>
+<li>
+<p><a href="https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw"><em>Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks</em></a>. E. Moutuou, H. Benali, <strong>Physical Research E</strong>, 2025</p>
+</li>
+<li>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full"><em>Topology and spectral interconnectivities of higher-order multilayer network</em></a>. E. Moutuou, OBK. Ali, H. Benali, <strong>Front. Complex Syst.</strong>, 2023</p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1142/S0218216516400022"><em>Foundations of topological racks and quandles</em></a>. M. Elhamdadi, E. Moutuou, Journal of Knot Theory and Its Ramifications, 2016.</p>
+</li>
 </ul>
 
 
@@ -1194,7 +1418,7 @@
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/habib.JPG"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/habib.JPG" alt="Portrait of Habib Benali"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1248,7 +1472,7 @@
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/laetitia.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/laetitia.jpg" alt="Portrait of Laetitia Jeancolas"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1331,7 +1555,7 @@ Since, she has continued to work in this field through several collaborations wi
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/mostafa.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/mostafa.jpg" alt="Portrait of Mostafa Sharifzadeh"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1394,7 +1618,7 @@ Professional background – He worked for two years as a full-time Software Deve
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/pierre.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/pierre.jpg" alt="Portrait of Pierre Berroir"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1468,7 +1692,7 @@ Professional background – He worked for two years as a full-time Software Deve
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/avatar.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/avatar.jpg" alt="Portrait of Obaï Bin Ka&#39;b Ali"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1534,7 +1758,7 @@ Professional background – He worked for two years as a full-time Software Deve
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/giridhar.jpeg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/giridhar.jpeg" alt="Portrait of Giridhar Sunil"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1598,7 +1822,7 @@ Professional background – He worked for two years as a full-time Software Deve
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/bahar.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/bahar.jpg" alt="Portrait of Bahar Moadeli"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1655,7 +1879,7 @@ Platform: AurigaBot V1. arXiv preprint arXiv:2504.04217”</li>
                         <div class="modal-body">
                             <div class="member_profile_modal__cover d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                <img class="member_profile_modal___profile_img" src="/media/images/team/leila.jpg"
+                                <img class="member_profile_modal___profile_img" src="/media/images/team/leila.jpg" alt="Portrait of Leila Mousavi"
                                     alt="" class="img-fluid">
                                 </div>
                                 <div class="member_profile_modal__headers ms-3">
@@ -1702,21 +1926,20 @@ Platform: AurigaBot V1. arXiv preprint arXiv:2504.04217”</li>
 
 
 
-        
 
-
-        
+            
    
 
+        </main>
 
         
         
             
-        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <footer class="container-fluid bg-dark text-light footer pt-5" style="margin-top: 6rem;">
     <div class="container py-5">
         <div class="container">
                 <h5 class="text-white mb-4">Where to find us</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Map showing the bHealthyAge Lab at Concordia University's EV Building" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
         </div>
         
@@ -1731,22 +1954,22 @@ Platform: AurigaBot V1. arXiv preprint arXiv:2504.04217”</li>
                  Canada Research Chair in Biomedical Imaging and Healthy Aging <br>
                  Member, Applied AI Institute
                 </p>
-                <p><i class="fa fa-phone-alt me-3"></i>(514) 848-2424</p>
-                <p><i class="fa fa-envelope me-3"></i>habib.benali@concordia.ca</p>
+                <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i><a href="tel:+15148482424">(514) 848-2424</a></p>
+                <p><i class="fa fa-envelope me-3" aria-hidden="true"></i><a href="mailto:habib.benali@concordia.ca">habib.benali@concordia.ca</a></p>
                 <div class="d-flex pt-2">
                     
                     
-                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Quick Links</h5>
                 
-                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank">Our YouTube channel</a>
+                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer">Our YouTube channel</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank">Concordia University</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank" rel="noopener noreferrer">Concordia University</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank">PERFORM Center</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank" rel="noopener noreferrer">PERFORM Center</a>
                 
             </div>
             
@@ -1758,22 +1981,13 @@ Platform: AurigaBot V1. arXiv preprint arXiv:2504.04217”</li>
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <script>document.write( new Date().getFullYear() ); </script> - <a class="" href="#">bHealthyAge Lab</a>. All rights reserved. 
+                    &copy; <span data-current-year>2026</span> – <a href="/">bHealthyAge Lab</a>. All rights reserved.
                 </div>
-                <!--
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </div>
-</div>
+</footer>
+
         
         
 
@@ -1781,22 +1995,13 @@ Platform: AurigaBot V1. arXiv preprint arXiv:2504.04217”</li>
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-capslock"></i></a>
+        <button type="button" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to top">
+            <i class="bi bi-arrow-up" aria-hidden="true"></i>
+        </button>
     </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/lib/wow/wow.min.js"></script>
-    <script src="/assets/lib/easing/easing.min.js"></script>
-    <script src="/assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Bootstrap core JS-->
-    
-
     <!-- Template Javascript -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js?v=2026-09-23-6" defer></script>
 </body>
 
 </html>

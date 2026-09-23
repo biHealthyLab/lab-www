@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-<title>BhealthyAge :: Future and past events </title>
+    
+
+<meta charset="utf-8">
+<title>Future and past events | bHealthyAge Lab</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="" name="keywords">
-<meta content="Brain Healthy Aging, " name="description">
+
+<meta content="Find upcoming and past seminars, workshops, scientific meetings, and thesis defences hosted by the bHealthyAge Lab." name="description">
+
+<link href="https://b-healthy-age.com/events/" rel="canonical">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="bHealthyAge Lab">
+<meta property="og:title" content="Future and past events | bHealthyAge Lab">
+<meta property="og:description" content="Find upcoming and past seminars, workshops, scientific meetings, and thesis defences hosted by the bHealthyAge Lab.">
+<meta property="og:url" content="https://b-healthy-age.com/events/">
+<meta property="og:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Future and past events | bHealthyAge Lab">
+<meta name="twitter:description" content="Find upcoming and past seminars, workshops, scientific meetings, and thesis defences hosted by the bHealthyAge Lab.">
+<meta name="twitter:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
 
 <!-- Favicon -->
-<link href="/assets/img/favicon.ico" rel="icon">
+<link href="/assets/img/logo-v4-4.png" rel="icon" type="image/png">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,24 +35,43 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
 
-<!-- Libraries Stylesheet -->
-<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
 <!-- Customized Bootstrap Stylesheet -->
 <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
 
 <!-- Template Stylesheet -->
-<link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/style.css?v=2026-09-23-6" rel="stylesheet">
 
 
-<!-- Katex fonts -->
-<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
+<!-- MathJax renders TeX expressions written as $...$ or $$...$$ in Markdown. -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]},
+    processEscapes: true,
+    tags: 'ams'
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Biomedical Imaging and Healthy Aging Laboratory",
+  "alternateName": "bHealthyAge Lab",
+  "url": "https://b-healthy-age.com",
+  "logo": "https://b-healthy-age.com/assets/img/logo-v4-4.png",
+  "email": "habib.benali@concordia.ca",
+  "telephone": "(514) 848-2424",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Concordia University",
+    "url": "https://www.concordia.ca/"
+  }
+}
+</script>
 
 
     
@@ -46,28 +80,19 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="bg-white p-0">
-        
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        
-
-
         
         
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
     <a href="/" class="navbar-brand p-0">
-        
-        <img src="/assets/img/logo-v4-4.png" alt="Logo">
-        
-
+        <img src="/assets/img/logo-v4-4.png" alt="bHealthyAge Lab home" width="304" height="108">
     </a>
-    <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
-        <span class="fa fa-bars"></span>
+    <a class="btn btn-outline-danger btn-social navbar-youtube" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-nav-toggle aria-controls="navbarMain" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="fa fa-bars" aria-hidden="true"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
@@ -76,23 +101,24 @@
             
                 <a href="/about/" class="nav-item nav-link ">About</a>
             
+                <a href="/team/" class="nav-item nav-link ">Team</a>
+            
                 <a href="/publications/" class="nav-item nav-link ">Publications</a>
             
                 <a href="/news/" class="nav-item nav-link ">News</a>
             
-                <a href="/events/" class="nav-item nav-link active">Events</a>
+                <a href="/events/" class="nav-item nav-link active" aria-current="page">Events</a>
             
         </div>
     </div>
 </nav>
 
 
-
         
         
 
-        
-        
+        <main id="main-content">
+            
 
 <div class="bg-primary bg-header">
     <div class="container">
@@ -109,153 +135,144 @@
     </div>
 </div>
 
-        
-        
-        
-        
+
+
+            
 <div class="container-xxl">
-    <div class="col-md-6 mx-auto ml-2">  
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-bayesian-reasoning-in-practice-part-2-3-intuitive-powerful-and-immediately-useful" aria-expanded="false" aria-controls="news-bayesian-reasoning-in-practice-part-2-3-intuitive-powerful-and-immediately-useful">
-               <p><span class="badge btn-Workshop">Workshop</span></p>
-              
-               <h5>Bayesian Reasoning in Practice (Part 2/3): Intuitive, Powerful, and Immediately Useful</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> May 12, 2025  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Zhengchen Cai (McGill University) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and online </p>
+  <div class="col-md-8 mx-auto ml-2">
+    
+    
 
-                
+    <section aria-labelledby="upcoming-events-heading" class="mb-5">
+      <h2 id="upcoming-events-heading" class="headline mb-4"><span>Upcoming events</span></h2>
+      
+        <p class="text-center text-muted">No upcoming events are currently listed. Please check back soon.</p>
+      
+      
+    </section>
 
-                
+    <section aria-labelledby="past-events-heading">
+      <h2 id="past-events-heading" class="headline mb-4"><span>Past events</span></h2>
+      
+        <details class="details-card" id="event-bayesian-reasoning-in-practice-part-2-3-intuitive-powerful-and-immediately-useful">
+  <summary>
+    <p><span class="badge btn-Workshop">Workshop</span></p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-bayesian-reasoning-in-practice-part-2-3-intuitive-powerful-and-immediately-useful">
-            <div class="card-body">
-                <p>This is the second part of a three-part seminar series (April–June) on Bayesian Modelling, focused on practical, immediately applicable concepts.</p>
+    <h3 class="h5">Bayesian Reasoning in Practice (Part 2/3): Intuitive, Powerful, and Immediately Useful</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">May 12, 2025</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Zhengchen Cai (McGill University)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and online</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-bayesian-reasoning-in-practice-part-3-3-intuitive-powerful-and-immediately-useful" aria-expanded="false" aria-controls="news-bayesian-reasoning-in-practice-part-3-3-intuitive-powerful-and-immediately-useful">
-               <p><span class="badge btn-Workshop">Workshop</span></p>
-              
-               <h5>Bayesian Reasoning in Practice (Part 3/3): Intuitive, Powerful, and Immediately Useful</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> April 16, 2025  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Obaï Bin Ka&#39;b Ali (bHealthy Lab) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and online </p>
+    
 
-                
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <p>This is the second part of a three-part seminar series (April–June) on Bayesian Modelling, focused on practical, immediately applicable concepts.</p>
 
-                
+  </div>
+</details>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-bayesian-reasoning-in-practice-part-3-3-intuitive-powerful-and-immediately-useful">
-            <div class="card-body">
-                <p>This is the final part of a three-part seminar series (April–June) on <em>Bayesian Modelling</em>, focused on practical, immediately applicable concepts.</p>
+      
+        <details class="details-card" id="event-bayesian-reasoning-in-practice-part-1-3-intuitive-powerful-and-immediately-useful">
+  <summary>
+    <p><span class="badge btn-Workshop">Workshop</span></p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-bayesian-reasoning-in-practice-part-1-3-intuitive-powerful-and-immediately-useful" aria-expanded="false" aria-controls="news-bayesian-reasoning-in-practice-part-1-3-intuitive-powerful-and-immediately-useful">
-               <p><span class="badge btn-Workshop">Workshop</span></p>
-              
-               <h5>Bayesian Reasoning in Practice (Part 1/3): Intuitive, Powerful, and Immediately Useful</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> April 16, 2025  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Habib Benali (bHealthy Lab) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and online </p>
+    <h3 class="h5">Bayesian Reasoning in Practice (Part 1/3): Intuitive, Powerful, and Immediately Useful</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">April 16, 2025</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Habib Benali (bHealthy Lab)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and online</p>
 
-                
+    
 
-                
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <p>This is the first part of a three-part seminar series (April–June) on <em>Bayesian Modelling</em>, focused on practical, immediately applicable concepts.</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-bayesian-reasoning-in-practice-part-1-3-intuitive-powerful-and-immediately-useful">
-            <div class="card-body">
-                <p>This is the first part of a three-part seminar series (April–June) on <em>Bayesian Modelling</em>, focused on practical, immediately applicable concepts.</p>
+  </div>
+</details>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dissecting-the-mechanisms-regulating-astrocyte-function-at-the-nanoscale-with-computational-models" aria-expanded="false" aria-controls="news-dissecting-the-mechanisms-regulating-astrocyte-function-at-the-nanoscale-with-computational-models">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Dissecting the Mechanisms Regulating Astrocyte Function at the Nanoscale with Computational Models</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> April 2, 2025  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Audrey Denizot (Inria Lyon Centre, France) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+      
+        <details class="details-card" id="event-bayesian-reasoning-in-practice-part-3-3-intuitive-powerful-and-immediately-useful">
+  <summary>
+    <p><span class="badge btn-Workshop">Workshop</span></p>
 
-                
+    <h3 class="h5">Bayesian Reasoning in Practice (Part 3/3): Intuitive, Powerful, and Immediately Useful</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">April 16, 2025</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Obaï Bin Ka&#39;b Ali (bHealthy Lab)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and online</p>
 
-                
+    
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-dissecting-the-mechanisms-regulating-astrocyte-function-at-the-nanoscale-with-computational-models">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <p>This is the final part of a three-part seminar series (April–June) on <em>Bayesian Modelling</em>, focused on practical, immediately applicable concepts.</p>
+
+  </div>
+</details>
+
+      
+        <details class="details-card" id="event-dissecting-the-mechanisms-regulating-astrocyte-function-at-the-nanoscale-with-computational-models">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
+
+    <h3 class="h5">Dissecting the Mechanisms Regulating Astrocyte Function at the Nanoscale with Computational Models</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">April 2, 2025</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Audrey Denizot (Inria Lyon Centre, France)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
+
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Astrocytes are cells of the central nervous system that are essential to brain function, from synaptogenesis to higher-brain functions such as memory and learning. A single astrocyte can contact hundreds of thousands of synapses, potentially orchestrating information integration and transmission within various neural circuits simultaneously. Yet, the mechanisms that govern astrocyte function and neuron-astrocyte communication remain poorly understood. Astrocytes communicate with neighboring cells through Ca2+ signals that display complex, diverse spatio-temporal characteristics. These signals are essential to astrocyte function and are altered in most brain disorders. Because the majority of astrocytic</p>
 <p>Ca2+ signals are confined into small compartments that cannot be resolved with diffraction-limited light microscopy, the functional implications of such diverse signals are still poorly understood. To overcome these limitations, we develop computational approaches to study astrocyte activity at the nanoscale. This talk will present an overview of our recent work studying the functional link between the complex astrocyte morphology and local signaling at the nanoscale. We hope that the models, software, and 3D meshes resulting from this work, provided in open-access, will contribute to the global effort to elucidate the roles of astrocytes in health and disease.</p>
 <h3>Biography</h3>
 <p>Audrey Denizot is a tenured research scientist in the AIstroSight team at Inria Lyon in France. After her training as a biologist at Ecole Normale Supérieure de Lyon, she received her PhD in computational neuroscience at INSA Lyon, France, followed by a postdoc at the Okinawa Institute of Science and Technology, Japan. The main goal of her research is to better understand how astrocytes contribute to brain function in various (patho-)physiological conditions. Her work has mainly focused on microdomain calcium signaling in perisynaptic astrocytic processes and how the complex astrocyte nano-morphology impacts local signaling.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dynamic-magnetic-resonance-spectroscopy-in-fsl" aria-expanded="false" aria-controls="news-dynamic-magnetic-resonance-spectroscopy-in-fsl">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Dynamic Magnetic Resonance Spectroscopy in FSL</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> March 13, 2025  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> William Clarke &amp; Saad Jbabdi (Oxford University, UK) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> Online </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-dynamic-magnetic-resonance-spectroscopy-in-fsl">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Dynamic Magnetic Resonance Spectroscopy in FSL</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">March 13, 2025</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>William Clarke &amp; Saad Jbabdi (Oxford University, UK)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Online</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-dynamic-magnetic-resonance-spectroscopy-in-fsl">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Modulating the sample or the experiment has been a key (and obvious) approach in NMR for
 decades. It is also a foundational concept for the hugely successfully fMRI and dMRI
 techniques. The bountiful SNR of ultra-high field systems have allowed the development of
@@ -278,309 +295,271 @@ Mathematics at Ecole Centrale Paris, where he also obtained his PhD in 2006. He 
 wide ranging contributions to research in imaging methodology development, particularly
 in diffusion MRI, functional MRI, and spectroscopy.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-phd-thesis-defence-simplifying-interpretation-of-ultrasound-imaging-deep-learning-approaches-for-phase-aberration-correction-and-automatic-segmentation" aria-expanded="false" aria-controls="news-phd-thesis-defence-simplifying-interpretation-of-ultrasound-imaging-deep-learning-approaches-for-phase-aberration-correction-and-automatic-segmentation">
-               <p><span class="badge btn-Thesis defence">Thesis defence</span></p>
-              
-               <h5>PhD thesis defence - Simplifying Interpretation of Ultrasound Imaging: Deep Learning Approaches for Phase Aberration Correction and Automatic Segmentation</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> November 29, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Mostafa Sharifzadeh </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and Online </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-phd-thesis-defence-simplifying-interpretation-of-ultrasound-imaging-deep-learning-approaches-for-phase-aberration-correction-and-automatic-segmentation">
+  <summary>
+    <p><span class="badge btn-Thesis defence">Thesis defence</span></p>
 
-                
+    <h3 class="h5">PhD thesis defence - Simplifying Interpretation of Ultrasound Imaging: Deep Learning Approaches for Phase Aberration Correction and Automatic Segmentation</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">November 29, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Mostafa Sharifzadeh</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and Online</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-phd-thesis-defence-simplifying-interpretation-of-ultrasound-imaging-deep-learning-approaches-for-phase-aberration-correction-and-automatic-segmentation">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Medical ultrasound imaging is a widely used diagnostic tool in clinical practice, offering several advantages, including high temporal resolution, non-invasiveness, cost-effectiveness, and portability. Despite these benefits, ultrasound modality often suffers from lower image quality compared to other modalities, such as magnetic resonance imaging, which complicates image interpretation and poses diagnostic challenges, even for experienced clinicians. Given its unique advantages, simplifying the interpretation of ultrasound images can profoundly impact the accessibility and affordability of healthcare. This thesis aims to enhance the interpretability of ultrasound images using deep learning (DL)-based approaches on two parallel fronts.</p>
 <p>The first front focuses on improving image quality by addressing the phase aberration effect, a primary contributor to the degradation of medical ultrasound images. Phase aberration arises from spatial variations in sound speed within heterogeneous media, introducing artifacts such as blurring and geometric distortions. This effect hinders the accurate representation of tissue structures and complicates clinical interpretation. To tackle this, we propose two novel methods. The first involves training a convolutional neural network (CNN) to estimate the aberration profile from the B-mode image and employing it to compensate for the aberration effects. The second introduces an aberration-to-aberration approach combined with an innovative loss function to train a CNN that directly predicts corrected radio frequency data without requiring ground truth.</p>
 <p>The second front focuses on the automatic segmentation of ultrasound images and explores the challenges associated with employing DL-based approaches. Manual segmentation, typically performed by expert clinicians, is time-consuming and prone to human error, and automating this process can simplify the interpretation of ultrasound images. While DL methods have demonstrated considerable potential, ultrasound image segmentation poses unique challenges due to artifacts such as shadowing, reverberation, refraction, phase aberration, and speckle noise. The scarcity of medical data further complicates these challenges, limiting the generalizability and robustness of models in clinical settings. To address these limitations, we investigate the shift-variance problem in CNNs and propose pyramidal blur-pooling layers to mitigate this issue. Furthermore, we tackle domain shift and data scarcity by employing a domain adaptation method and introducing an ultra-fast ultrasound image simulation technique based on frequency domain analysis.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-contribution-of-neuroimaging-to-the-understanding-and-diagnosis-of-parkinsonism" aria-expanded="false" aria-controls="news-contribution-of-neuroimaging-to-the-understanding-and-diagnosis-of-parkinsonism">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Contribution of neuroimaging to the understanding and diagnosis of Parkinsonism</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> October 3, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Lydia Chougar (McGill) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-contribution-of-neuroimaging-to-the-understanding-and-diagnosis-of-parkinsonism">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Contribution of neuroimaging to the understanding and diagnosis of Parkinsonism</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">October 3, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Lydia Chougar (McGill)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-contribution-of-neuroimaging-to-the-understanding-and-diagnosis-of-parkinsonism">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Parkinson’s disease, the second most common neurodegenerative disease after Alzheimer’s disease, is the main cause of Parkinsonism, which is defined by a combination of resting tremor, rigidity, bradykinesia, and postural instability. Atypical Parkinsonism refers to other rare neurodegenerative disorders characterized by a poorer diagnosis, including progressive supranuclear palsy (PSP), multiple system atrophy (MSA), and corticobasal degeneration. Degeneration of the substantia nigra pars compacta is the pathological hallmark of neurodegenerative Parkinsonian disorders. These diseases present significant challenges regarding early diagnosis, differentiation, and understanding of pathophysiology.</p>
 <p>Neuroimaging has profoundly changed the landscape of research and clinical management of Parkinsonism over the past twenty-five years. Magnetic resonance imaging (MRI) provides several in vivo quantitative biomarkers sensitive to different tissue properties that inform about the underlying pathological processes. Regional brain atrophy, detected using T1-weighted three-dimensional (3D) sequences, reflects neuronal loss. Diffusion anomalies indicate the presence of microstructural alterations in the tissues related to neuroinflammation, while iron-sensitive imaging detects iron deposits. Neuromelanin-sensitive MRI serves as a proxy for the degeneration of the substantia nigra. More recently, positron emission tomography (PET) has specifically allowed for detecting misfolded protein aggregates, such as Tau and alpha-synuclein, observed in these diseases, giving access to an ante-mortem pathological diagnosis.</p>
 <p>In the first part of my talk, I will illustrate how neuroimaging biomarkers contribute to a better understanding of the pathophysiology of Parkinson’s disease and how they can be used to provide an early diagnosis, quantify disease severity and progression, and monitor treatment effects. The second part will highlight the contribution of neuroimaging to the differential diagnosis of Parkinsonian disorders, focusing on the recent applications of machine learning algorithms trained with MRI features.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-sleep-and-cognitive-health" aria-expanded="false" aria-controls="news-sleep-and-cognitive-health">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Sleep and Cognitive Health</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> August 27, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Thanh Dang Vu (Concordia) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-sleep-and-cognitive-health">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
-                <p><i class="fab fa-youtube"></i> <span class="btn btn-outline-danger btn-social" onclick="window.open('https://www.youtube.com/watch?v=p8bdU84Lz6k', '_blank')">Video</span></p>
-                
+    <h3 class="h5">Sleep and Cognitive Health</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">August 27, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Thanh Dang Vu (Concordia)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-sleep-and-cognitive-health">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+      <p><i class="fab fa-youtube" aria-hidden="true"></i> <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/watch?v=p8bdU84Lz6k" target="_blank" rel="noopener noreferrer">Video</a></p>
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>This presentation will focus on the relationship between sleep and cognition with a particular focus on the neural mechanisms of sleep-related memory consolidation, as well the neural impacts of sleep disturbances and sleep-related interventions.</p>
 <h3>Bio</h3>
 <p>Thanh Dang-Vu, M.D. Ph.D., FAASM, is a Full Professor in the department of Health, Kinesiology and Applied Physiology at Concordia University, where he holds a Research Chair in Sleep, Neuroimaging and Cognitive Health. He is affiliated with Concordia’s Perform center, the Center for Studies in Behavioral Neurobiology, and engAGE research center for aging. He is also a neurologist, researcher and the Associate Director for Clinical Research at the Centre de Recherche de l’Institut Universitaire de Gériatrie de Montréal (CIUSSS Centre-Sud-de-l’île-de-Montréal). He is a Professeur Associé of Neurosciences at Université de Montréal. and an Adjunct Professor in Neurology and Neurosurgery at McGill University. Dr. Dang-Vu received his MD &amp; PhD from University of Liege, with postdoctoral training in sleep medicine at Harvard Medical School and Université de Montréal. He is a sleep researcher with expertise in the neurophysiology and neuroimaging of sleep, as well as a neurologist with expertise in sleep disturbances. He has developed a line of research investigating the mechanisms and functions of brain rhythms during sleep, and also investigates the brain mechanisms underlying sleep disturbances. His research methodology uses a multimodal approach, combining neurophysiology (e.g., electroencephalography, EEG) and brain imaging techniques (e.g., functional magnetic resonance imaging, fMRI). Dr. Dang-Vu has received research grants from NSERC, CFI, CIHR, the Weston Family Foundation, as well as provincial (FRQS chercheur-boursier senior) and local/internal grants. He has received many awards, including his election to the College of the Royal Society of Canada, Young Investigator Awards from the Canadian Sleep Society and the Sleep Research Society (US), and several awards from his university (e.g., Dean’s award for excellence in scholarship, Provost’s Circle of Distinction). He is the author of more than a hundred publications, including high-impact journals (e.g., PNAS, Science, PLoS Biology, Current Biology, Neurology, Sleep). His research has also been featured in many Canadian (e.g., Le Devoir, Radio-Canada, Montreal Gazette) as well as international (e.g., Scientific American, La Recherche, The Times) media outlets, showing the impact of his work beyond the academic community. Dr. Dang-Vu holds several leadership roles, such as Vice-President (Research) of the Canadian Sleep Society, co-lead of Team 6 (Sleep) of the Canadian Consortium on Neurodegeneration in Aging, Associate Editor for SLEEP, and Chair of the Scientific Advisory Board for the Hypersomnia Foundation.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-synergy-based-brain-machine-interfaces-in-human-robot-interaction" aria-expanded="false" aria-controls="news-synergy-based-brain-machine-interfaces-in-human-robot-interaction">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Synergy-based brain-machine interfaces in human-robot interaction</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> August 1, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Ramana Kumar Vinjamuri (University of Maryland, Baltimore) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-synergy-based-brain-machine-interfaces-in-human-robot-interaction">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
-                <p><i class="fab fa-youtube"></i> <span class="btn btn-outline-danger btn-social" onclick="window.open('https://www.youtube.com/watch?v=4wDQKXJc3t0', '_blank')">Video</span></p>
-                
+    <h3 class="h5">Synergy-based brain-machine interfaces in human-robot interaction</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">August 1, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Ramana Kumar Vinjamuri (University of Maryland, Baltimore)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-synergy-based-brain-machine-interfaces-in-human-robot-interaction">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+      <p><i class="fab fa-youtube" aria-hidden="true"></i> <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/watch?v=4wDQKXJc3t0" target="_blank" rel="noopener noreferrer">Video</a></p>
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Human-machine interfaces (HMIs) have not only become popular technologies but have become the hope of many individuals for restoring their lost limb function. Any HMI has two important intrinsic design components—(i) decode the human commands and (ii) controlling the machine to convert that command into action. Decades of research went into making the interface between the human and the machine seamless but were unable to effectively address the inherent challenges, namely, complexity, adaptability and variability. To overcome the above challenges, it is critical to computationally understand and quantitatively characterize the human sensorimotor control. Emerging areas in HMIs critically depend on the ability to build bioinspired models, experimentally validate them and utilize them in adaptive and intuitive control. The human hand with high dimensionality encompasses the three inherent challenges and may serve as an ideal validation paradigm. How central nervous system (CNS) controls this high dimensional human hand effortlessly is still an unsolved mystery. To address this high dimensional control problem, many bioinspired motor control models have been proposed, one of which is based on synergies. According to this model, instead of controlling individual motor units, CNS simplifies the control using coordinated control of groups of motor units called synergies. However, there are several unanswered questions today— Where are synergies present in CNS? What is their role in motor control and motor learning? By combining the concepts of human motor control, computational neuroscience, machine learning and validation with noninvasive human experiments, can we answer these fundamental questions? The goal of this research is to develop efficient, seamless and near-natural human-machine interfaces based on biomimetically inspired models.</p>
 <h3>Bio</h3>
 <p>Ramana Vinjamuri received his PhD in Electrical Engineering in 2008 specialized in dimensionality reduction in control and coordination of human hand from the University of Pittsburgh. He worked as a postdoctoral research associate (2008-2012) in the field of Brain Machine Interfaces (BMI) to control prosthesis in the School of Medicine, University of Pittsburgh where he received Mary E Switzer Merit Fellowship from NIDILRR in 2010. He worked as a Research Assistant Professor in the Department of Biomedical Engineering at the Johns Hopkins University (2012-2013) in the area of neuroprosthetics. He worked as an Assistant Professor in the Department of Biomedical Engineering at Stevens Institute of Technology (2013-2020). In 2018, he received Harvey N Davis Distinguished Teaching Award for excellence in undergraduate and graduate teaching. He received the NSF CAREER Award in 2019. He received an NSF IUCRC Planning grant in 2020, culminating in a successful planning meeting for the BRAIN center at UMBC in 2022, officially launching the center in 2024. His collaboration with Delsys, Inc., through an SBIR award from NIDILRR in 2022, evolved from his lab's research on virtual reality and hand synergies. With his role as a visiting scientist at NIDA and with the support of an NSF I-Corps grant in 2024 he is starting to commercialize neurotechnologies for mental health developed in his lab. As an active member in technical societies, he has chaired IEEE Brain workshop of SfN 2023 and currently chairing BMES 2024 among other editorial services. His other notable research awards are from NSF I-corps, NIDILRR, USISTEF and New Jersey Health Foundation. He holds a secondary appointment as an Adjunct Assistant Professor at Indian Institute of Technology, Hyderabad, India.</p>
 <p><strong>Website</strong>: <a href="http://vinjamurilab.cs.umbc.edu/">http://vinjamurilab.cs.umbc.edu/</a></p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-the-process-of-spectroscopy-sequence-development-implementation-in-a-clinical-population" aria-expanded="false" aria-controls="news-the-process-of-spectroscopy-sequence-development-implementation-in-a-clinical-population">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>The process of spectroscopy sequence development/implementation in a clinical population</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> June 6, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Niels de Joode (Concordia University) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and online </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-the-process-of-spectroscopy-sequence-development-implementation-in-a-clinical-population">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">The process of spectroscopy sequence development/implementation in a clinical population</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">June 6, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Niels de Joode (Concordia University)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and online</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-the-process-of-spectroscopy-sequence-development-implementation-in-a-clinical-population">
-            <div class="card-body">
-                
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-qbin-workshop-and-scientific-day-2024" aria-expanded="false" aria-controls="news-qbin-workshop-and-scientific-day-2024">
-               <p><span class="badge btn-Workshop and Scientific meeting">Workshop and Scientific meeting</span></p>
-              
-               <h5>QBIN Workshop &amp; Scientific Day 2024</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> May 22, 2024  &#8213; May 23, 2024 </small></p> 
-                
-                
-                    <p><i class="fas fa-edit"></i> Organizers: <b> Emily Coffey, Claudine Gauthier, Tristan Glatard, Christophe Grova, Paula Lago, Hassan Rivaz, Sylvia Santosa, Christopher Steele </b></p>
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+    
 
-                
+    
+    
+  </summary>
+  <div class="details-card__content">
+    
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-qbin-workshop-and-scientific-day-2024">
+  <summary>
+    <p><span class="badge btn-Workshop and Scientific meeting">Workshop and Scientific meeting</span></p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-qbin-workshop-and-scientific-day-2024">
-            <div class="card-body">
-                <p><strong>For more information</strong> : <a href="https://event.fourwaves.com/journeescientifique2024/pages">https://event.fourwaves.com/journeescientifique2024/pages</a></p>
+    <h3 class="h5">QBIN Workshop &amp; Scientific Day 2024</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">May 22, 2024 &#8213; May 23, 2024</small></p>
+    
+    
+      <p><i class="fas fa-edit" aria-hidden="true"></i> Organizers: <b>Emily Coffey, Claudine Gauthier, Tristan Glatard, Christophe Grova, Paula Lago, Hassan Rivaz, Sylvia Santosa, Christopher Steele</b></p>
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-discussion-on-eeg-under-mri-artifacts-and-the-correction-methods-proposed-in-brainstorm" aria-expanded="false" aria-controls="news-discussion-on-eeg-under-mri-artifacts-and-the-correction-methods-proposed-in-brainstorm">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Discussion on  EEG under MRI, artifacts and the correction methods proposed in Brainstorm</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> May 9, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Christophe Grova (Concordia &amp; McGill) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+    
 
-                
+    
+    
+      <p><a href="https://event.fourwaves.com/journeescientifique2024/pages" target="_blank" rel="noopener noreferrer">Event website <span aria-hidden="true">↗</span></a></p>
+    
+  </summary>
+  <div class="details-card__content">
+    <p><strong>For more information</strong> : <a href="https://event.fourwaves.com/journeescientifique2024/pages">https://event.fourwaves.com/journeescientifique2024/pages</a></p>
 
-                
+  </div>
+</details>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-discussion-on-eeg-under-mri-artifacts-and-the-correction-methods-proposed-in-brainstorm">
-            <div class="card-body">
-                
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-tools-for-multi-scale-multi-modal-annotation-of-brain-maps" aria-expanded="false" aria-controls="news-tools-for-multi-scale-multi-modal-annotation-of-brain-maps">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Tools for multi-scale, multi-modal annotation of brain maps</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> March 14, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Dr. Bratislav Misic (McGill University) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV and Online </p>
+      
+        <details class="details-card" id="event-discussion-on-eeg-under-mri-artifacts-and-the-correction-methods-proposed-in-brainstorm">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://docs.google.com/presentation/d/1dM0mWzji2UhyC0x5VCl5kBcXShkY7a6Q/edit?usp=drive_link', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+    <h3 class="h5">Discussion on  EEG under MRI, artifacts and the correction methods proposed in Brainstorm</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">May 9, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Christophe Grova (Concordia &amp; McGill)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                
+    
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-tools-for-multi-scale-multi-modal-annotation-of-brain-maps">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+    
+  </summary>
+  <div class="details-card__content">
+    
+  </div>
+</details>
+
+      
+        <details class="details-card" id="event-tools-for-multi-scale-multi-modal-annotation-of-brain-maps">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
+
+    <h3 class="h5">Tools for multi-scale, multi-modal annotation of brain maps</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">March 14, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Dr. Bratislav Misic (McGill University)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV and Online</p>
+
+    
+      <p><a class="badge bg-secondary" href="https://docs.google.com/presentation/d/1dM0mWzji2UhyC0x5VCl5kBcXShkY7a6Q/edit?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Imaging technologies are increasingly used to generate high-resolution reference maps of brain structure and function. Modern scientific discovery relies on making comparisons between new maps (e.g. task activations, group structural differences) and these reference maps.  Although recent data sharing initiatives have increased the accessibility of such brain maps, data are often shared in disparate coordinate systems (or ``spaces''), precluding systematic and accurate comparisons among them. Here we introduce the neuromaps toolbox, an open-access software package for accessing, transforming, and analyzing structural and functional brain annotations. We implement two registration frameworks to generate high-quality transformations between four standard coordinate systems commonly used in neuroimaging research. The initial release of the toolbox features &gt;40 curated reference maps and biological ontologies of the human brain, including maps of gene expression, neurotransmitter receptors, metabolism, neurophysiological oscillations, developmental and evolutionary expansion, functional hierarchy, individual functional variability, and cognitive specialization. Robust quantitative assessment of map-to-map similarity is enabled via a suite of spatial autocorrelation-preserving null models. Finally, we demonstrate two examples of how neuromaps can be used to contextualize brain maps with respect to canonical annotations. By discovering novel associations with previously-established features of brain structure and function, neuromaps generates biological insight about new brain maps. Altogether,neuromaps combines open-access data with transparent functionality for standardizing and comparing brain maps, providing a systematic workflow for comprehensive structural and functional annotation enrichment analysis of the human brain.</p>
 <h3>Bio</h3>
 <p>Bratislav Misic leads the <em>Network Neuroscience Lab</em> and investigates how cognitive operations and complex behaviour emerge from the connections and interactions among brain areas. The goal of this research is to quantify the effects of disease on brain structure and function. His research program emphasizes representations and models that not only embody the topological organization of the brain, but also capture the complex multi-scale relationships that link brain network topology to dynamic biological processes, such as neural signalling and disease spread. Misic's research lies at the intersection of network science, dynamical systems and multivariate statistics, with a focus on complex data sets involving multiple neuroimaging modalities, including fMRI, DWI, MEG/EEG and PET.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-advancing-the-ising-model-to-explore-the-role-of-metabolic-alterations-in-neurodegenerative-diseases" aria-expanded="false" aria-controls="news-advancing-the-ising-model-to-explore-the-role-of-metabolic-alterations-in-neurodegenerative-diseases">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Advancing the Ising Model to Explore the Role of Metabolic Alterations in Neurodegenerative Diseases</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> February 22, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Dr. Andrea Soddu (University of Western Ontario) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-advancing-the-ising-model-to-explore-the-role-of-metabolic-alterations-in-neurodegenerative-diseases">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Advancing the Ising Model to Explore the Role of Metabolic Alterations in Neurodegenerative Diseases</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">February 22, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Dr. Andrea Soddu (University of Western Ontario)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-advancing-the-ising-model-to-explore-the-role-of-metabolic-alterations-in-neurodegenerative-diseases">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>In my upcoming presentation, I will introduce an extension of the generalized Ising model that integrates metabolic activity as a key input, offering fresh insights into the metabolic basis of neurodegenerative diseases. This innovative approach acknowledges the critical influence of metabolic alterations on the progression of such disorders. By embedding the notion of local temperature to represent metabolic activity within the Ising model, we aim to enhance our understanding of how metabolic disturbances impact the brain's structural and functional dynamics in neurodegeneration.</p>
 <p>This refined model allows us to directly feed metabolic activity data into the simulation and could possibly facilitate a more accurate prediction of the complex interplay between brain structure and function in the context of neurological diseases. Through this methodology, we seek to unravel the intricate relationship between metabolic changes and their effects on neural connectivity and brain states, thereby providing a robust framework for exploring the pathophysiology of neurodegenerative conditions. Our adaptation of the Ising model to include metabolic inputs could represent a significant advancement in modeling the structure-function relationship in the brain, particularly in the study of neurodegenerative diseases. This approach not only could broaden our comprehension of the underlying mechanisms of these disorders but also open new avenues for research and potential therapeutic interventions.</p>
 <h3>Bio</h3>
 <p>Andrea Soddu is an Associate Professor at the University of Western Ontario in the Department of Physics and Astronomy and Principal Investigator at the Western Institute for Neuroscience. His expertise is in resting state fMRI and FDG-PET with application to severe brain injury with disorders of consciousness. Since appointed at Western in 2013 his Lab has been focusing on modelling functional connectivity. One of his Lab’s recent research findings states that the brain is flat and claims the concept of dimensionality could bring important insights in the understanding of the way information is transferred across the brain with possible implication for disorders of consciousness.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-will-ai-soon-be-conscious" aria-expanded="false" aria-controls="news-will-ai-soon-be-conscious">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Will AI soon be conscious?</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> February 15, 2024  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Dr. J. Kevin O’Regan </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-will-ai-soon-be-conscious">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Will AI soon be conscious?</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">February 15, 2024</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Dr. J. Kevin O’Regan</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-will-ai-soon-be-conscious">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Despite current explosive developments, most workers at the forefront of AI believe that consciousness is still far away for machines. I will argue the contrary.
 My work over the last 20 years shows that a coherent theory can be made of even the most basic aspect of consciousness, namely “feel”. This ultimate “what it’s like” to have sensations like the redness of red or the suffering of pain, is usually thought to be the primary obstacle to machine consciousness. But I will show how this supposedly “hard problem of consciousness” dissipates when you take what I call a “sensorimotor” approach.
 The sensorimotor approach is not just a philosophical trick. It makes empirical predictions about colour perception, sensory substitution, and change blindness, and is a scientific theory.
@@ -588,66 +567,58 @@ It predicts that within the next 5-10 years machines will be as conscious as hum
 <h3>Short Bio</h3>
 <p>Kevin O'Regan was director of the Laboratoire Psychologie de la Perception, CNRS, Université Paris Descartes, and is now emeritus director of research at the Integrative Neuroscience and Cognition Center, CNRS &amp; Université Paris Cité. After doing his PhD on eye movements in reading he became interested in visual stability and discovered the phenomenon of change blindness. His current work concerns the sensorimotor approach to phenomenal consciousness and its applications to robotics. See <a href="http://kevin-oregan.net">http://kevin-oregan.net</a> and <a href="http://whatfeelingislike.net">http://whatfeelingislike.net</a> .</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-neuroimaging-biomarkers-of-pre-motor-parkinsonism" aria-expanded="false" aria-controls="news-neuroimaging-biomarkers-of-pre-motor-parkinsonism">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Neuroimaging Biomarkers of Pre-Motor Parkinsonism</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> December 13, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Rahul Gaurav (Paris Brain Institute) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-neuroimaging-biomarkers-of-pre-motor-parkinsonism">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Neuroimaging Biomarkers of Pre-Motor Parkinsonism</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">December 13, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Rahul Gaurav (Paris Brain Institute)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-neuroimaging-biomarkers-of-pre-motor-parkinsonism">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Rapid eye movement (REM) sleep behavior disorder (RBD) is a parasomnia characterized by abnormal violent behaviors during REM sleep and the loss of normal REM sleep muscular atonia potentially arising from the locus subcoeruleus (LsC) which is part of the tiny pontine structure called locus coeruleus/subcoeruleus complex (LC/LsC). RBD is considered a prodromal stage of α-synucleinopathies. The main hallmark of isolated/idiopathic RBD (iRBD) is REM sleep without atonia. Further, iRBD patients are at high risk of developing overt parkinsonism such as Parkinson’s disease (PD), dementia with Lewy bodies, and multiple system atrophy. PD is considered the second most frequent neurodegenerative disorder in the world after Alzheimer's disease. Some idiopathic patients with PD manifest RBD after the onset of motor symptoms. The main neuropathological hallmark of PD is α-synuclein aggregation and the progressive depletion of neuromelanin-containing dopaminergic neurons and iron accumulation in the substantia nigra (SN).
 Neuromelanin-sensitive MRI technique can quantify neuromelanin changes and quantitative susceptibility maps (QSM) and R2* can detect brain iron distribution. Nonetheless, the regional progression of nigral iron changes in patients with iRBD and PD (with or without RBD) is debated.
 In this talk, I will give an overview of progression markers using quantitative MRI and the role of deep learning in understanding the brain changes in iRBD and PD.</p>
 <h3>Short Bio</h3>
 <p>Dr. Rahul Gaurav is a Scientist with more than a decade of research experience in Paris, France. He works with the Movement Investigations and Therapeutics (MOV'IT) team and the Center for NeuroImaging Research (CENIR) at the Paris Brain Institute (ICM), France. He holds a Doctorate in Neuroscience using Neuroimaging and AI from the Doctoral School of Brain Behavior and Cognition, Sorbonne Université. He has authored/co-authored over 30 scientific papers in conferences and journals and has given over 20 international guest lectures and talks.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-event-related-potential-signatures-of-episodic-memory-decline-predicting-progression-to-alzheimer-s-disease-in-asymptomatic-at-risk-subjects-a-longitudinal-study" aria-expanded="false" aria-controls="news-event-related-potential-signatures-of-episodic-memory-decline-predicting-progression-to-alzheimer-s-disease-in-asymptomatic-at-risk-subjects-a-longitudinal-study">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Event-related potential signatures of episodic memory decline predicting progression to Alzheimer&#39;s disease in asymptomatic at-risk subjects: a longitudinal study</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> December 6, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Filipa Raposo Pereira, PhD (Paris Brain Institute) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-event-related-potential-signatures-of-episodic-memory-decline-predicting-progression-to-alzheimer-s-disease-in-asymptomatic-at-risk-subjects-a-longitudinal-study">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Event-related potential signatures of episodic memory decline predicting progression to Alzheimer&#39;s disease in asymptomatic at-risk subjects: a longitudinal study</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">December 6, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Filipa Raposo Pereira, PhD (Paris Brain Institute)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-event-related-potential-signatures-of-episodic-memory-decline-predicting-progression-to-alzheimer-s-disease-in-asymptomatic-at-risk-subjects-a-longitudinal-study">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p><strong>Background:</strong>
 The challenge in Alzheimer’s disease (AD) research -the world most prevalent dementia-remains on finding preclinical markers that can predict progression to the disease. In this respect electrophysiological (EEG) measures seem promising, based on their sensitivity to the appearance of subtle episodic memory (EM) alterations, which become an AD risk-factor when in the presence of B-amyloid burden (AB+; AD-biomarker). Aim: We aimed to identify event-related potential (ERP) signatures of AD-linked EM alterations in elder cognitively normal subjects at-risk for AD.</p>
 <p><strong>Methods:</strong>
@@ -660,33 +631,31 @@ After exploring some other working avenues, she then swaps paths to Neuroimaging
 <p>She then went on to take a Ph.D. at Amsterdam University, the Netherlands, exploring the effects of GHB as a drug of addiction and GHB-induced coma on the brain. This research deeply contributed to her knowledge in cognitive domains such as memory and affection, as well as in a vast domain of neuroimaging techniques and neuroanatomy.
 Recently she has changed paths within the Neuroscience domain, and she is currently a post-doc at the Paris Brain Institute (ICM), Sorbonne University, France, researching potential neuropsychological and EEG markers that can predict at an asymptomatic at-risk stage, who will develop Alzheimer's disease in the future. Part of the work she will present today.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-inferring-neural-networks-from-electrophysiological-and-functional-imaging" aria-expanded="false" aria-controls="news-inferring-neural-networks-from-electrophysiological-and-functional-imaging">
-               <p><span class="badge btn-Workshop and Scientific meeting">Workshop and Scientific meeting</span></p>
-              
-               <h5>Inferring Neural Networks from Electrophysiological and Functional Imaging</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> November 20, 2023  &#8213; December 1, 2023 </small></p> 
-                
-                
-                    <p><i class="fas fa-edit"></i> Organizers: <b> Habib Benali </b></p>
-                
-                <p><i class="fas fa-map-marker-alt"></i> Centre de Recherches Mathématiques (UdeM) </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-inferring-neural-networks-from-electrophysiological-and-functional-imaging">
+  <summary>
+    <p><span class="badge btn-Workshop and Scientific meeting">Workshop and Scientific meeting</span></p>
 
-                
+    <h3 class="h5">Inferring Neural Networks from Electrophysiological and Functional Imaging</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">November 20, 2023 &#8213; December 1, 2023</small></p>
+    
+    
+      <p><i class="fas fa-edit" aria-hidden="true"></i> Organizers: <b>Habib Benali</b></p>
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Centre de Recherches Mathématiques (UdeM)</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-inferring-neural-networks-from-electrophysiological-and-functional-imaging">
-            <div class="card-body">
-                <p><strong>This is a two-week scientific meeting organized by the bHealthyAge Lab and the CRM (Centre de Recherches Mathématiques). All the presentations will take place at CRM (Université de Montréal).</strong></p>
+    
+
+    
+    
+      <p><a href="https://www.crmath.ca/en/activities/#/type/activity/id/3888" target="_blank" rel="noopener noreferrer">Event website <span aria-hidden="true">↗</span></a></p>
+    
+  </summary>
+  <div class="details-card__content">
+    <p><strong>This is a two-week scientific meeting organized by the bHealthyAge Lab and the CRM (Centre de Recherches Mathématiques). All the presentations will take place at CRM (Université de Montréal).</strong></p>
 <h3>Overview</h3>
 <p>The brain contains 100 billions neurons and while original study of function focused on local coupling and function, a consensus has been reached that connectivity, graphs and networks are critical to understand brain function. Recent progress in network science to model and analyze the dynamics of the brain has been crucial to simulate brain functional connectivity and to predict network states.</p>
 <p>While network models have been studied as independent systems, efforts in neuroscience in recent years has been put towards inferring networks of the brain from imaging data. Using probabilistic methods and inverse models, recurrent networks across populations and their change with disease have been characterized based on input from electrophysiological and functional imaging.</p>
@@ -707,133 +676,117 @@ Recently she has changed paths within the Neuroscience domain, and she is curren
 <h3>Link</h3>
 <p><a href="https://www.crmath.ca/en/activities/#/type/activity/id/3888">https://www.crmath.ca/en/activities/#/type/activity/id/3888</a></p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-mastering-a-motor-skill-encoding-consolidation-and-the-role-of-sleep" aria-expanded="false" aria-controls="news-mastering-a-motor-skill-encoding-consolidation-and-the-role-of-sleep">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Mastering a Motor Skill: Encoding, Consolidation and the Role of Sleep</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> November 15, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Ella Gabitov (MNI, McGill) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://drive.google.com/file/d/1yZI8XLsKl5T23ot17U6WI8aR6U3ln-S9/view?usp=drive_link', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+      
+        <details class="details-card" id="event-mastering-a-motor-skill-encoding-consolidation-and-the-role-of-sleep">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Mastering a Motor Skill: Encoding, Consolidation and the Role of Sleep</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">November 15, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Ella Gabitov (MNI, McGill)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-mastering-a-motor-skill-encoding-consolidation-and-the-role-of-sleep">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+      <p><a class="badge bg-secondary" href="https://drive.google.com/file/d/1yZI8XLsKl5T23ot17U6WI8aR6U3ln-S9/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>During my talk, I will give an overview of my research into behavioral and neural correlates of procedural memories in humans. I will start by talking about brain networks involved in different aspects of motor sequence learning. Next, I will present evidence for the experience-driven plasticity and reorganization within the motor network. I will then focus on the role of sleep in memory consolidation and will report our new results that link temporal sleep spindle clustering to spontaneous reactivation of the task-related network.</p>
 <h3>Short bio</h3>
 <p>Ella Gabitov, Ph.D., is a Research Associate at the McConnell Brain Imaging Centre of the Montreal Neurological Institute affiliated with McGill University. In her research, she uses a multimodal approach combining psychophysics and cutting-edge technologies for non-invasive neuroimaging (fMRI, EEG) to study neural mechanisms underlying acquisition of procedural (“how-to”) knowledge in humans. This “how-to” knowledge is at the basis of cognitive and executive skills that allow adaptive behaviors necessary for effective everyday functioning. Areas of her special interest include motor skill consolidation, reactivation-based plasticity, and the role of sleep in these memory-related processes.
 Dr. Gabitov received her undergraduate degree in mathematics and philosophy. She holds an M.A. and Ph.D. in Neuroscience from the University of Haifa, Israel. Over the course of her graduate training, she worked under the supervision of Prof. Avi Karni studying neural substrates underlying encoding, consolidation and generalization of motor skills. In 2014, she joined the laboratory of Prof. Julien Doyon at the University of Montreal to study the role of sleep in procedural and declarative memories. In 2018, she was invited to continue her research at the Montreal Neurological Institute (The Neuro). During her research career, Dr. Gabitov contributed to major brain science initiatives such as the Human Brain Project (HBP) and Healthy Brains, Healthy Lives (HBHL). Funding agencies supporting her research include the ERA-NET NEURON, Canadian Institutes of Health Research (CIHR), and Fonds de recherche du Québec – Santé (FRQS).</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-modelling-tau-propagation-in-mice-current-progress" aria-expanded="false" aria-controls="news-modelling-tau-propagation-in-mice-current-progress">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Modelling Tau Propagation in Mice – Current Progress</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> November 1, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Daniel Lamontagne-Kam (UdeM) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://docs.google.com/presentation/d/1siNGPhFgxc2fqHVzAuoyeGzMxC2tmngN/edit?usp=drive_link&amp;ouid=113600805097184572848&amp;rtpof=true&amp;sd=true', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+      
+        <details class="details-card" id="event-modelling-tau-propagation-in-mice-current-progress">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Modelling Tau Propagation in Mice – Current Progress</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">November 1, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Daniel Lamontagne-Kam (UdeM)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-modelling-tau-propagation-in-mice-current-progress">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+      <p><a class="badge bg-secondary" href="https://docs.google.com/presentation/d/1siNGPhFgxc2fqHVzAuoyeGzMxC2tmngN/edit?usp=drive_link&amp;ouid=113600805097184572848&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Pathological tau propagates in a stereotypical manner in Alzheimer’s Disease (AD), spreading from the somatodendritic compartment of neurons in the entorhinal cortex (EC) during the early stages. To date, much of the work examining tau propagation has been performed using mutated or pathological tau, transgenic animal models, or a combination of these. This is the first study comparing the propagation pattern of 2N4R human tau with that of truncated K18 P301L tau in a wild-type C57BL/6J mouse model. This mouse model has a well-defined connectome. 2N4R is of particular interest, as this isoform has the same 4R structure as the commonly used P301L mutated tau. At P56, C57BL/6J mice will be injected with 2 μg of 2N4R tau, K18 P301L tau, or a vehicle solution in the entorhinal cortex. Mice will be sacrificed 24hr after 1 injection, 24hrs after 5 days of injections, or 1, 2, 4, 10, or 13 weeks after 5 days of injections. To date, injections of nonmutated tau have been confirmed using the AT8 antibody. However, a high level of background signal is occurring during fluorescent staining. We have since shifted staining and microscopy techniques to DAB and brightfield imaging for the purposes of antibody validation. Results of the Val256 and Ser356 antibodies show high background and no signal in both staining techniques. AT8 staining is showing some staining following injections of the vehicle solution. However, staining levels are higher in the 2N4R injection groups. New antibodies targeting the amino acid regions 162-175 and 268-312 have been received and are being tested. We will also begin perfusing tissues, which is a technique that removes blood from the brain and may reduce background signals, during collection.</p>
 <h3>Short bio</h3>
 <p>My name is Daniel Lamontagne-Kam and I’m a pharmacology PhD student in the laboratory of Dr. Jonathan Brouillette at l’Université de Montréal in the Département de Pharmacologie et Physiologie. I’m currently working with Arsalan Rahimabadi and Dr. Habib Benali on a project investigating the propagation of tau in a C57BL/6J mouse model. As a team, we presented preliminary results this past May at the Canadian Association of Neuroscience conference in Montreal. The presentation was titled “Anterograde and retrograde propagation of tau between the hippocampus and entorhinal cortex in mice”.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-advantages-and-limitations-in-simultaneous-eeg-fmri-recording" aria-expanded="false" aria-controls="news-advantages-and-limitations-in-simultaneous-eeg-fmri-recording">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Advantages and limitations in simultaneous EEG-fMRI recording</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> October 18, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Makoto Uji (RIKEN Center for Brain Science, Wako, Saitama, Japan) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> Virtual </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-advantages-and-limitations-in-simultaneous-eeg-fmri-recording">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Advantages and limitations in simultaneous EEG-fMRI recording</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">October 18, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Makoto Uji (RIKEN Center for Brain Science, Wako, Saitama, Japan)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Virtual</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-advantages-and-limitations-in-simultaneous-eeg-fmri-recording">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Simultaneous recording of electroencephalography (EEG) and functional magnetic resonance imaging (fMRI) is a very promising non-invasive neuroimaging technique. However, EEG data obtained from the simultaneous EEG-fMRI recording are strongly influenced by MRI-related artefacts, namely gradient artefacts (GA) and ballistocardiogram (BCG). When compared to the GA correction, the BCG correction is more challenging to remove due to its inherent variabilities and dynamic changes over time, especially for longer data acquisition of sleep and resting state EEG-fMRI. Conventionally, the BCG artefacts are corrected based on R-peaks detected from the electrocardiogram (ECG), but the ECG is also distorted in the MRI scanner, sometimes becoming problematic. I will discuss two potential solutions, which are software (spatial filtering beamforming technique) and hardware (Carbon-wired loop) solutions. Both solutions appear promising for the BCG corrections without relying on the ECG recordings. Furthermore, I will discuss how to implement these methods for the sleep EEG-fMRI studies at both 3T and 7T MRI, to better understand brain activity during sleep. These methodological developments and applications allow us to advance our understanding of how the sleeping brain works, the functions of sleep and the implications of insufficient sleep. Sleep EEG-fMRI could enable us to push the frontiers of sleep science and unravel the mysteries of sleep.</p>
 <h3>Short Bio</h3>
 <p>Dr Makoto Uji is a research scientist at Dr Masako Tamaki’s Cognitive Somnology lab in RIKEN Centre for Brain Science (CBS), Japan. He received his PhD in sport science in Liverpool John Moores University, UK. After his PhD, he has learned simultaneous electroencephalography (EEG) - functional magnetic resonance imaging (fMRI) method from Dr Stephen Mayhew and Dr Karen Mullinger when he was a postdoc at the University of Birmingham, UK. Especially, for the last 5 years, he has been applying this simultaneous EEG-fMRI method in sleep and sleep disorder studies in Dr Christophe Grova’s lab and Dr Thanh Dang-Vu’s lab at Concordia University, Canada and Dr Masako Tamaki’s lab at RIKEN CBS. His research interest is to better understand how the human sleeping brain works and the functional role of sleep in maintaining healthy cognitions and brain maintenance, and also to unveil a link between the healthy brain functions and aging brain during sleep.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-itwo-sides-of-the-same-coin-structural-vs-functional-brain-connectivity" aria-expanded="false" aria-controls="news-itwo-sides-of-the-same-coin-structural-vs-functional-brain-connectivity">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>ITwo sides of the same coin: Structural vs. Functional brain connectivity</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> September 8, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Arnaud Messé (UKE Hamburg) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV building </p>
+  </div>
+</details>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://drive.google.com/file/d/1_SuJ_GVsm0rWMedihfCMhi7dALOYjnet/view?usp=drive_link', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+      
+        <details class="details-card" id="event-two-sides-of-the-same-coin-structural-vs-functional-brain-connectivity">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Two sides of the same coin: Structural vs. functional brain connectivity</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">September 8, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Arnaud Messé (UKE Hamburg)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV building</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-itwo-sides-of-the-same-coin-structural-vs-functional-brain-connectivity">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+      <p><a class="badge bg-secondary" href="https://drive.google.com/file/d/1_SuJ_GVsm0rWMedihfCMhi7dALOYjnet/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Imaging technologies are allowing neuroscientists to gain critical
 insights into the neural networks mediating a variety of cognitive
 processes. In this talk, I will review studies looking at the intricate
@@ -868,160 +821,140 @@ connectivity and dynamics.</p>
 <p><a href="https://doi.org/10.1371/journal.pcbi.1003530">https://doi.org/10.1371/journal.pcbi.1003530</a>
 <a href="https://doi.org/10.1016/j.neuroimage.2023.120212">https://doi.org/10.1016/j.neuroimage.2023.120212</a></p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-exergames-for-rehabilitation-of-gait-and-posture-in-pd-clinical-and-neural-perspectives" aria-expanded="false" aria-controls="news-exergames-for-rehabilitation-of-gait-and-posture-in-pd-clinical-and-neural-perspectives">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Exergames for rehabilitation of gait and posture in PD: clinical and neural perspectives</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> July 20, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Anna Skrzatek </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-exergames-for-rehabilitation-of-gait-and-posture-in-pd-clinical-and-neural-perspectives">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Exergames for rehabilitation of gait and posture in PD: clinical and neural perspectives</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">July 20, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Anna Skrzatek</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-exergames-for-rehabilitation-of-gait-and-posture-in-pd-clinical-and-neural-perspectives">
-            <div class="card-body">
-                
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-implicit-differentiation-of-lasso-type-model-application-to-neuroimaging" aria-expanded="false" aria-controls="news-implicit-differentiation-of-lasso-type-model-application-to-neuroimaging">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Implicit Differentiation of Lasso-type Model: Application to Neuroimaging</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> July 13, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Quentin Bertrand (UdeM, MILA) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+    
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://drive.google.com/file/d/1nycIekWN3OB1ut_XqD41tM3Kz_Y3B_Du/view?usp=drive_link', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+    
+    
+  </summary>
+  <div class="details-card__content">
+    
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-implicit-differentiation-of-lasso-type-model-application-to-neuroimaging">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-implicit-differentiation-of-lasso-type-model-application-to-neuroimaging">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    <h3 class="h5">Implicit Differentiation of Lasso-type Model: Application to Neuroimaging</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">July 13, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Quentin Bertrand (UdeM, MILA)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
+
+    
+      <p><a class="badge bg-secondary" href="https://drive.google.com/file/d/1nycIekWN3OB1ut_XqD41tM3Kz_Y3B_Du/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Finding the optimal hyperparameters of a model can be cast as a bilevel optimization problem, typically solved using zero-order techniques. In this work we study first-order methods when the inner optimization problem is convex but non-smooth. We show that the forward-mode differentiation of proximal gradient descent and proximal coordinate descent yield sequences of Jacobians converging toward the exact Jacobian. Using implicit differentiation, we show it is possible to leverage the non-smoothness of the inner problem to speed up the computation. Finally, we provide a bound on the error made on the hypergradient when the inner optimization problem is solved approximately. Results on regression and classification problems reveal computational benefits for hyperparameter optimization, especially when multiple hyperparameters are required.</p>
 <p><strong>Paper</strong>: <a href="https://arxiv.org/pdf/2105.01637.pdf">https://arxiv.org/pdf/2105.01637.pdf</a></p>
 <p><strong>Code</strong>: <a href="https://github.com/qb3/sparse-ho">https://github.com/qb3/sparse-ho</a></p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-distatis-and-covstatis-or-how-to-perform-multivariate-analysis-on-sets-of-distance-and-covariance-tables" aria-expanded="false" aria-controls="news-distatis-and-covstatis-or-how-to-perform-multivariate-analysis-on-sets-of-distance-and-covariance-tables">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>DisTATIS and  covSTATIS: or How to Perform Multivariate Analysis on Sets of Distance and Covariance Tables</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> May 4, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Dr. Hervé Abdi (TX, USA) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV </p>
+  </div>
+</details>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://drive.google.com/file/d/1_SuJ_GVsm0rWMedihfCMhi7dALOYjnet/view', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+      
+        <details class="details-card" id="event-distatis-and-covstatis-or-how-to-perform-multivariate-analysis-on-sets-of-distance-and-covariance-tables">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">DisTATIS and  covSTATIS: or How to Perform Multivariate Analysis on Sets of Distance and Covariance Tables</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">May 4, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Dr. Hervé Abdi (TX, USA)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-distatis-and-covstatis-or-how-to-perform-multivariate-analysis-on-sets-of-distance-and-covariance-tables">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+      <p><a class="badge bg-secondary" href="https://drive.google.com/file/d/1_SuJ_GVsm0rWMedihfCMhi7dALOYjnet/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Traditional meta-analysis procedures were developed to integrate and evaluate multiple studies involving a small number of variables but current scientific practices systematically involve multiple variables often analyzed by multivariate factorial methods such as principal component analysis and its numerous variations. These methods typically generate maps that represent observations and variables as points or vectors in small dimensional spaces: a format that standard meta-analytic procedure cannot easily handle. Here, to “meta-analyze” a set of multivariate studies using the same variables (and/or same observations) we propose to use a multi-table 3-way extension of metric multidimensional scaling (called diSTATIS or covSTATIS) that can integrate the factorial information produced by a set of studies. DisTATIS/covSTATIS produces two set of maps: The first set reveals the similarity between the studies and the second set optimally analyzes the common and specific information of the variables in the studies. This approach is illustrated with</p>
 <p>1- A study on the sensory evaluation of red, rosé, and white wines by wine experts and novices and</p>
 <p>2 - a meta-analysis of a set of studies using the Survey of Autobiographical Memory (SAM)—a questionnaire that assesses self-reported remote mnemonic capacities comprising twenty-six variables organized in four subscales.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-auditory-connections-music-sleep-complex-tasks-and-brain-stimulation" aria-expanded="false" aria-controls="news-auditory-connections-music-sleep-complex-tasks-and-brain-stimulation">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Auditory connections: music, sleep, complex tasks, and brain stimulation</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> April 20, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Emily Coffey (Concordia) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV building </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-auditory-connections-music-sleep-complex-tasks-and-brain-stimulation">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Auditory connections: music, sleep, complex tasks, and brain stimulation</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">April 20, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Emily Coffey (Concordia)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV building</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-auditory-connections-music-sleep-complex-tasks-and-brain-stimulation">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>In this talk, I will trace threads through our recent work, starting with how neurophysiological measures of sound musical pitch and vowels vary amongst individuals and according to musical and linguistic expertise. I will discuss results linking the quality of basic sound encoding to important functions like understanding speech in noisy conditions, discuss how brain states (like sleep) change brain responses, and describe our explorations of how the auditory system can be harnessed to influence brain state and memory consolidation. I will also describe a few tools our lab has developed that are 'open science', in the hopes that they will be useful to the community.</p>
 <h3>Short Bio</h3>
 <p>I am Assistant Professor in the Department of Psychology at Concordia University, in Montreal, Canada. I received a Ph.D. in Neuroscience in 2016 from McGill University (Prof. Robert Zatorre), an <a href="http://M.Sc">M.Sc</a>. (Research) in Brain and Cognitive Science in 2009 from the University of Amsterdam, and a <a href="http://B.Sc">B.Sc</a>. (Honours) in Psychology from the University of Ottawa in 2006. Between 2006 and 2009 I worked as a Human Behaviour and Performance specialist and trainer at the European Space Agency (European Astronaut Centre, Cologne, Germany), and between 2002 and 2005 I worked as a flight and theory instructor on light aircraft at several airports in Ottawa, Canada. Most recently, I was a Postdoctoral Fellow at the Eberhard Karls University of Tübingen, under the supervision of Prof. Jan Born.</p>
 <p>My lab focuses on neuroplasticity associated with complex tasks, using musicianship (and its interaction with language) as a model. We use a variety of neuroimaging tools (i.e. MEG, EEG, fMRI, DWI, VBM) to study the neural bases of auditory processing, hearing-in-noise, and musician advantages, and their relation to training. We are also combining these areas with new techniques that can causally influence sleep-dependent memory consolidation, such as closed-loop auditory stimulation. Ultimately, our goals are to understand how training and sleep interventions can maintain auditory and language function, and improve learning and quality of life throughout the lifespan. As we gain experience with some of the new portable (neuro)physiology tools, we are also exploring ways to take cognitive neuroscience outside of the lab into people's homes and every lives, as well as unusual and extreme environments.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-the-mathematical-foundations-of-deep-learning-from-rating-impossibility-to-practical-existence-theorems" aria-expanded="false" aria-controls="news-the-mathematical-foundations-of-deep-learning-from-rating-impossibility-to-practical-existence-theorems">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>The mathematical foundations of deep learning: from rating impossibility to practical existence theorems</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> March 20, 2023  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Simone Brugiapaglia (Concordia) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> EV building </p>
+  </div>
+</details>
 
-                
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('https://drive.google.com/file/d/1f4ixBM2aX_n1ughDuL0xhmhw-Bi4ohr8/view?usp=drive_link', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                
+      
+        <details class="details-card" id="event-the-mathematical-foundations-of-deep-learning-from-rating-impossibility-to-practical-existence-theorems">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">The mathematical foundations of deep learning: from rating impossibility to practical existence theorems</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">March 20, 2023</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Simone Brugiapaglia (Concordia)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> EV building</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-the-mathematical-foundations-of-deep-learning-from-rating-impossibility-to-practical-existence-theorems">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+      <p><a class="badge bg-secondary" href="https://drive.google.com/file/d/1f4ixBM2aX_n1ughDuL0xhmhw-Bi4ohr8/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Deep learning is having a profound impact on industry and scientific research. Yet, while this paradigm continues to show impressive performance in a wide variety of applications, its mathematical foundations are far from being well established. In this talk, I will present recent developments in this area by illustrating two case studies.</p>
 <p>First, motivated by applications in cognitive science, I will present “rating impossibility&quot; theorems. They identify frameworks where deep learning is provably unable to generalize outside the training set for the seemingly simple task of learning identity effects, i.e. classifying whether pairs of objects are identical or not.</p>
 <p>Second, motivated by applications in scientific computing, I will illustrate “practical existence&quot; theorems. They combine universal approximation results for deep neural networks with compressed sensing and high-dimensional polynomial approximation theory. As a result, they yield sufficient conditions on the network architecture, the training strategy, and the number of samples able to guarantee accurate approximation of smooth functions of many variables.</p>
@@ -1029,64 +962,56 @@ connectivity and dynamics.</p>
 <h3>Short bio</h3>
 <p>Simone Brugiapaglia is Assistant Professor of Mathematics and Statistics at Concordia University. He studied mathematics at the University of Pisa, where he received his BSc in 2010 and his MSc in 2012 and where he held two scholarships from the Istituto Italiano di Alta Matematica. He received his PhD in Mathematical Models and Methods in Engineering from Politecnico di Milano in 2016, where he held a scholarship from the Italian Ministry of Education, Universities and Research. He was a post-doctoral fellow at Ecole polytechnique fédérale de Lausanne in Spring 2016 and at Simon Fraser University from 2016 to 2019. He held a Postdoctoral Training Centre in Stochastic Fellowship from the Pacific Institute for the Mathematical Sciences from 2016 to 2018. In 2019, he was awarded a Leslie Fox Prize for Numerical Analysis by the Institute of Mathematics and its Applications. He has co-authored one book and more than twenty scientific publications, including book chapters, peer-reviewed journal articles, and conference proceedings. His work has been published in venues such as Foundations of Computational Mathematics, Numerische Mathematik, Mathematics of Computation, Neural Computation, and IEEE Transactions on Information Theory. His research interests include mathematics of data science, computational mathematics, and numerical analysis.</p>
 
-            </div>
-        </div>     
-        
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-synchronisation-study-of-a-dynamical-model-of-intracellular-calcium-concentrations-in-motoneuron-network-generating-mixed-mode-oscillations" aria-expanded="false" aria-controls="news-synchronisation-study-of-a-dynamical-model-of-intracellular-calcium-concentrations-in-motoneuron-network-generating-mixed-mode-oscillations">
-               <p><span class="badge btn-Seminar">Seminar</span></p>
-              
-               <h5>Synchronisation study of a dynamical model of intracellular calcium concentrations in motoneuron network generating Mixed-Mode Oscillations</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> June 20, 2022  </small></p> 
-                
-                    <p><i class="fas fa-microphone-alt"></i> <b> Alexandre Vidal (Université d&#39;Evry, France) </b></p>
-                
-                
-                <p><i class="fas fa-map-marker-alt"></i> Perform Center </p>
+  </div>
+</details>
 
-                
+      
+        <details class="details-card" id="event-synchronisation-study-of-a-dynamical-model-of-intracellular-calcium-concentrations-in-motoneuron-network-generating-mixed-mode-oscillations">
+  <summary>
+    <p><span class="badge btn-Seminar">Seminar</span></p>
 
-                
+    <h3 class="h5">Synchronisation study of a dynamical model of intracellular calcium concentrations in motoneuron network generating Mixed-Mode Oscillations</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">June 20, 2022</small></p>
+    
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>Alexandre Vidal (Université d&#39;Evry, France)</b></p>
+    
+    
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Perform Center</p>
 
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        
-        <div class="collapse" id="news-synchronisation-study-of-a-dynamical-model-of-intracellular-calcium-concentrations-in-motoneuron-network-generating-mixed-mode-oscillations">
-            <div class="card-body">
-                <h3>Abstract</h3>
+    
+
+    
+    
+  </summary>
+  <div class="details-card__content">
+    <h3>Abstract</h3>
 <p>Neural synchronization is a basic functioning principle of the nervous system resulting from the coupling between the activities of different neurons. Recent advances in optical imaging have provided evidence that calcium activities measured in-vivo, as in motoneurons of zebrafish embryos, exhibit characteristic synchronized behaviors in the spinal cord. The data reveal a very strong synchronization of the oscillations in intracellular calcium levels between motoneurons located on the left and right side of the spinal cord respectively, while the activity profiles of these two clusters feature ‘‘antiphasic’’ properties: no calcium peak occur simultaneously in both clusters. A natural interpretation of these data points out the existence of an excitatory intra-cluster coupling and an inhibitory inter-cluster coupling.
 To study theoretically the synchronization properties in oscillatory patterns of intracellular calcium concentrations (ICC) between peripheral neurons, we have first built a compact slow-fast model of ICC dynamics in one cell taking particular advantage of the Mixed-Mode Oscillations feature for reaching the quiescence/active phase duration ratio and peak amplitude. While considering two coupled oscillators for representing the activity of clusters of strongly synchronized neurons is an oversimplification of the real network phenomenon, its simplicity allows us to perform singular perturbation analysis and study, at an aggregated level, the fundamental properties of the system in a formal way, both for inhibitory and excitatory coupling. I will present the analysis of the underlying dynamical mechanisms of synchronization of this coupled model, emphasize the role of MMOs and heterogeneity in parameter values among cells in the variability of behaviours and discuss the transition mechanisms between behaviors. Therefore I will explain a protocol of parameter estimation to reproduce all the qualitative properties observed in the experimental data with a clustered network model with mixed (inhibitory and excitatory) coupling types.</p>
 
-            </div>
-        </div>     
-        
-    </div>
+  </div>
+</details>
+
+      
+    </section>
+  </div>
 </div>
 
 
-        
-        
-       
-        
-        
-        
-        
+            
+            
 
-
-        
-           
-        
+            
+            
+        </main>
 
         
         
             
-        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <footer class="container-fluid bg-dark text-light footer pt-5" style="margin-top: 6rem;">
     <div class="container py-5">
         <div class="container">
                 <h5 class="text-white mb-4">Where to find us</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Map showing the bHealthyAge Lab at Concordia University's EV Building" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
         </div>
         
@@ -1101,22 +1026,22 @@ To study theoretically the synchronization properties in oscillatory patterns of
                  Canada Research Chair in Biomedical Imaging and Healthy Aging <br>
                  Member, Applied AI Institute
                 </p>
-                <p><i class="fa fa-phone-alt me-3"></i>(514) 848-2424</p>
-                <p><i class="fa fa-envelope me-3"></i>habib.benali@concordia.ca</p>
+                <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i><a href="tel:+15148482424">(514) 848-2424</a></p>
+                <p><i class="fa fa-envelope me-3" aria-hidden="true"></i><a href="mailto:habib.benali@concordia.ca">habib.benali@concordia.ca</a></p>
                 <div class="d-flex pt-2">
                     
                     
-                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Quick Links</h5>
                 
-                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank">Our YouTube channel</a>
+                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer">Our YouTube channel</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank">Concordia University</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank" rel="noopener noreferrer">Concordia University</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank">PERFORM Center</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank" rel="noopener noreferrer">PERFORM Center</a>
                 
             </div>
             
@@ -1128,22 +1053,13 @@ To study theoretically the synchronization properties in oscillatory patterns of
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <script>document.write( new Date().getFullYear() ); </script> - <a class="" href="#">bHealthyAge Lab</a>. All rights reserved. 
+                    &copy; <span data-current-year>2026</span> – <a href="/">bHealthyAge Lab</a>. All rights reserved.
                 </div>
-                <!--
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </div>
-</div>
+</footer>
+
         
         
 
@@ -1151,22 +1067,13 @@ To study theoretically the synchronization properties in oscillatory patterns of
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-capslock"></i></a>
+        <button type="button" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to top">
+            <i class="bi bi-arrow-up" aria-hidden="true"></i>
+        </button>
     </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/lib/wow/wow.min.js"></script>
-    <script src="/assets/lib/easing/easing.min.js"></script>
-    <script src="/assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Bootstrap core JS-->
-    
-
     <!-- Template Javascript -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js?v=2026-09-23-6" defer></script>
 </body>
 
 </html>

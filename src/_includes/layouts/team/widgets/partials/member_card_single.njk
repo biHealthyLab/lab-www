@@ -1,13 +1,15 @@
-<div class="bcard clickable rounded h-100" onclick="window.open(`{{m.url | url}}`, `_blank`)">   
+<article class="bcard rounded h-100">
     <div class="member_card__header card-body align-items-center">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">
-                <img src="{{ m.data.profile_img | url }}"
-                alt="" class="img-fluid">
+                <picture>
+                  <source srcset="{{ m.data.profile_img | webpPath | url }}" type="image/webp">
+                  <img src="{{ m.data.profile_img | url }}" alt="Portrait of {{ m.data.full_name }}" class="img-fluid" width="120" height="120" loading="lazy" decoding="async">
+                </picture>
             </div>
             <div class="member_card__info ms-3">
                 <p class="align-items-center">
-                    <b>{{m.data.full_name}}, <small>{{m.data.credentials}}</small> </b> <br>
+                    <b><a class="member-profile-link-card" href="{{ m.url | url }}">{{m.data.full_name}}, <small>{{m.data.credentials}}</small></a></b> <br>
                     
                 <small class="text-muted"><i> {{m.data.position}}</i> </small>
                 </p>
@@ -21,30 +23,32 @@
     <div class="container">
         
         <hr>
-        <smal class="text-muted">
+        <small class="text-muted member-keywords">
         {{ m.data.keywords }}
-        </smal>
+        </small>
 
         <p>
-            <a type="button" class="btn btn-outline-dark btn-rounded btn-sm"
-                data-mdb-ripple-color="dark" href="{{ m.url }}"><i class="fas fa-link"></i> </a>
+            <a class="btn btn-outline-dark btn-rounded btn-sm"
+                data-mdb-ripple-color="dark" href="{{ m.url }}" aria-label="View {{ m.data.full_name }}'s profile"><i class="fas fa-link" aria-hidden="true"></i> </a>
+            {% if m.data.social.email %}
             <a type="button" class="btn btn-outline-dark btn-rounded btn-sm" href="mailto:{{ m.data.social.email }}"
-                data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+                data-mdb-ripple-color="dark" aria-label="Email {{ m.data.full_name }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            {% endif %}
 
                          {% if m.data.social.researchgate %}
                             <a href="{{ m.data.social.researchgate | url}}" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ m.data.full_name }} on ResearchGate"><i class="fab fa-researchgate" aria-hidden="true"></i></a>
                          {% endif %}
 
                          {% if m.data.social.twitter %}
                             <a href="{{ m.data.social.twitter | url}}" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ m.data.full_name }} on X or Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                          {% endif %}
 
                          {% if m.data.social.linkedin %}
                             <a href="{{ m.data.social.linkedin | url}}" class="btn btn-outline-dark btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ m.data.full_name }} on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          {% endif %}
         </p>
     </div>
-</div>
+</article>

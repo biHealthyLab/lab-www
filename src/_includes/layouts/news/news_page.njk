@@ -1,0 +1,35 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+<header class="bg-primary bg-header news-story-header">
+  <div class="container">
+    <div class="col-12">
+      <p class="news-story-header__label">News</p>
+      <h1 class="text-white mb-0">{{ title | trim | safe }}</h1>
+    </div>
+  </div>
+</header>
+{% endblock %}
+
+{% block page_main_content %}
+<article class="container-xxl py-5">
+  <div class="col-md-8 mx-auto">
+    {% if front_image %}
+      <figure class="news-front-image mb-4">
+        <img src="{{ front_image | url }}" alt="{{ front_image_alt or title | trim }}" decoding="async">
+      </figure>
+    {% endif %}
+    <p class="mb-4">
+      {% if type %}<span class="badge btn-{{ type }}">{{ type }}</span>{% endif %}
+      <time class="text-muted ms-2" datetime="{{ date | isoDate }}">{{ date | readableDate }}</time>
+    </p>
+    <div class="content-prose">
+      {{ content | safe }}
+    </div>
+    {% if link %}
+      <p class="mt-4"><a href="{{ link | url }}" target="_blank" rel="noopener noreferrer">View the related source <span aria-hidden="true">↗</span></a></p>
+    {% endif %}
+    <p class="mt-5"><a href="{{ '/news/' | url }}">← Back to all news</a></p>
+  </div>
+</article>
+{% endblock %}

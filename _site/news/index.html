@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-<title>BhealthyAge :: Lab news </title>
+    
+
+<meta charset="utf-8">
+<title>Lab news | bHealthyAge Lab</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="" name="keywords">
-<meta content="Brain Healthy Aging, " name="description">
+
+<meta content="Read the latest publications, awards, presentations, and team news from the bHealthyAge Lab." name="description">
+
+<link href="https://b-healthy-age.com/news/" rel="canonical">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="bHealthyAge Lab">
+<meta property="og:title" content="Lab news | bHealthyAge Lab">
+<meta property="og:description" content="Read the latest publications, awards, presentations, and team news from the bHealthyAge Lab.">
+<meta property="og:url" content="https://b-healthy-age.com/news/">
+<meta property="og:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lab news | bHealthyAge Lab">
+<meta name="twitter:description" content="Read the latest publications, awards, presentations, and team news from the bHealthyAge Lab.">
+<meta name="twitter:image" content="https://b-healthy-age.com/assets/img/logo-v4-4.png">
 
 <!-- Favicon -->
-<link href="/assets/img/favicon.ico" rel="icon">
+<link href="/assets/img/logo-v4-4.png" rel="icon" type="image/png">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,24 +35,43 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
 
-<!-- Libraries Stylesheet -->
-<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
 <!-- Customized Bootstrap Stylesheet -->
 <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
 
 <!-- Template Stylesheet -->
-<link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/style.css?v=2026-09-23-6" rel="stylesheet">
 
 
-<!-- Katex fonts -->
-<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
+<!-- MathJax renders TeX expressions written as $...$ or $$...$$ in Markdown. -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]},
+    processEscapes: true,
+    tags: 'ams'
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Biomedical Imaging and Healthy Aging Laboratory",
+  "alternateName": "bHealthyAge Lab",
+  "url": "https://b-healthy-age.com",
+  "logo": "https://b-healthy-age.com/assets/img/logo-v4-4.png",
+  "email": "habib.benali@concordia.ca",
+  "telephone": "(514) 848-2424",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Concordia University",
+    "url": "https://www.concordia.ca/"
+  }
+}
+</script>
 
 
     
@@ -46,28 +80,19 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="bg-white p-0">
-        
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        
-
-
         
         
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
     <a href="/" class="navbar-brand p-0">
-        
-        <img src="/assets/img/logo-v4-4.png" alt="Logo">
-        
-
+        <img src="/assets/img/logo-v4-4.png" alt="bHealthyAge Lab home" width="304" height="108">
     </a>
-    <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
-        <span class="fa fa-bars"></span>
+    <a class="btn btn-outline-danger btn-social navbar-youtube" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-nav-toggle aria-controls="navbarMain" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="fa fa-bars" aria-hidden="true"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
@@ -76,9 +101,11 @@
             
                 <a href="/about/" class="nav-item nav-link ">About</a>
             
+                <a href="/team/" class="nav-item nav-link ">Team</a>
+            
                 <a href="/publications/" class="nav-item nav-link ">Publications</a>
             
-                <a href="/news/" class="nav-item nav-link active">News</a>
+                <a href="/news/" class="nav-item nav-link active" aria-current="page">News</a>
             
                 <a href="/events/" class="nav-item nav-link ">Events</a>
             
@@ -87,12 +114,11 @@
 </nav>
 
 
-
         
         
 
-        
-        
+        <main id="main-content">
+            
 
 <div class="bg-primary bg-header">
     <div class="container">
@@ -109,199 +135,374 @@
     </div>
 </div>
 
-        
-        
-        
-        
+
+
+            
 <div class="container-xxl">
     <div class="col-md-6 mx-auto ml-2">
         
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-e-moutuou-and-dr-h-benali-s-preprint-kms-states-of-information-flow-in-directed-brain-synaptic-networks-is-now-live-on-arxiv" aria-expanded="false" aria-controls="news-dr-e-moutuou-and-dr-h-benali-s-preprint-kms-states-of-information-flow-in-directed-brain-synaptic-networks-is-now-live-on-arxiv"> 
-                <p><span class="badge btn-Preprint">Preprint</span></p>
-                <small class="text-muted"> October 23, 2024 </small> <br>
-                <strong> Dr. E. Moutuou and Dr. H. Benali's preprint "KMS states of Information Flow in Directed Brain Synaptic Networks" is now live on ArXiv.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-giridhar-sunil-successfully-defended-his-master-s-thesis">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
                 
-            </div> 
-        
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/team/giridhar.webp" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Thesis defence">Thesis defence</span></span>
+                  <time class="text-muted" datetime="2026-09-21">September 21, 2026</time>
+                  <strong> <a class="news-list-title-link" href="/news/giridhar-msc-defence/">Giridhar Sunil successfully defended his Master's thesis</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+            <div>
+                <p><strong>Congratulations to Giridhar Sunil for successfully passing his Master's degree!</strong></p>
+<h3>Thesis title: Thermodynamic connectivity reveals functional specialization and multiplex organization of extrasynaptic signaling</h3>
 
-        <div class="collapse" id="news-dr-e-moutuou-and-dr-h-benali-s-preprint-kms-states-of-information-flow-in-directed-brain-synaptic-networks-is-now-live-on-arxiv">
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/giridhar-msc-defence/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-new-preprint-on-weight-geometry-and-functional-memory">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/uploads/functional-memory-figure-1.svg" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2026-06-24">June 24, 2026</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/preprint-functional-memory-2026/">New preprint on weight geometry and functional memory</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://arxiv.org/abs/2410.18222" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://arxiv.org/abs/2606.25826" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
+                <h2>Weight geometry governs functional memory in complex systems</h2>
+<p>By <em>Elkaïoum M. Moutuou and Habib Benali</em></p>
+<h2>Description</h2>
+<p>This preprint studies how interaction strengths shape functional memory in complex networks. Across 34 empirical systems, real weight patterns preserve deeper memory than randomized weights on the same topology, while the resulting memory profiles fall into four recurring dynamical organizations.</p>
+<h2>Abstract</h2>
+<p>Complex systems, from gene regulatory networks to neural circuits and ecological food webs, exhibit rich functional behaviour that topology alone does not capture. Yet functional complexity remains difficult to quantify independently of structural organisation.</p>
+<p>Here we introduce a thermodynamic framework in which functional complexity is characterised through the hierarchical organisation of functional memory, quantifying how the influence of past interactions is distributed and progressively compressed across scales.</p>
+<p>Across thirty-four empirical networks spanning biological, ecological, social, technological, and biophysical systems and several orders of magnitude in size and density, real interaction strengths organise functional memory at greater hierarchical depth than random weight assignment on the same topology in every domain studied. The framework further reveals that functional memory occupies a remarkably low-dimensional space, collapsing onto four recurrent dynamical organisations.</p>
+<p>Comparisons with null models that selectively perturb weighted transport geometry, mesoscale wiring, and directionality show that these structural ingredients play distinct roles: weighted transport geometry systematically governs memory depth, whereas mesoscale wiring organises memory across scales and directionality modulates the response of the cascade to structural perturbation.</p>
+<p>The same comparisons provide an operational criterion for determining whether network weights encode functionally meaningful structure beyond topology. These results establish weighted transport geometry as a primary organiser of functional memory and provide a quantitative framework for studying functional complexity in directed weighted networks.</p>
+
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/preprint-functional-memory-2026/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-new-preprint-on-thermodynamic-connectivity-and-extrasynaptic-signaling">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/uploads/thermodynamic-connectivity-figure-1.png" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2026-04-02">April 2, 2026</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/preprint-thermodynamic-connectivity-2026/">New preprint on thermodynamic connectivity and extrasynaptic signaling</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://arxiv.org/abs/2604.02057" target="_blank" rel="noopener noreferrer">View the related source</a></p>
+            
+            <div>
+                <h2>Thermodynamic connectivity reveals functional specialization and multiplex organization of extrasynaptic signaling</h2>
+<p>By <em>Giridhar Sunil, Habib Benali, and Elkaïoum M. Moutuou</em></p>
+<h2>Description</h2>
+<p>This preprint examines how synaptic and extrasynaptic signaling divide functional roles in the <em>C. elegans</em> nervous system. It identifies four communication regimes associated with motor-circuit reinforcement, global modulation, survival and homeostasis, and rapid sensorimotor processing.</p>
+<h2>Abstract</h2>
+<p>Neural communication operates on both fast synaptic transmission and slower, diffusive extrasynaptic signaling, yet how these two modes jointly organize brain function remains unclear. Here, using the complete synaptic and neuropeptidergic connectomes of <em>Caenorhabditis elegans</em>, we develop a unified multiplex framework linking anatomical wiring to functional communication.</p>
+<p>We infer structure-derived functional connectivity from the synaptic connectome using equilibrium principles from statistical physics, yielding a probabilistic map of information flow across all synaptic pathways, and compare this functional layer directly with the extrasynaptic connectome.</p>
+<p>This reveals a principled functional specialization across four communication regimes: (i) a topology-dependent layer that reinforces and stabilizes synaptic motor circuits, (ii) a topology-resilient modulatory layer supporting global regulation and behavioral state control, (iii) a purely extrasynaptic network sustaining survival and homeostasis, and (iv) a purely synaptic regime mediating rapid, low-latency sensorimotor processing.</p>
+<p>Together, these findings reveal that synaptic and extrasynaptic signaling form complementary architectures optimized for speed, modulation, robustness, and survival, and provide a general strategy for integrating structural and modulatory connectomes to understand how distinct communication modes cooperate to sustain coherent brain function.</p>
+
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/preprint-thermodynamic-connectivity-2026/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-our-paper-kubo-martin-schwinger-states-of-path-structured-flow-in-directed-brain-synaptic-networks-by-elkaioum-moutuou-and-habib-benali-has-now-been-published-in-physical-review-e">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/uploads/touch-outflow.png" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Publication">Publication</span></span>
+                  <time class="text-muted" datetime="2025-12-18">December 18, 2025</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/pre_published-dec-2025/">Our paper "Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks", by Elkaioum Moutuou and Habib Benali, has now been published in Physical Review E.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw" target="_blank" rel="noopener noreferrer">View the related source</a></p>
+            
+            <div>
+                <h4>Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks</h4>
+<p>By <em>E. Moutuou and H. Benali</em></p>
+<h2>Abstract</h2>
+<p>The brain's synaptic network, characterized by parallel connections and feedback loops, drives interaction pathways between neurons through a large system with infinitely many degrees of freedom. This system is best modeled by the graph $C^{\ast}$-algebra of the underlying directed graph, the Toeplitz-Cuntz-Krieger (TCK) algebra, which captures the diversity of path-structured flow connectivity. Equipped with the gauge action, the TCK algebra defines an algebraic quantum system, and here we demonstrate that its thermodynamic properties provide a natural framework for describing the dynamic mappings of potential flow pathways within the network. Specifically, the KMS states of this system represent the stationary distributions of a non-Markovian stochastic process with memory decay, capturing how influence propagates along exponentially weighted paths, and yield global statistical measures of neuronal interactions. Applied to the <em>C. elegans</em> synaptic network, our framework reveals that neurolocomotor neurons emerge as the primary hubs of incoming path-structured flow at inverse temperatures where the entropy of KMS states peaks. This finding aligns with experimental evidence of the foundational role of locomotion in <em>C. elegans</em> behavior, suggesting that functional centrality may arise from the topological embedding of neurons rather than solely from local physiological properties. Our results highlight the potential of algebraic quantum methods and graph algebras to uncover patterns of functional organization in complex systems and neuroscience.</p>
+
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/pre_published-dec-2025/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-arsalan-rahimabadi-has-successfully-defended-his-phd-thesis">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/team/arsalan.webp" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Thesis defence">Thesis defence</span></span>
+                  <time class="text-muted" datetime="2025-09-02">September 2, 2025</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/arsalan_phd/">Arsalan Rahimabadi has successfully defended his PhD thesis</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+            <div>
+                <h3>Arsalan's PhD Defence</h3>
+<p>We are delighted to celebrate Arsalan’s successful PhD defence! His thesis, marks an outstanding contribution to the field of computational neuroscience and a milestone achievement in his academic journey.</p>
+<p>We are incredibly proud of Arsalan’s hard work, creativity, and perseverance throughout the years. Congratulations, Dr. Rahimabadi — we can’t wait to see the amazing things you will accomplish next! 🎉</p>
+
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/arsalan_phd/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-our-paper-brain-functions-emerge-as-thermal-equilibrium-states-of-the-connectome-by-elkaioum-moutuou-and-habib-benali-has-now-been-published-in-physical-review-research">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/uploads/c-elegans-kms.png" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Publication">Publication</span></span>
+                  <time class="text-muted" datetime="2025-08-14">August 14, 2025</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/elka_prresearch2025/">Our paper "Brain functions emerge as thermal equilibrium states of the connectome", by Elkaioum Moutuou and Habib Benali, has now been published in Physical Review Research.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc" target="_blank" rel="noopener noreferrer">View the related source</a></p>
+            
+            <div>
+                <h4>Brain functions emerge as thermal equilibrium states of the connectome</h4>
+<p>By <em>E. Moutuou and H. Benali</em></p>
+<h2>Abstract</h2>
+<p>A fundamental idea in neuroscience is that cognitive functions—such as perception, learning, memory, and locomotion—are shaped and constrained by the brain's structural organization. Despite significant progress in mapping and analyzing structural connectomes, the principles linking the brain's physical architecture to its functional capabilities remain elusive. Here, we introduce an algebraic quantum model to bridge this theoretical gap, offering insights into the relationship between the connectome and emergent brain functions while connecting structural data to functional predictions. Using the well-mapped C. elegans anatomical and extrasynaptic connectomes, we demonstrate that brain functions, defined as functional networks of a neural system, emerge as thermal equilibrium states of an algebraic quantum system derived from the graph algebra of the underlying directed multigraph. Specifically, these equilibrium states, characterized by the Kubo-Martin-Schwinger formalism, reveal how individual neurons contribute to functional network formation. Our model illuminates the structure-function relationship in neural circuits through two key features: (1) a functional connectome that delineates topologically driven neuronal interactions and (2) an integration capacity index that quantifies how effectively neurons coordinate and modulate diverse information flows. Together these features provide a statistical and mechanistic account of information flow and reveal how the network topology of the connectome predicts cognition and complex behaviors.</p>
+
+            </div>
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_prresearch2025/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
+        
+            <details class="details-card" id="news-dr-e-moutuou-and-dr-h-benali-s-preprint-kms-states-of-information-flow-in-directed-brain-synaptic-networks-is-now-live-on-arxiv">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
+                
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/topics/brain-changes.webp" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2024-10-23">October 23, 2024</time>
+                  <strong> <a class="news-list-title-link" href="/news/elka_preprint2024a/">Dr. E. Moutuou and Dr. H. Benali's preprint "KMS states of Information Flow in Directed Brain Synaptic Networks" is now live on ArXiv.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
+            
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://arxiv.org/abs/2410.18222" target="_blank" rel="noopener noreferrer">View the related source</a></p>
+            
+            <div>
                 <h3>Abstract</h3>
 <p>The brain's synaptic network, characterized by parallel connections and feedback loops, drives information flow between neurons through a large system with infinitely many degrees of freedom. This system is best modeled by the graph C∗-algebra of the underlying directed graph, the Toeplitz-Cuntz-Krieger algebra, which captures the diversity of potential information pathways. Coupled with the gauge action, this graph algebra defines an {\em algebraic quantum system}, and here we demonstrate that its thermodynamic properties provide a natural framework for describing the dynamic mappings of information flow within the network. Specifically, we show that the KMS states of this system yield global statistical measures of neuronal interactions, with computational illustrations based on the {\em C. elegans} synaptic network.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_preprint2024a/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-congratulations-to-shima-panahi-moghadam-namini-for-successfully-passing-her-master-s-degree" aria-expanded="false" aria-controls="news-congratulations-to-shima-panahi-moghadam-namini-for-successfully-passing-her-master-s-degree"> 
-                <p><span class="badge btn-Thesis defence">Thesis defence</span></p>
-                <small class="text-muted"> October 18, 2024 </small> <br>
-                <strong> Congratulations to Shima Panahi Moghadam Namini for successfully passing her Master's degree! ;-)
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-congratulations-to-shima-panahi-moghadam-namini-for-successfully-passing-her-master-s-degree">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-congratulations-to-shima-panahi-moghadam-namini-for-successfully-passing-her-master-s-degree">
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/team/shima.jpg" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Thesis defence">Thesis defence</span></span>
+                  <time class="text-muted" datetime="2024-10-18">October 18, 2024</time>
+                  <strong> <a class="news-list-title-link" href="/news/shima-master/">Congratulations to Shima Panahi Moghadam Namini for successfully passing her Master's degree! ;-)</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/shima-master/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-e-moutuou-and-dr-h-benali-s-preprint-brain-functions-emerge-as-thermal-equilibrium-states-of-the-connectome-is-now-live-on-arxiv" aria-expanded="false" aria-controls="news-dr-e-moutuou-and-dr-h-benali-s-preprint-brain-functions-emerge-as-thermal-equilibrium-states-of-the-connectome-is-now-live-on-arxiv"> 
-                <p><span class="badge btn-Preprint">Preprint</span></p>
-                <small class="text-muted"> August 24, 2024 </small> <br>
-                <strong> Dr. E. Moutuou and Dr. H. Benali's preprint "Brain functions emerge as thermal equilibrium states of the connectome" is now live on ArXiv.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-e-moutuou-and-dr-h-benali-s-preprint-brain-functions-emerge-as-thermal-equilibrium-states-of-the-connectome-is-now-live-on-arxiv">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-e-moutuou-and-dr-h-benali-s-preprint-brain-functions-emerge-as-thermal-equilibrium-states-of-the-connectome-is-now-live-on-arxiv">
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/topics/brain-changes.webp" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2024-08-24">August 24, 2024</time>
+                  <strong> <a class="news-list-title-link" href="/news/elka_preprint2024b/">Dr. E. Moutuou and Dr. H. Benali's preprint "Brain functions emerge as thermal equilibrium states of the connectome" is now live on ArXiv.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://arxiv.org/abs/2408.14221" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://arxiv.org/abs/2408.14221" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h3>Abstract</h3>
 <p>A fundamental paradigm in neuroscience is that cognitive functions -- such as perception, learning, memory, and locomotion -- are shaped by the brain's structural organization. However, the theoretical principles explaining how this physical architecture governs its function remain elusive. Here, we propose an algebraic quantum mechanics (AQM) framework in which the functional states of a structural connectome emerge as thermal equilibrium states of an algebraic quantum system defined on the underlying directed multigraph. These equilibrium states, derived from the Kubo-Martin-Schwinger (KMS) states formalism, capture the contribution of each neuron to the overall information flow. We apply this framework to the connectome of the nematode {\em Caenorhabditis elegans}, providing a detailed description of the KMS states, exploring their functional implications, and predicting functional networks based on anatomical connectivity. Ultimately, our approach reveals functional circuits predicted by the topology of the connectome and illuminates on the mechanisms linking structure to function.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_preprint2024b/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-congratulations-to-niusha-gomar-for-successfully-passing-her-master-s-degree" aria-expanded="false" aria-controls="news-congratulations-to-niusha-gomar-for-successfully-passing-her-master-s-degree"> 
-                <p><span class="badge btn-Thesis defence">Thesis defence</span></p>
-                <small class="text-muted"> August 13, 2024 </small> <br>
-                <strong> Congratulations to Niusha Gomar for successfully passing her Master's degree! ;-)
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-congratulations-to-niusha-gomar-for-successfully-passing-her-master-s-degree">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-congratulations-to-niusha-gomar-for-successfully-passing-her-master-s-degree">
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/team/niusha.jpg" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Thesis defence">Thesis defence</span></span>
+                  <time class="text-muted" datetime="2024-08-13">August 13, 2024</time>
+                  <strong> <a class="news-list-title-link" href="/news/niusha-master/">Congratulations to Niusha Gomar for successfully passing her Master's degree! ;-)</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/niusha-master/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-mostafa-sharifzadeh-will-be-an-invited-speaker-at-the-mila-health-ai-on-april-22-2024-he-will-be-presenting-his-work-on-an-innovative-approach-to-ultrasound-imaging" aria-expanded="false" aria-controls="news-mostafa-sharifzadeh-will-be-an-invited-speaker-at-the-mila-health-ai-on-april-22-2024-he-will-be-presenting-his-work-on-an-innovative-approach-to-ultrasound-imaging"> 
-                <p><span class="badge btn-Conference">Conference</span></p>
-                <small class="text-muted"> April 21, 2024 </small> <br>
-                <strong> "Mostafa Sharifzadeh will be an invited speaker at the Mila Health + AI on April 22, 2024. He will be presenting his work on an innovative approach to ultrasound imaging"
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-mostafa-sharifzadeh-will-be-an-invited-speaker-at-the-mila-health-ai-on-april-22-2024-he-will-be-presenting-his-work-on-an-innovative-approach-to-ultrasound-imaging">
+              <summary class="news-list-card__summary news-list-card__summary--with-image">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-mostafa-sharifzadeh-will-be-an-invited-speaker-at-the-mila-health-ai-on-april-22-2024-he-will-be-presenting-his-work-on-an-innovative-approach-to-ultrasound-imaging">
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="/media/images/team/mostafa.jpg" alt="" loading="lazy" decoding="async">
+                  </span>
+                
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Conference">Conference</span></span>
+                  <time class="text-muted" datetime="2024-04-21">April 21, 2024</time>
+                  <strong> <a class="news-list-title-link" href="/news/mostafa_mila2024/">"Mostafa Sharifzadeh will be an invited speaker at the Mila Health + AI on April 22, 2024. He will be presenting his work on an innovative approach to ultrasound imaging"</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 <h3>Description</h3>
 <p><strong>Phase Aberration Correction: A Deep Learning-Based Aberration-to-Aberration Approach</strong></p>
 <p>One of the primary sources of suboptimal image quality in ultrasound imaging is phase aberration. It is caused by spatial changes in sound speed over a heterogeneous medium, which disturbs the transmitted waves and prevents coherent summation of echo signals. Obtaining non-aberrated ground truths in real-world scenarios can be extremely challenging, if not impossible. This challenge hinders the performance of deep learning-based techniques due to the domain shift between simulated and experimental data. In this talk, I will present one of our recent studies wherein we propose a deep learning-based method that does not require ground truth to correct the phase aberration problem and, as such, can be directly trained on real data. We trained a network wherein both the input and target output are randomly aberrated radio frequency (RF) data. Moreover, we demonstrated that a conventional loss function such as mean square error is inadequate for training such a network to achieve optimal performance. Instead, we proposed an adaptive mixed loss function that employs both B-mode and RF data.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/mostafa_mila2024/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-the-research-article-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-by-e-moutuou-o-ali-and-h-benali-has-just-been-published-by-frontiers-in-complex-systems" aria-expanded="false" aria-controls="news-the-research-article-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-by-e-moutuou-o-ali-and-h-benali-has-just-been-published-by-frontiers-in-complex-systems"> 
-                <p><span class="badge btn-Publication">Publication</span></p>
-                <small class="text-muted"> November 20, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 The research article "Topology and spectral interconnectivities of higher-order multilayer networks" by E. Moutuou, O. Ali, and H. Benali, has just been published by Frontiers in Complex Systems. 
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-the-research-article-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-by-e-moutuou-o-ali-and-h-benali-has-just-been-published-by-frontiers-in-complex-systems">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-the-research-article-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-by-e-moutuou-o-ali-and-h-benali-has-just-been-published-by-frontiers-in-complex-systems">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Publication">Publication</span></span>
+                  <time class="text-muted" datetime="2023-11-20">November 20, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/elka_accepted2023/">The research article "Topology and spectral interconnectivities of higher-order multilayer networks" by E. Moutuou, O. Ali, and H. Benali, has just been published by Frontiers in Complex Systems.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full?&amp;utm_source=Email_to_authors_&amp;utm_medium=Email&amp;utm_content=T1_11.5e1_author&amp;utm_campaign=Email_publication&amp;field=&amp;journalName=Frontiers_in_Complex_Systems&amp;id=1281714" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full?&amp;utm_source=Email_to_authors_&amp;utm_medium=Email&amp;utm_content=T1_11.5e1_author&amp;utm_campaign=Email_publication&amp;field=&amp;journalName=Frontiers_in_Complex_Systems&amp;id=1281714" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h6>Topology and spectral interconnectivities of higher-order multilayer networks</h6>
 <p>By <em>E. Moutuou, O. B-K. Ali, &amp; H. Benali</em></p>
 <h3>Abstract</h3>
 <p>Multilayer networks have permeated all areas of science as an abstraction for interdependent heterogeneous complex systems. However, describing such systems through a purely graph-theoretic formalism presupposes that the interactions that define the underlying infrastructures are only pairwise-based, a strong assumption likely leading to oversimplification. Most interdependent systems intrinsically involve higher-order intra- and inter-layer interactions. For instance, ecological systems involve interactions among groups within and in-between species, collaborations and citations link teams of coauthors to articles and vice versa, and interactions might exist among groups of friends from different social networks. Although higher-order interactions have been studied for monolayer systems through the language of simplicial complexes and hypergraphs, a systematic formalism incorporating them into the realm of multilayer systems is still lacking. Here, we introduce the concept of crossimplicial multicomplexes as a general formalism for modeling interdependent systems involving higher-order intra- and inter-layer connections. Subsequently, we introduce cross-homology and its spectral counterpart, the cross-Laplacian operators, to establish a rigorous mathematical framework for quantifying global and local intra- and inter-layer topological structures in such systems. Using synthetic and empirical datasets, we show that the spectra of the cross-Laplacians of a multilayer network detect different types of clusters in one layer that are controlled by hubs in another layer. We call such hubs spectral cross-hubs and define spectral persistence as a way to rank them, according to their emergence along the spectra. Our framework is broad and can especially be used to study structural and functional connectomes combining connectivities of different types and orders.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_accepted2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-elkaioum-moutuou-is-an-invited-speaker-at-the-upcoming-scientific-meeting-organized-by-the-lab-and-the-centre-de-recherches-mathematiques-in-montreal-he-will-give-a-90-min-lecture-in-simplicial-homology-and-multilayer-networks-networks-followed-by-a-research-presentation" aria-expanded="false" aria-controls="news-dr-elkaioum-moutuou-is-an-invited-speaker-at-the-upcoming-scientific-meeting-organized-by-the-lab-and-the-centre-de-recherches-mathematiques-in-montreal-he-will-give-a-90-min-lecture-in-simplicial-homology-and-multilayer-networks-networks-followed-by-a-research-presentation"> 
-                <p><span class="badge btn-Invited Speaker">Invited Speaker</span></p>
-                <small class="text-muted"> October 10, 2023 </small> <br>
-                <strong> Dr Elkaïoum Moutuou is an invited speaker at the upcoming scientific meeting organized by the lab and the Centre de Recherches Mathématiques in Montréal. He will give a 90 min lecture in simplicial homology and multilayer networks networks followed by a research presentation.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-elkaioum-moutuou-is-an-invited-speaker-at-the-upcoming-scientific-meeting-organized-by-the-lab-and-the-centre-de-recherches-mathematiques-in-montreal-he-will-give-a-90-minute-lecture-on-simplicial-homology-and-multilayer-networks-followed-by-a-research-presentation">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-elkaioum-moutuou-is-an-invited-speaker-at-the-upcoming-scientific-meeting-organized-by-the-lab-and-the-centre-de-recherches-mathematiques-in-montreal-he-will-give-a-90-min-lecture-in-simplicial-homology-and-multilayer-networks-networks-followed-by-a-research-presentation">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Invited Speaker">Invited Speaker</span></span>
+                  <time class="text-muted" datetime="2023-10-10">October 10, 2023</time>
+                  <strong> <a class="news-list-title-link" href="/news/elka_speakerCRM2023/">Dr. Elkaïoum Moutuou is an invited speaker at the upcoming scientific meeting organized by the lab and the Centre de Recherches Mathématiques in Montréal. He will give a 90-minute lecture on simplicial homology and multilayer networks, followed by a research presentation.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_speakerCRM2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-laetitia-jeancolas-will-present-her-work-on-how-brain-perfusion-changes-in-subjective-memory-loss-population-with-amyloidosis-during-the-crm-scientific-meeting-on-vascular-and-metabolic-modeling-of-the-brain-at-large-scale" aria-expanded="false" aria-controls="news-dr-laetitia-jeancolas-will-present-her-work-on-how-brain-perfusion-changes-in-subjective-memory-loss-population-with-amyloidosis-during-the-crm-scientific-meeting-on-vascular-and-metabolic-modeling-of-the-brain-at-large-scale"> 
-                <p><span class="badge btn-Conference">Conference</span></p>
-                <small class="text-muted"> October 1, 2023 </small> <br>
-                <strong> "Dr Laetitia Jeancolas will present her work on "How brain perfusion changes in subjective memory loss population with amyloidosis" during the CRM scientific meeting on Vascular and Metabolic Modeling of the Brain at Large Scale."
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-laetitia-jeancolas-will-present-her-work-on-how-brain-perfusion-changes-in-subjective-memory-loss-population-with-amyloidosis-during-the-crm-scientific-meeting-on-vascular-and-metabolic-modeling-of-the-brain-at-large-scale">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-laetitia-jeancolas-will-present-her-work-on-how-brain-perfusion-changes-in-subjective-memory-loss-population-with-amyloidosis-during-the-crm-scientific-meeting-on-vascular-and-metabolic-modeling-of-the-brain-at-large-scale">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Conference">Conference</span></span>
+                  <time class="text-muted" datetime="2023-10-01">October 1, 2023</time>
+                  <strong> <a class="news-list-title-link" href="/news/laetitia_qbin2023/">"Dr Laetitia Jeancolas will present her work on "How brain perfusion changes in subjective memory loss population with amyloidosis" during the CRM scientific meeting on Vascular and Metabolic Modeling of the Brain at Large Scale."</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://rbiq-qbin.qc.ca/2023/09/15/workshop-vascular-and-metabolic-modeling-of-the-brain-at-large-scale/" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://rbiq-qbin.qc.ca/2023/09/15/workshop-vascular-and-metabolic-modeling-of-the-brain-at-large-scale/" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h3>Workshop: Vascular and Metabolic Modeling of the Brain at Large Scale</h3>
 <p>While brain function originates in neuron, its energy is supported by the vascular system. With the recent development of anatomically detailed synthetic network models of the entire cerebral circulation, it is now possible to perform detailed simulations of physiology in realistic brains of small animals and humans on the computer. Modeling microcirculatory blood flow as a biphasic suspension of red-blood-cell and plasma, blood pressure, flow and hematocrit can be simulated in whole brains on the computer. Combining Poiseuille’s hemodynamic simulations with advection/diffusion equations describing oxygen diffusion, the human brain metabolism can now be modeled in-silico, by integrating tissue oxygen consumption and differential equations describing compartments associated with neural and glial brain cells. In parallel, energy metabolism regulation in the brain and its modeling has greatly progressed over the past few decades.</p>
 <p>This workshop will thus be focused on digital human brains, and their use to predict critical metabolic functions namely blood flow, oxygen extraction and cellular metabolism across all length scales down to the level of individual capillaries and cells. Courses and conferences will be combined with research presentations and practical workshops.</p>
@@ -310,226 +511,202 @@
 <p><strong>Dates:</strong> October 12-20</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/laetitia_qbin2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-laetitia-jeancolas-has-been-selected-to-join-the-council-of-the-school-of-graduate-studies-csgs-as-the-new-postdoctoral-fellow-representative" aria-expanded="false" aria-controls="news-dr-laetitia-jeancolas-has-been-selected-to-join-the-council-of-the-school-of-graduate-studies-csgs-as-the-new-postdoctoral-fellow-representative"> 
-                <p><span class="badge btn-Recognition">Recognition</span></p>
-                <small class="text-muted"> September 21, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Dr Laetitia Jeancolas has been selected to join the Council of the School of Graduate Studies (CSGS) as the new postdoctoral fellow representative.</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-laetitia-jeancolas-has-been-selected-to-join-the-council-of-the-school-of-graduate-studies-csgs-as-the-new-postdoctoral-fellow-representative">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-laetitia-jeancolas-has-been-selected-to-join-the-council-of-the-school-of-graduate-studies-csgs-as-the-new-postdoctoral-fellow-representative">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Recognition">Recognition</span></span>
+                  <time class="text-muted" datetime="2023-09-21">September 21, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/laetitia_council/">Dr Laetitia Jeancolas has been selected to join the Council of the School of Graduate Studies (CSGS) as the new postdoctoral fellow representative.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/laetitia_council/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-laetitia-jeancolas-is-selected-to-be-concordia-university-s-ambassador-for-the-exhibition-les-chercheuses-en-bd-organised-by-consulate-general-of-france-in-quebec-and-frqnt" aria-expanded="false" aria-controls="news-dr-laetitia-jeancolas-is-selected-to-be-concordia-university-s-ambassador-for-the-exhibition-les-chercheuses-en-bd-organised-by-consulate-general-of-france-in-quebec-and-frqnt"> 
-                <p><span class="badge btn-Recognition">Recognition</span></p>
-                <small class="text-muted"> August 10, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Dr Laetitia Jeancolas is selected to be Concordia University's ambassador for the exhibition "Les Chercheuses en BD" organised by Consulate General of France in Quebec and FRQNT."
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-laetitia-jeancolas-is-selected-to-be-concordia-university-s-ambassador-for-the-exhibition-les-chercheuses-en-bd-organised-by-consulate-general-of-france-in-quebec-and-frqnt">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-laetitia-jeancolas-is-selected-to-be-concordia-university-s-ambassador-for-the-exhibition-les-chercheuses-en-bd-organised-by-consulate-general-of-france-in-quebec-and-frqnt">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Recognition">Recognition</span></span>
+                  <time class="text-muted" datetime="2023-08-10">August 10, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/laetitia_ambassadrice/">Dr Laetitia Jeancolas is selected to be Concordia University's ambassador for the exhibition "Les Chercheuses en BD" organised by Consulate General of France in Quebec and FRQNT."</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/laetitia_ambassadrice/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-the-research-article-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-by-a-rahimabadi-and-h-benali-has-now-been-published-in-the-journal-chaos-solitons-and-fractals" aria-expanded="false" aria-controls="news-the-research-article-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-by-a-rahimabadi-and-h-benali-has-now-been-published-in-the-journal-chaos-solitons-and-fractals"> 
-                <p><span class="badge btn-Publication">Publication</span></p>
-                <small class="text-muted"> July 11, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 The research article "Extended fractional-polynomial generalizations of diffusion and Fisher–KPP equations on directed networks" by A. Rahimabadi and H. Benali has now been published in the journal Chaos, Solitons & Fractals.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-the-research-article-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-by-a-rahimabadi-and-h-benali-has-now-been-published-in-the-journal-chaos-solitons-and-fractals">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-the-research-article-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-by-a-rahimabadi-and-h-benali-has-now-been-published-in-the-journal-chaos-solitons-and-fractals">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Publication">Publication</span></span>
+                  <time class="text-muted" datetime="2023-07-11">July 11, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/arsalan_accepted2023/">The research article "Extended fractional-polynomial generalizations of diffusion and Fisher–KPP equations on directed networks" by A. Rahimabadi and H. Benali has now been published in the journal Chaos, Solitons & Fractals.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0960077923006720" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0960077923006720" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h6>Extended fractional-polynomial generalizations of diffusion and Fisher–KPP equations on directed networks</h6>
 <p>By <em>A. Rahimabadi, H. Benali</em></p>
 <h3>Abstract</h3>
 <p>In a variety of practical applications, there is a need to investigate diffusion or reaction–diffusion processes on complex structures, including brain networks, that can be modeled as weighted undirected and directed graphs. As an instance, the celebrated Fisher–Kolmogorov–Petrovsky–Piskunov (Fisher–KPP) reaction–diffusion equation is becoming increasingly popular for use in graph frameworks by substituting the standard graph Laplacian operator for the continuous one to study the progression of neurodegenerative diseases such as Alzheimer’s disease (AD). In this work, we establish existence, uniqueness, and boundedness of solutions for generalized Fisher–KPP reaction–diffusion equations on undirected and directed networks with fractional polynomial (FP) terms. This type of model has possible applications for modeling spreading of diseases within neuronal fibers whose porous structure may cause particles to diffuse anomalously. In the case of pure diffusion, convergence of solutions and stability of equilibria are also analyzed. Moreover, different families of positively invariant sets for the proposed equations are derived. Finally, we conclude by investigating nonlinear diffusion on a directed one-dimensional lattice.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/arsalan_accepted2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-kiana-ezzatdoust-has-been-invited-to-present-her-poster-an-mrs-eeg-study-on-diurnal-changes-in-glutamate-levels-of-healthy-good-sleepers-at-the-organization-for-human-brain-mapping-ohbm-2023-annual-conference-in-montreal" aria-expanded="false" aria-controls="news-kiana-ezzatdoust-has-been-invited-to-present-her-poster-an-mrs-eeg-study-on-diurnal-changes-in-glutamate-levels-of-healthy-good-sleepers-at-the-organization-for-human-brain-mapping-ohbm-2023-annual-conference-in-montreal"> 
-                <p><span class="badge btn-Presentation">Presentation</span></p>
-                <small class="text-muted"> July 1, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Kiana Ezzatdoust has been invited to present her poster "An MRS-EEG Study on Diurnal Changes in Glutamate Levels of Healthy Good Sleepers" at the Organization for Human Brain Mapping (OHBM) 2023 annual conference in Montreal.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-kiana-ezzatdoust-has-been-invited-to-present-her-poster-an-mrs-eeg-study-on-diurnal-changes-in-glutamate-levels-of-healthy-good-sleepers-at-the-organization-for-human-brain-mapping-ohbm-2023-annual-conference-in-montreal">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-kiana-ezzatdoust-has-been-invited-to-present-her-poster-an-mrs-eeg-study-on-diurnal-changes-in-glutamate-levels-of-healthy-good-sleepers-at-the-organization-for-human-brain-mapping-ohbm-2023-annual-conference-in-montreal">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Presentation">Presentation</span></span>
+                  <time class="text-muted" datetime="2023-07-01">July 1, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/kiana2023/">Kiana Ezzatdoust has been invited to present her poster "An MRS-EEG Study on Diurnal Changes in Glutamate Levels of Healthy Good Sleepers" at the Organization for Human Brain Mapping (OHBM) 2023 annual conference in Montreal.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/kiana2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-honorable-mention-award-won-by-capstone-group-n-14-project-parkinsound-supervised-by-dr-habib-benali-and-dr-laetitia-jeancolas" aria-expanded="false" aria-controls="news-honorable-mention-award-won-by-capstone-group-n-14-project-parkinsound-supervised-by-dr-habib-benali-and-dr-laetitia-jeancolas"> 
-                <p><span class="badge btn-Award">Award</span></p>
-                <small class="text-muted"> May 19, 2023 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Honorable mention award won by Capstone group n°14 (project ParkinSound) supervised by Dr Habib Benali and Dr Laetitia Jeancolas.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-honorable-mention-award-won-by-capstone-group-n-14-project-parkinsound-supervised-by-dr-habib-benali-and-dr-laetitia-jeancolas">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-honorable-mention-award-won-by-capstone-group-n-14-project-parkinsound-supervised-by-dr-habib-benali-and-dr-laetitia-jeancolas">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Award">Award</span></span>
+                  <time class="text-muted" datetime="2023-05-19">May 19, 2023</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/laetitia_capstone2023/">Honorable mention award won by Capstone group n°14 (project ParkinSound) supervised by Dr Habib Benali and Dr Laetitia Jeancolas.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/laetitia_capstone2023/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-dr-elkaioum-moutuou-s-preprint-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-is-now-live-on-arxiv" aria-expanded="false" aria-controls="news-dr-elkaioum-moutuou-s-preprint-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-is-now-live-on-arxiv"> 
-                <p><span class="badge btn-Preprint">Preprint</span></p>
-                <small class="text-muted"> May 11, 2023 </small> <br>
-                <strong> Dr Elkaioum Moutuou's preprint "Topology and spectral interconnectivities of higher-order multilayer networks" is now live on ArXiv.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-dr-elkaioum-moutuou-s-preprint-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-is-now-live-on-arxiv">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-dr-elkaioum-moutuou-s-preprint-topology-and-spectral-interconnectivities-of-higher-order-multilayer-networks-is-now-live-on-arxiv">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2023-05-11">May 11, 2023</time>
+                  <strong> <a class="news-list-title-link" href="/news/elka_preprint/">Dr Elkaioum Moutuou's preprint "Topology and spectral interconnectivities of higher-order multilayer networks" is now live on ArXiv.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="https://arxiv.org/abs/2305.05860" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://arxiv.org/abs/2305.05860" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h4>Abstract</h4>
 <p>Multilayer networks have permeated all the sciences as a powerful mathematical abstraction for interdependent heterogenous systems such as multimodal brain connectomes, transportation, ecological systems, and scientific collaboration. But describing such systems through a purely graph-theoretic formalism presupposes that the interactions that define the underlying infrastructures and support their functions are only pairwise-based; a strong assumption likely leading to oversimplifications. Indeed, most interdependent systems intrinsically involve higher-order intra- and inter-layer interactions. For instance, ecological systems involve interactions among groups within and in-between species, collaborations and citations link teams of coauthors to articles and vice versa, interactions might exist among groups of friends from different social networks, etc. While higher-order interactions have been studied for monolayer systems through the language of simplicial complexes and hypergraphs, a broad and systematic formalism incorporating them into the realm of multilayer systems is still lacking. Here, we introduce the concept of crossimplicial multicomplexes as a general formalism for modelling interdependent systems involving higher-order intra- and inter-layer connections. Subsequently, we introduce cross-homology and its spectral counterpart, the cross-Laplacian operators, to establish a rigorous mathematical framework for quantifying global and local intra- and inter-layer topological structures in such systems. When applied to multilayer networks, these cross-Laplacians provide powerful methods for detecting clusters in one layer that are controlled by hubs in another layer. We call such hubs spectral cross-hubs and define spectral persistence as a way to rank them according to their emergence along the cross-Laplacian spectra.</p>
 <h4>Link</h4>
 <p><strong>ArXiv:</strong> <a href="https://arxiv.org/abs/2305.05860">https://arxiv.org/abs/2305.05860</a></p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/elka_preprint/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-arsalan-s-preprint-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-modeling-neurodegenerative-progression-is-now-live" aria-expanded="false" aria-controls="news-arsalan-s-preprint-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-modeling-neurodegenerative-progression-is-now-live"> 
-                <p><span class="badge btn-Preprint">Preprint</span></p>
-                <small class="text-muted"> February 4, 2023 </small> <br>
-                <strong> Arsalan's preprint "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression"
-is now live.
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-arsalan-s-preprint-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-modeling-neurodegenerative-progression-is-now-live">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-arsalan-s-preprint-extended-fractional-polynomial-generalizations-of-diffusion-and-fisher-kpp-equations-on-directed-networks-modeling-neurodegenerative-progression-is-now-live">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Preprint">Preprint</span></span>
+                  <time class="text-muted" datetime="2023-02-04">February 4, 2023</time>
+                  <strong> <a class="news-list-title-link" href="/news/arsalan_preprint/">Arsalan's preprint "Extended fractional-polynomial generalizations of diffusion and Fisher-KPP equations on directed networks: Modeling neurodegenerative progression"
+is now live.</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-                <p><i class="fas fa-link"></i> <a href="doi.org/10.1101/2023.02.04.527149" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="https://doi.org/10.1101/2023.02.04.527149" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             
-            <div class="card-body">
+            <div>
                 <h4>Abstract</h4>
 <p>In a variety of practical applications, there is a need to investigate diffusion or reaction-diffusion processes on complex structures, including brain networks, that can be modeled as weighted undirected and directed graphs. As an instance, the celebrated Fisher-Kolmogorov-Petrovsky-Piskunov (Fisher-KPP) reaction-diffusion equation are becoming increasingly popular for use in graph frameworks by substituting the standard graph Laplacian operator for the continuous one to study the progression of neurodegenerative diseases such as tauopathies including Alzheimer’s disease (AD). However, due to the porous structure of neuronal fibers, the spreading of toxic species can be governed by an anomalous diffusion process rather than a normal one, and if this is the case, the standard graph Laplacian cannot adequately describe the dynamics of the spreading process. To capture such more complicated dynamics, we propose a diffusion equation with a nonlinear Laplacian operator and a generalization of the Fisher-KPP reaction-diffusion equation on undirected and directed networks using extensions of fractional polynomial (FP) functions. A complete analysis is also provided for the extended FP diffusion equation, including existence, uniqueness, and convergence of solutions, as well as stability of equilibria. Moreover, for the extended FP Fisher-KPP reaction-diffusion equation, we derive a family of positively invariant sets allowing us to establish existence, uniqueness, and boundedness of solutions. Finally, we conclude by investigating nonlinear diffusion on a directed one-dimensional lattice and then modeling tauopathy progression in the mouse brain to gain a deeper understanding of the potential applications of the proposed extended FP equations.</p>
 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/arsalan_preprint/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-congratulations-to-kiana-ezzatdoust-who-received-the-engineering-and-computer-science-graduate-scholarship-from-concordia-university" aria-expanded="false" aria-controls="news-congratulations-to-kiana-ezzatdoust-who-received-the-engineering-and-computer-science-graduate-scholarship-from-concordia-university"> 
-                <p><span class="badge btn-Scholarship">Scholarship</span></p>
-                <small class="text-muted"> May 30, 2022 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Congratulations to Kiana Ezzatdoust who received the "Engineering and Computer Science Graduate Scholarship" from Concordia University!
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-congratulations-to-kiana-ezzatdoust-who-received-the-engineering-and-computer-science-graduate-scholarship-from-concordia-university">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-congratulations-to-kiana-ezzatdoust-who-received-the-engineering-and-computer-science-graduate-scholarship-from-concordia-university">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Scholarship">Scholarship</span></span>
+                  <time class="text-muted" datetime="2022-05-30">May 30, 2022</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/kiana2022/">Congratulations to Kiana Ezzatdoust who received the "Engineering and Computer Science Graduate Scholarship" from Concordia University!</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/kiana2022/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
-        
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-congratulations-to-kiana-ezzatdoust-who-received-the-recrutment-scholarship-from-the-quebec-bio-imaging-network-qbin" aria-expanded="false" aria-controls="news-congratulations-to-kiana-ezzatdoust-who-received-the-recrutment-scholarship-from-the-quebec-bio-imaging-network-qbin"> 
-                <p><span class="badge btn-Scholarship">Scholarship</span></p>
-                <small class="text-muted"> September 10, 2021 </small> <br>
-                <strong>
-                    <i class="fa fa-thumbs-up"></i>
-                 Congratulations to Kiana Ezzatdoust who received the "Recrutment Scholarship" from the Quebec Bio-Imaging Network (QBIN)
-</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
+            <details class="details-card" id="news-congratulations-to-kiana-ezzatdoust-who-received-the-recrutment-scholarship-from-the-quebec-bio-imaging-network-qbin">
+              <summary class="news-list-card__summary">
                 
-            </div> 
-        
-
-        <div class="collapse" id="news-congratulations-to-kiana-ezzatdoust-who-received-the-recrutment-scholarship-from-the-quebec-bio-imaging-network-qbin">
+                <span class="news-list-card__summary-body">
+                  <span class="news-list-card__type"><span class="badge btn-Scholarship">Scholarship</span></span>
+                  <time class="text-muted" datetime="2021-09-10">September 10, 2021</time>
+                  <strong>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   <a class="news-list-title-link" href="/news/kiana2021/">Congratulations to Kiana Ezzatdoust who received the "Recrutment Scholarship" from the Quebec Bio-Imaging Network (QBIN)</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             
-            <div class="card-body">
+            <div>
                 
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="/news/kiana2021/">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         
         
         
@@ -537,27 +714,21 @@ is now live.
 </div>
 
 
-        
-        
-       
-        
-        
-        
-        
+            
+            
 
-
-        
-           
-        
+            
+            
+        </main>
 
         
         
             
-        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <footer class="container-fluid bg-dark text-light footer pt-5" style="margin-top: 6rem;">
     <div class="container py-5">
         <div class="container">
                 <h5 class="text-white mb-4">Where to find us</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Map showing the bHealthyAge Lab at Concordia University's EV Building" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.9723406221854!2d-73.5782269563008!3d45.49574641286983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a337243b7%3A0x45e30c18a8a7df4a!2sPavillon%20Ev%20Building!5e0!3m2!1sen!2sca!4v1684525966300!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
         </div>
         
@@ -572,22 +743,22 @@ is now live.
                  Canada Research Chair in Biomedical Imaging and Healthy Aging <br>
                  Member, Applied AI Institute
                 </p>
-                <p><i class="fa fa-phone-alt me-3"></i>(514) 848-2424</p>
-                <p><i class="fa fa-envelope me-3"></i>habib.benali@concordia.ca</p>
+                <p><i class="fa fa-phone-alt me-3" aria-hidden="true"></i><a href="tel:+15148482424">(514) 848-2424</a></p>
+                <p><i class="fa fa-envelope me-3" aria-hidden="true"></i><a href="mailto:habib.benali@concordia.ca">habib.benali@concordia.ca</a></p>
                 <div class="d-flex pt-2">
                     
                     
-                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Quick Links</h5>
                 
-                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank">Our YouTube channel</a>
+                    <a class="btn btn-link" href="https://www.youtube.com/@bHealthyAgeLab" target="_blank" rel="noopener noreferrer">Our YouTube channel</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank">Concordia University</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca" target="_blank" rel="noopener noreferrer">Concordia University</a>
                 
-                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank">PERFORM Center</a>
+                    <a class="btn btn-link" href="https://www.concordia.ca/research/perform.html" target="_blank" rel="noopener noreferrer">PERFORM Center</a>
                 
             </div>
             
@@ -599,22 +770,13 @@ is now live.
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <script>document.write( new Date().getFullYear() ); </script> - <a class="" href="#">bHealthyAge Lab</a>. All rights reserved. 
+                    &copy; <span data-current-year>2026</span> – <a href="/">bHealthyAge Lab</a>. All rights reserved.
                 </div>
-                <!--
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </div>
-</div>
+</footer>
+
         
         
 
@@ -622,22 +784,13 @@ is now live.
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-capslock"></i></a>
+        <button type="button" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to top">
+            <i class="bi bi-arrow-up" aria-hidden="true"></i>
+        </button>
     </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/lib/wow/wow.min.js"></script>
-    <script src="/assets/lib/easing/easing.min.js"></script>
-    <script src="/assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Bootstrap core JS-->
-    
-
     <!-- Template Javascript -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js?v=2026-09-23-6" defer></script>
 </body>
 
 </html>

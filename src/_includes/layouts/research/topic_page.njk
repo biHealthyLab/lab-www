@@ -4,7 +4,7 @@
 <section class="topic">
     <div class="container hero">
         <div class="col-md-8 mx-auto text-center">
-            <h2>{{ title }}</h2>
+            <h1>{{ title }}</h1>
         </div>
         <div class="container col-lg-6 col-md-6 mx-auto figure-caption text-center">
             {# {{ short_description | safe }} #}
@@ -36,11 +36,14 @@
         <div class="col-md-10 mx-auto mt-4 mb-4">
 
                 <div class="figure" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="{{ illustration | url }}">
+                    <picture>
+                      <source srcset="{{ illustration | webpPath | url }}" type="image/webp">
+                      <img class="img-fluid" src="{{ illustration | url }}" alt="Illustration for {{ title }}" loading="lazy" decoding="async">
+                    </picture>
                 </div>
 
 
-            {{ content | latex | safe }}
+            {{ content | safe }}
            
         </div>
     </div>

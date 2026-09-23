@@ -4,7 +4,7 @@
 {# {% include "../page_header.njk" %} #}
 <div class="container hero">
     <div class="col-md-8 mx-auto text-center">
-        <h2>{{ title }}</h2>
+        <h1>{{ title }}</h1>
     </div>
     <div class="container col-md-8 mx-auto figure-caption">{{ teaser | safe }}</div>
 
@@ -20,7 +20,7 @@
     {# <h2 class="mb-4">{{ title }}</h2> #}
 
     <div class="figure" data-wow-delay="0.1s">
-        <img class="img-fluid" src="{{ featured_img | url }}">
+        <img class="img-fluid" src="{{ featured_img | url }}" alt="Featured illustration for {{ title }}" loading="lazy" decoding="async">
         
     </div>
 
@@ -36,7 +36,7 @@
     <div class="col-md-10 mx-auto mt-4 mb-4">
         <div class="container row">
             <div class="col-md-8">
-            {{ content | latex | safe }}
+            {{ content | safe }}
 
                <p class="">
                    {% include "../tags/widgets/item_tags.njk" %}

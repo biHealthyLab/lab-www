@@ -8,6 +8,10 @@
         "dir": "/about/"
     },
     {
+        "anchor": "Team",
+        "dir": "/team/"
+    },
+    {
         "anchor": "Publications",
         "dir": "/publications/"
     },

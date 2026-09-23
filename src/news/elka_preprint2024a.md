@@ -1,6 +1,8 @@
 ---
 type: Preprint
 date: 2024-10-23
+front_image: /media/images/topics/brain-changes.webp
+front_image_alt: Diagram showing brain network dynamics from an initial to a target state
 title: |
  Dr. E. Moutuou and Dr. H. Benali's preprint "KMS states of Information Flow in Directed Brain Synaptic Networks" is now live on ArXiv.
 link: https://arxiv.org/abs/2410.18222

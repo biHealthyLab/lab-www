@@ -1,3 +1,6 @@
 {
-    "tags": ["news"]
+    "tags": ["news"],
+    "layout": "layouts/news/news_page.njk",
+    "front_image": "",
+    "front_image_alt": ""
 }

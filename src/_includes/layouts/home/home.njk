@@ -18,12 +18,14 @@
 {% block page_main_content %}
     {% include "./partials/mission.njk" %}
 
-    <div class="py-6 row">
+    <div class="py-6 row home-partners">
         <div class="row">
             {% include "./partials/partners.njk" %}
         </div>
     </div>
     {% include "layouts/research/main_areas.njk" %}
+
+    {% include "layouts/news/widgets/home_latest_news.njk" %}
 
 
     {# {% include "./partials/featured_research.njk" %} #}

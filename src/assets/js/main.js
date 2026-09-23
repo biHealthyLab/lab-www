@@ -1,100 +1,96 @@
-(function ($) {
-    "use strict";
+(() => {
+  "use strict";
 
-    // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    spinner();
-    
-    
-    // Initiate the wowjs
-    new WOW().init();
+  const navbar = document.querySelector(".navbar");
+  const navToggle = document.querySelector("[data-nav-toggle]");
+  const navMenu = document.querySelector("#navbarMain");
+  const backToTop = document.querySelector(".back-to-top");
+  const heroVideo = document.querySelector("#bground-video");
+  const heroVideoToggle = document.querySelector("[data-video-toggle]");
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+  const updateScrolledState = () => {
+    const isScrolled = window.scrollY > 45;
+    navbar?.classList.toggle("sticky-top", isScrolled);
+    navbar?.classList.toggle("shadow-sm", isScrolled);
+    backToTop?.classList.toggle("is-visible", window.scrollY > 300);
+  };
 
-    // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
-            $('.navbar').addClass('sticky-top shadow-sm');
-        } else {
-            $('.navbar').removeClass('sticky-top shadow-sm');
-        }
+  navToggle?.addEventListener("click", () => {
+    const expanded = navToggle.getAttribute("aria-expanded") === "true";
+    navToggle.setAttribute("aria-expanded", String(!expanded));
+    navToggle.setAttribute("aria-label", expanded ? "Open navigation menu" : "Close navigation menu");
+    navMenu?.classList.toggle("show", !expanded);
+  });
+
+  navMenu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navToggle?.setAttribute("aria-expanded", "false");
+      navToggle?.setAttribute("aria-label", "Open navigation menu");
+      navMenu?.classList.remove("show");
     });
-    
-    
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
+  });
+
+  backToTop?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion.matches ? "auto" : "smooth" });
+  });
+
+  heroVideoToggle?.addEventListener("click", () => {
+    if (!heroVideo) return;
+    const icon = heroVideoToggle.querySelector("i");
+    if (heroVideo.paused) {
+      heroVideo.play();
+      heroVideoToggle.setAttribute("aria-label", "Pause background video");
+      icon?.classList.replace("fa-play", "fa-pause");
+    } else {
+      heroVideo.pause();
+      heroVideoToggle.setAttribute("aria-label", "Play background video");
+      icon?.classList.replace("fa-pause", "fa-play");
+    }
+  });
+
+  document.querySelectorAll("[data-current-year]").forEach((element) => {
+    element.textContent = new Date().getFullYear();
+  });
+
+  const publicationSearch = document.querySelector("[data-publication-search]");
+  const publicationYear = document.querySelector("[data-publication-year]");
+  const publicationItems = [...document.querySelectorAll("[data-publication-item]")];
+  const publicationGroups = [...document.querySelectorAll("[data-publication-year-group]")];
+  const publicationPublishedSection = document.querySelector("[data-publication-published-section]");
+  const publicationEmpty = document.querySelector("[data-publication-empty]");
+
+  const filterPublications = () => {
+    const query = publicationSearch?.value.trim().toLowerCase() || "";
+    const year = publicationYear?.value || "";
+    let visibleCount = 0;
+
+    publicationItems.forEach((item) => {
+      const matchesQuery = !query || item.textContent.toLowerCase().includes(query);
+      const matchesYear = !year || item.dataset.year === year;
+      const visible = matchesQuery && matchesYear;
+      item.hidden = !visible;
+      if (visible) visibleCount += 1;
     });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 100, 'easeInOutExpo');
-        return false;
+
+    publicationGroups.forEach((group) => {
+      const hasVisibleItems = [...group.querySelectorAll("[data-publication-item]")]
+        .some((item) => !item.hidden);
+      group.hidden = !hasVisibleItems;
     });
 
+    if (publicationPublishedSection) {
+      const hasVisiblePublishedItems = [...publicationPublishedSection.querySelectorAll("[data-publication-item]")]
+        .some((item) => !item.hidden);
+      publicationPublishedSection.hidden = !hasVisiblePublishedItems;
+    }
 
-    // Topics cards carousel
-    $(".topics-cards-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        center: true,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:2
-            }
-        }
-    });
+    if (publicationEmpty) publicationEmpty.hidden = visibleCount !== 0;
+  };
 
+  publicationSearch?.addEventListener("input", filterPublications);
+  publicationYear?.addEventListener("change", filterPublications);
 
-    // Client carousel
-    $(".client-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 90,
-        dots: false,
-        loop: true,
-        nav : false,
-        responsive: {
-            0:{
-                items:2
-            },
-            576:{
-                items:3
-            },
-            768:{
-                items:4
-            },
-            992:{
-                items:5
-            },
-            1200:{
-                items:6
-            }
-        }
-    });
-    
-})(jQuery);
-
+  window.addEventListener("scroll", updateScrolledState, { passive: true });
+  updateScrolledState();
+})();

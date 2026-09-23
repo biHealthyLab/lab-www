@@ -1,7 +1,5 @@
 const pluginDate = require("eleventy-plugin-date");
 const markdownIt =require("markdown-it");
-const markdownItKatex = require("markdown-it-katex");
-const katex = require("katex");
 
 const options = {
   html: true,
@@ -9,7 +7,7 @@ const options = {
   linkify: true
 };
 
-const markdownLib = markdownIt(options).use(markdownItKatex);
+const markdownLib = markdownIt(options);
 
 // Components 
 const ItemCard = require("./src/_includes/components/ItemCard");
@@ -31,24 +29,71 @@ function sortByCategory(values) {
   return vals.sort((a, b) => Math.sign(a.data.category - b.data.category));
 }
 
+function eventTimestamp(event) {
+  return new Date(event.data.date).getTime();
+}
+
+function publicationYears(publications) {
+  return [...new Set(publications.map((publication) => publication.year))]
+    .sort((a, b) => Number(b) - Number(a));
+}
+
+function publicationsForYear(publications, year) {
+  return publications.filter((publication) => String(publication.year) === String(year));
+}
+
+function publishedPublications(publications) {
+  return publications.filter((publication) => publication.type !== "preprint");
+}
+
+function preprintPublications(publications) {
+  return publications
+    .filter((publication) => publication.type === "preprint")
+    .sort((a, b) => new Date(b.releaseDate || `${b.year}-01-01`) - new Date(a.releaseDate || `${a.year}-01-01`));
+}
+
+function readablePublicationDate(value) {
+  const date = new Date(`${value}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat("en-CA", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC"
+  }).format(date);
+}
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("md", markdownLib);
     eleventyConfig.addPlugin(pluginDate);
-    // eleventyConfig.addPlugin(mathjaxPlugin);
-    
-    // latex filter for katex 
-    eleventyConfig.addFilter("latex", (content) => {
-        return content.replace(/\$\$(.+?)\$\$/g, (_, equation) => {
-          const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
-      
-          return katex.renderToString(cleanEquation, { throwOnError: false });
-        });
-      });
-
     // Sorting
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
     eleventyConfig.addFilter("sortByCategory", sortByCategory);
+    eleventyConfig.addFilter("publicationYears", publicationYears);
+    eleventyConfig.addFilter("publicationsForYear", publicationsForYear);
+    eleventyConfig.addFilter("publishedPublications", publishedPublications);
+    eleventyConfig.addFilter("preprintPublications", preprintPublications);
+    eleventyConfig.addFilter("readablePublicationDate", readablePublicationDate);
+    eleventyConfig.addFilter("isoDate", (value) => {
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? "" : date.toISOString().slice(0, 10);
+    });
+    eleventyConfig.addFilter("webpPath", (value) => {
+      return typeof value === "string" ? value.replace(/\.[^/.]+$/, ".webp") : value;
+    });
+    eleventyConfig.addFilter("futureEvents", (values) => {
+      const now = Date.now();
+      return [...values]
+        .filter((event) => eventTimestamp(event) >= now)
+        .sort((a, b) => eventTimestamp(a) - eventTimestamp(b));
+    });
+    eleventyConfig.addFilter("pastEvents", (values) => {
+      const now = Date.now();
+      return [...values]
+        .filter((event) => eventTimestamp(event) < now)
+        .sort((a, b) => eventTimestamp(b) - eventTimestamp(a));
+    });
 
 
 

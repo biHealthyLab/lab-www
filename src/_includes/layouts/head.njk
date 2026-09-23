@@ -1,11 +1,26 @@
+{% set pageTitle = title or full_name or site.shortName %}
+{% set shareImage = front_image or site.logo %}
 <meta charset="utf-8">
-<title>BhealthyAge :: {{ title }} </title>
+<title>{{ pageTitle | trim }} | {{ site.shortName }}</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="{{ keywords }}" name="keywords">
-<meta content="{{ site.metaDescription }}, {{ metaDescription }}" name="description">
+{% if keywords %}<meta content="{{ keywords }}" name="keywords">{% endif %}
+<meta content="{{ metaDescription or teaser or short_description or site.metaDescription }}" name="description">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<link href="{{ site.url }}{{ page.url }}" rel="canonical">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.shortName }}">
+<meta property="og:title" content="{{ pageTitle | trim }} | {{ site.shortName }}">
+<meta property="og:description" content="{{ metaDescription or teaser or short_description or site.metaDescription }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ shareImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pageTitle | trim }} | {{ site.shortName }}">
+<meta name="twitter:description" content="{{ metaDescription or teaser or short_description or site.metaDescription }}">
+<meta name="twitter:image" content="{{ site.url }}{{ shareImage }}">
 
 <!-- Favicon -->
-<link href="{{ '/assets/img/favicon.ico' | url }}" rel="icon">
+<link href="{{ site.logo | url }}" rel="icon" type="image/png">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,21 +31,40 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link href="{{ '/assets/css/bootstrap-icons.css' | url }}" rel="stylesheet">
 
-<!-- Libraries Stylesheet -->
-<link href="{{ '/assets/lib/animate/animate.min.css' | url }}" rel="stylesheet">
-<link href="{{ '/assets/lib/owlcarousel/assets/owl.carousel.min.css' | url }}" rel="stylesheet">
-
 <!-- Customized Bootstrap Stylesheet -->
 <link href="{{ '/assets/css/bootstrap.css' | url }}" rel="stylesheet">
 
 
 <!-- Template Stylesheet -->
-<link href="{{ '/assets/css/style.css' | url }}" rel="stylesheet">
+<link href="{{ '/assets/css/style.css' | url }}?v={{ site.assetVersion }}" rel="stylesheet">
 
 
-<!-- Katex fonts -->
-<link   rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css"/>
+<!-- MathJax renders TeX expressions written as $...$ or $$...$$ in Markdown. -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: {'[+]': [['$', '$']]},
+    processEscapes: true,
+    tags: 'ams'
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "{{ site.title }}",
+  "alternateName": "{{ site.shortName }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}{{ site.logo }}",
+  "email": "{{ site.contactEmail }}",
+  "telephone": "{{ site.phone }}",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Concordia University",
+    "url": "https://www.concordia.ca/"
+  }
+}
+</script>

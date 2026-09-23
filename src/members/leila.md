@@ -8,7 +8,7 @@ profile_img: /media/images/team/leila.jpg
 teaser: |
  Predicting multimodal brain connectomes using graph neural networks: a unified approach for neuroimaging and Alzheimer’s disease
 keywords: |
-  Multimodal, brain connectomes, neural networks, Alzheimer, neuroimaging
+  Multimodal brain connectomes, neural networks, Alzheimer's disease, neuroimaging
 presentation: |
   I am a MASc candidate in the Department of Electrical and Computer Engineering at Concordia University. My current research focuses on predicting multimodal brain connectomes using graph neural networks: a unified approach for neuroimaging and Alzheimer’s disease.
 
@@ -32,4 +32,3 @@ My research focuses on developing advanced graph neural network (GNN) models for
 ### Video
 
 **3 Minute Thesis summary**: https://www.linkedin.com/posts/leila-mousavi-8a3b9a2aa_3mt-mt180-concordiauniversity-activity-7311159662794412033-v5I9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqSBXsBsoYUEUfUtm4KP7ijh9fXRzJjiBM
-

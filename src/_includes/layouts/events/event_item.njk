@@ -1,0 +1,29 @@
+<details class="details-card" id="event-{{ e.data.title|slugify }}">
+  <summary>
+    {% if e.data.type %}<p><span class="badge btn-{{ e.data.type }}">{{ e.data.type }}</span></p>{% endif %}
+
+    <h3 class="h5">{{ e.data.title }}</h3>
+    <p class="mb-1"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <small class="text-muted">{{ e.data.date | readableDate }}{% if e.data.end_date %} &#8213; {{ e.data.end_date | readableDate }}{% endif %}</small></p>
+    {% if e.data.speaker %}
+      <p><i class="fas fa-microphone-alt" aria-hidden="true"></i> <b>{{ e.data.speaker }}</b></p>
+    {% endif %}
+    {% if e.data.organizers %}
+      <p><i class="fas fa-edit" aria-hidden="true"></i> Organizers: <b>{{ e.data.organizers }}</b></p>
+    {% endif %}
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ e.data.location }}</p>
+
+    {% if e.data.notes_file %}
+      <p><a class="badge bg-secondary" href="{{ e.data.notes_file | url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Slides</a></p>
+    {% endif %}
+
+    {% if e.data.video %}
+      <p><i class="fab fa-youtube" aria-hidden="true"></i> <a class="btn btn-outline-danger btn-social" href="{{ e.data.video | url }}" target="_blank" rel="noopener noreferrer">Video</a></p>
+    {% endif %}
+    {% if e.data.link %}
+      <p><a href="{{ e.data.link | url }}" target="_blank" rel="noopener noreferrer">Event website <span aria-hidden="true">↗</span></a></p>
+    {% endif %}
+  </summary>
+  <div class="details-card__content">
+    {{ e.templateContent | safe }}
+  </div>
+</details>

@@ -4,44 +4,28 @@
 {% include "layouts/page_header.njk" %}
 {% endblock %}
 
-
 {% block page_main_content %}
 <div class="container-xxl">
-    <div class="col-md-6 mx-auto ml-2">  
-        {% for e in collections.events | reverse %}
-        {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-{{ e.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ e.data.title|slugify }}">
-               {% if e.data.type %}<p><span class="badge btn-{{ e.data.type }}">{{ e.data.type }}</span></p>{% endif %}
-              
-               <h5>{{e.data.title}}</h5>
-               <p class="mb-1"> <i class="fas fa-calendar-alt"></i> <small class="text-muted"> {{ e.data.date | readableDate }} {% if e.data.end_date %} &#8213; {{ e.data.end_date | readableDate }}{% endif %} </small></p> 
-                {% if e.data.speaker %}
-                    <p><i class="fas fa-microphone-alt"></i> <b> {{ e.data.speaker }} </b></p>
-                {% endif %}
-                {% if e.data.organizers %}
-                    <p><i class="fas fa-edit"></i> Organizers: <b> {{ e.data.organizers }} </b></p>
-                {% endif %}
-                <p><i class="fas fa-map-marker-alt"></i> {{ e.data.location }} </p>
+  <div class="col-md-8 mx-auto ml-2">
+    {% set upcomingEvents = collections.events | futureEvents %}
+    {% set pastEventItems = collections.events | pastEvents %}
 
-                {% if e.data.notes_file %}
-                <p><span class="badge bg-secondary" type='button' onclick="window.open('{{e.data.notes_file}}', '_blank')"><i class="fas fa-file-pdf"></i>  Slides</span></p>
-                {% endif %}
+    <section aria-labelledby="upcoming-events-heading" class="mb-5">
+      <h2 id="upcoming-events-heading" class="headline mb-4"><span>Upcoming events</span></h2>
+      {% if upcomingEvents.length == 0 %}
+        <p class="text-center text-muted">No upcoming events are currently listed. Please check back soon.</p>
+      {% endif %}
+      {% for e in upcomingEvents %}
+        {% include "./event_item.njk" %}
+      {% endfor %}
+    </section>
 
-                {% if e.data.video %}
-                <p><i class="fab fa-youtube"></i> <span class="btn btn-outline-danger btn-social" onclick="window.open('{{e.data.video | url}}', '_blank')">Video</span></p>
-                {% endif %}
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div> 
-            </div> 
-        {# </div> #}
-        <div class="collapse" id="news-{{ e.data.title|slugify }}">
-            <div class="card-body">
-                {{ e.templateContent|safe }}
-            </div>
-        </div>     
-        {% endfor %}
-    </div>
+    <section aria-labelledby="past-events-heading">
+      <h2 id="past-events-heading" class="headline mb-4"><span>Past events</span></h2>
+      {% for e in pastEventItems %}
+        {% include "./event_item.njk" %}
+      {% endfor %}
+    </section>
+  </div>
 </div>
 {% endblock %}

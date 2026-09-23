@@ -1,21 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
     <a href="/" class="navbar-brand p-0">
-        
-        <img src="{{ site.logo | url }}" alt="Logo">
-        {# <h6 class="m-0">BhealthyAge</h6> #}
-
+        <img src="{{ site.logo | url }}" alt="{{ site.shortName }} home" width="304" height="108">
     </a>
-    <a class="btn btn-outline-danger btn-social" href="{{ site.youtube | url }}" target="_blank"><i class="fab fa-youtube"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false">
-        <span class="fa fa-bars"></span>
+    <a class="btn btn-outline-danger btn-social navbar-youtube" href="{{ site.youtube | url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit the bHealthyAge Lab YouTube channel">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-nav-toggle aria-controls="navbarMain" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="fa fa-bars" aria-hidden="true"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
         <div class="navbar-nav ms-auto py-0">
             {% for navitem in navitems %}
-                <a href="{{ navitem.dir | url }}" class="nav-item nav-link {{ 'active' if navitem.dir == page.url }}">{{ navitem.anchor }}</a>
+                <a href="{{ navitem.dir | url }}" class="nav-item nav-link {{ 'active' if navitem.dir == page.url }}"{% if navitem.dir == page.url %} aria-current="page"{% endif %}>{{ navitem.anchor }}</a>
             {% endfor %}
         </div>
     </div>
 </nav>
-
 

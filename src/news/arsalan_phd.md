@@ -2,8 +2,10 @@
 thumbs_up: Yes
 type: Thesis defence
 date: 2025-09-02
+front_image: /media/images/team/arsalan.webp
+front_image_alt: Portrait of Arsalan Rahimabadi
 title: |
-  Arsalan has successfully defended his PhD thesis! we’re so proud of your achievement, Dr.!
+  Arsalan Rahimabadi has successfully defended his PhD thesis
 ---
 ### Arsalan's PhD Defence
 

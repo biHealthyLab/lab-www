@@ -4,7 +4,7 @@ function ItemCard({cardImageUrl, cardTitle, cardText, cardLink, linkText}) {
     return html`
     <div class="topics-item rounded p-4">
     <div class="figure">
-        <img src="${cardImageUrl}"></img>
+        <img src="${cardImageUrl}" alt="Illustration for ${cardTitle}" loading="lazy" decoding="async">
     </div>
     <div class="p-3">
         <h5 class="mb-3">${cardTitle}</h5>

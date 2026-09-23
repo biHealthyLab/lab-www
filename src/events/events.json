@@ -1,3 +1,4 @@
 {
-    "tags": ["events"]
+    "tags": ["events"],
+    "layout": "layouts/events/event_page.njk"
 }

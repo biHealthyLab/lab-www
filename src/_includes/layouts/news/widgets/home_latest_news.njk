@@ -1,0 +1,29 @@
+<section class="latest-news-section" aria-labelledby="latest-news-heading">
+  <div class="container">
+    <div class="mx-auto mb-5 text-center">
+      <h2 id="latest-news-heading" class="headline"><span>Latest news</span></h2>
+    </div>
+    <div class="row g-4">
+      {% for n in collections.news | reverse %}
+        {% if loop.index <= 3 %}
+          <div class="col-lg-4 col-md-6">
+            <article class="latest-news-card">
+              {% if n.data.front_image %}
+                <div class="latest-news-card__image">
+                  <img src="{{ n.data.front_image | url }}" alt="{{ n.data.front_image_alt or n.data.title | trim }}" loading="lazy" decoding="async">
+                </div>
+              {% endif %}
+              <div class="latest-news-card__body">
+                {% if n.data.type %}<span class="badge btn-{{ n.data.type }} mb-3">{{ n.data.type }}</span>{% endif %}
+                <time datetime="{{ n.data.date | isoDate }}">{{ n.data.date | readableDate }}</time>
+                <h3 class="h5">{{ n.data.title | trim | safe }}</h3>
+                <a class="latest-news-card__link" href="{{ n.url | url }}">Read this update <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <p class="mt-4 text-center"><a class="btn btn-more btn-more-dark" href="/news/">View all news</a></p>
+  </div>
+</section>

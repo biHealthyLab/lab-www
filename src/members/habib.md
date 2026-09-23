@@ -4,13 +4,13 @@ username: habib
 full_name: Habib Benali
 credentials: PhD
 category: 0
-position: PI & Lab Director, Professor, Department of Electrical and Computer Engineering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute
+position: Lab Director, Professor, Department of Electrical and Computer Engineering, Canada Research Chair in Biomedical Imaging and Healthy Aging, Member Applied AI Institute
 profile_img: /media/images/team/habib.JPG
 teaser: How can multimodal imaging and computational modeling be used to better understand which factors promote a healthy lifestyle?
 social:
   email: "habib.benali@concordia.ca"
 keywords: |
-   Neuroimaging, Computational Neuroscience, Mathematical Models and Statistics, Signal and Image Processing, Functional and Anatomical Connectivity, Healthy Aging, Motor Learning, Neurodegenerative Deseases 
+   Neuroimaging, Computational Neuroscience, Mathematical Models and Statistics, Signal and Image Processing, Functional and Anatomical Connectivity, Healthy Aging, Motor Learning, Neurodegenerative Diseases
 presentation: |
   The research interest of Prof. Benali is motivated by innovative and valid methodological approaches to studying normal aging and pathological processes in the context of a variety of neurological conditions representing critical public health issues. It develops an integrated biomedical approach, ranging from the basic mathematical modelling of the brain's anatomo-functional circuits and their normal and pathological dynamics to the physiological model of brain activity observed by neuroimaging tools allowing us to translate models from normal aging to clinical populations.
 ---
@@ -35,5 +35,4 @@ In the last 30 years, I have gone from starting a new neuroimaging research acti
 
 
 I am Associate Editor for Brain Imaging Methods – Frontiers in Neuroscience. I served as a member of the expert panel of FLAG-ERA, an umbrella organization that unites most funding organisations in Europe, and was an expert member of the French National Research Agency and numerous internal and external committees and boards including, Baycrest Academy for Research and Education Advisory Committee; Executive Committee of the Quebec Biomedical Imaging Network – FRQS; and Chair of the executive committee, to list but a few.
-
 

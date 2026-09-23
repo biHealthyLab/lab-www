@@ -1,6 +1,8 @@
 ---
 type: Preprint
 date: 2024-08-24
+front_image: /media/images/topics/brain-changes.webp
+front_image_alt: Diagram showing brain network dynamics from an initial to a target state
 title: |
  Dr. E. Moutuou and Dr. H. Benali's preprint "Brain functions emerge as thermal equilibrium states of the connectome" is now live on ArXiv.
 link: https://arxiv.org/abs/2408.14221

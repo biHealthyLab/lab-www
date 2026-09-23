@@ -1,12 +1,14 @@
 
 {% for m in collections.members | sortByCategory %}
 
-<section class="section-xxl member-hero hero-{% if loop.index%2 == 1 %}odd{% else %}even{% endif %} wow fadeInUp" data-wow-delay="0.1s">
+<section class="section-xxl member-hero hero-{% if loop.index%2 == 1 %}odd{% else %}even{% endif %}">
     <div class="container">
-        <div class="row wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 img-hero-wrapper">
-                    <img src="{{ m.data.profile_img | url }}"
-                alt="{{m.data.full_name}}" class="img-hero">
+                    <picture>
+                      <source srcset="{{ m.data.profile_img | webpPath | url }}" type="image/webp">
+                      <img src="{{ m.data.profile_img | url }}" alt="Portrait of {{m.data.full_name}}" class="img-hero" width="250" height="250" loading="lazy" decoding="async">
+                    </picture>
                 
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 hero-content">
@@ -25,4 +27,3 @@
 </section>
 
 {% endfor %}
-

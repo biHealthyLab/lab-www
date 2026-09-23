@@ -1,28 +1,75 @@
-{% for p in publications |sort(true, false, 'year') %}
-<div class="card-body bcard clickable wow fadeInUp" data-wow-delay="0.1s">
-    <span>
-        <b>{{loop.index}} - </b>
-    </span>
-    <span>
-        <a href="https://doi.org/{{p.doi}}">{{p.title}}</a>.
-    </span>
-    <span>
-    {% for a in p.authors %}
-        {{ a }},
-    {% endfor %}
-    </span>
-    <span>
-        <i>{{p.journal}}</i>,  
-    </span>
-    <span>
-        {{p.year}}. 
-    </span>
-    {% if p.doi %}
-    <span>
-        <a href="https://doi.org/{{p.doi}}">doi:{{p.doi}}</a>
-    <span>
-    {% endif %}
+<div class="publication-tools rounded" role="search" aria-label="Filter publications">
+  <div class="row g-3 align-items-end">
+    <div class="col-md-8">
+      <label class="form-label" for="publication-search">Search publications</label>
+      <input class="form-control" id="publication-search" type="search" placeholder="Search by title, author, journal, or keyword" data-publication-search>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label" for="publication-year">Year</label>
+      <select class="form-select" id="publication-year" data-publication-year>
+        <option value="">All years</option>
+        {% for year in publications | publicationYears %}
+          <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
 </div>
-                  
-    
+
+<p data-publication-empty hidden>No publications match those filters.</p>
+
+{% set preprints = publications | preprintPublications %}
+{% set published = publications | publishedPublications %}
+
+{% if preprints.length %}
+  <section class="publication-preprints" data-publication-year-group aria-labelledby="preprints-heading">
+    <h2 id="preprints-heading" class="publication-section-heading">Preprints</h2>
+    <p class="publication-section-intro">Manuscripts available on arXiv. Publication details will be updated after peer review.</p>
+    <div class="publication-year-list">
+    {% for p in preprints %}
+      <article class="card-body bcard" data-publication-item data-year="{{ p.year }}">
+        <p class="mb-2"><span class="badge btn-Preprint">Preprint</span></p>
+        <h3 class="h6 mb-2"><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a></h3>
+        <p class="mb-1">
+          {% for a in p.authors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}
+        </p>
+        <p class="mb-1"><i>{{ p.journal }}</i>, {{ p.year }}{% if p.releaseDate %}. Released <time datetime="{{ p.releaseDate }}">{{ p.releaseDate | readablePublicationDate }}</time>{% endif %}.</p>
+        {% if p.arxiv %}
+          <p class="mb-0"><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">arXiv:{{ p.arxiv }}</a></p>
+        {% endif %}
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+<div data-publication-published-section>
+<h2 class="publication-section-heading">Peer-reviewed publications</h2>
+{% for year in published | publicationYears %}
+  <section class="publication-year-group" data-publication-year-group data-year="{{ year }}" aria-labelledby="publications-{{ year }}">
+    <h2 id="publications-{{ year }}" class="publication-year-heading">{{ year }}</h2>
+    <div class="publication-year-list">
+    {% for p in published | publicationsForYear(year) %}
+  <article class="card-body bcard" data-publication-item data-year="{{ year }}">
+    <h3 class="h6 mb-2">
+      {% if p.url %}
+        <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a>
+      {% elif p.doi %}
+        <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">{{ p.title }}</a>
+      {% else %}
+        {{ p.title }}
+      {% endif %}
+    </h3>
+    <p class="mb-1">
+      {% for a in p.authors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}
+    </p>
+    <p class="mb-1"><i>{{ p.journal or p.yournal }}</i>{% if p.journal or p.yournal %}, {% endif %}{{ p.year }}.</p>
+    {% if p.doi %}
+      <p class="mb-0"><a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener noreferrer">doi:{{ p.doi }}</a></p>
+    {% endif %}
+  </article>
+    {% endfor %}
+    </div>
+  </section>
 {% endfor %}
+</div>

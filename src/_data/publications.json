@@ -1,11 +1,39 @@
 [
     {
+        "authors": ["Moutuou EM", "Benali H"],
+        "title": "Weight geometry governs functional memory in complex systems",
+        "journal": "arXiv preprint",
+        "year": 2026,
+        "releaseDate": "2026-06-24",
+        "type": "preprint",
+        "url": "https://arxiv.org/abs/2606.25826",
+        "arxiv": "2606.25826"
+    },
+    {
+        "authors": ["Sunil G", "Benali H", "Moutuou EM"],
+        "title": "Thermodynamic connectivity reveals functional specialization and multiplex organization of extrasynaptic signaling",
+        "journal": "arXiv preprint",
+        "year": 2026,
+        "releaseDate": "2026-04-02",
+        "type": "preprint",
+        "url": "https://arxiv.org/abs/2604.02057",
+        "arxiv": "2604.02057"
+    },
+    {
+        "authors": ["Moutuou EM", "Benali  H."],
+        "title": "Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks",
+        "journal": "Phys. Rev. E",
+        "year": 2025,
+        "url": "https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw",
+        "doi": "10.1103/wvbd-j5rw"
+    },
+    {
         "authors": ["Moutuou EM", "Benali  H."],
         "title": "Brain functions emerge as thermal equilibrium states of the connectome",
         "journal": "Phys. Rev. Research",
         "year": 2025,
         "url": "https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc",
-        "doi": "https://doi.org/10.1103/jmqh-bqnc"
+        "doi": "10.1103/jmqh-bqnc"
     },
     {
         "authors":["Obaï Bin Ka’b Ali" ,"Alexandre Vidal", "Christophe Grova","Habib Benali"],
@@ -13,7 +41,7 @@
         "journal": "PLoS Comput Biol",
         "year": 2025,
         "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012683",
-        "doi": "https://doi.org/10.1371/journal.pcbi.1012683"
+        "doi": "10.1371/journal.pcbi.1012683"
     },
     {
         "authors": ["Moutuou EM", " Ali OBK", "Benali  H."],
@@ -26,7 +54,7 @@
     {
         "authors": ["Ahmadi F", "Simchi M", "Perry J. M.", "Frenette S.", "Benali  H.", "Soucy J. P.", "Massarweh G.", "Shih S. C."],
         "title": "Integrating machine learning and digital microfluidics for screening experimental conditions",
-        "yournal": "Lab on a chip, 23(1), 81-91",
+        "journal": "Lab on a Chip, 23(1), 81–91",
         "year": 2023,
         "doi": ""
     },

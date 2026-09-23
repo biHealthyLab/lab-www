@@ -12,12 +12,15 @@
                   <div class="container profile-header-content">
                      <!-- BEGIN profile-header-img -->
                      <div class="profile-header-img">
-                        <img class="img-fluid" src="{{ profile_img }}" alt="">
+                        <picture>
+                          <source srcset="{{ profile_img | webpPath | url }}" type="image/webp">
+                          <img class="img-fluid" src="{{ profile_img | url }}" alt="Portrait of {{ full_name }}" width="180" height="180">
+                        </picture>
                      </div>
                      <!-- END profile-header-img -->
                      <!-- BEGIN profile-header-info -->
                      <div class="profile-header-info">
-                        <h4 class="m-t-10 m-b-5"><b>{{ full_name}}</b>, {{ credentials }}</h4>
+                        <h1 class="profile-header-name h4 m-t-10 m-b-5"><b>{{ full_name}}</b>, {{ credentials }}</h1>
                         <p class="m-b-1"><small>{{ position }}</small></p>
                         <div class="profile-teaser mb-2">
                            {% if teaser %}
@@ -27,27 +30,27 @@
                             {% endif %}
                         </div>
                         <div>
-                           <smal class="text-white">
+                           <small class="text-white">
                               <i class="fas fa-flag"></i> <i>{{ keywords }}</i>
-                              </smal>
+                              </small>
                         </div>
-                        <div class"profile-social mt-10 mb-2 mt-5">
+                        <div class="profile-social mt-10 mb-2 mt-5">
 
-                            <a type="button" class="btn btn-outline-light btn-rounded btn-sm" href="mailto:{{ social.email }}"
-                         data-mdb-ripple-color="light"><i class="fas fa-envelope"></i></a>
+                         {% if social.email %}<a class="btn btn-outline-light btn-rounded btn-sm" href="mailto:{{ social.email }}"
+                         data-mdb-ripple-color="light" aria-label="Email {{ full_name }}"><i class="fas fa-envelope" aria-hidden="true"></i></a>{% endif %}
                          {% if social.researchgate %}
                             <a href="{{ social.researchgate | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ full_name }} on ResearchGate"><i class="fab fa-researchgate" aria-hidden="true"></i></a>
                          {% endif %}
 
                          {% if social.twitter %}
                             <a href="{{ social.twitter | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ full_name }} on X or Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                          {% endif %}
 
                          {% if social.linkedin %}
                             <a href="{{ social.linkedin | url}}" type="button" class="btn btn-outline-light btn-floating btn-sm"
-                data-mdb-ripple-color="light" target="_blank"><i class="fab fa-linkedin"></i></a>
+                data-mdb-ripple-color="light" target="_blank" rel="noopener noreferrer" aria-label="{{ full_name }} on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                          {% endif %}
                             
                          </div>
@@ -64,4 +67,3 @@
       </div>
    </div>
 </div>
-

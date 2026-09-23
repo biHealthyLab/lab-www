@@ -10,29 +10,31 @@
     <div class="col-md-6 mx-auto ml-2">
         
         {% for n in collections.news | reverse %}
-        {# <div class="list-group-item list-group-item-action flex-column align-items-start"> #}
-            <div class="bcard list-group-item list-group-item-action flex-column align-items-start mb-2" data-bs-toggle="collapse" role="button" href="#news-{{ n.data.title|slugify }}" aria-expanded="false" aria-controls="news-{{ n.data.title|slugify }}"> 
-                {% if n.data.type %}<p><span class="badge btn-{{n.data.type}}">{{ n.data.type }}</span></p>{% endif %}
-                <small class="text-muted"> {{ n.data.date|readableDate}} </small> <br>
-                <strong>{% if n.data.thumbs_up == 'Yes' %}
-                    <i class="fa fa-thumbs-up"></i>
-                {% endif %} {{ n.data.title |safe }}</strong>
-
-                <div class="text-center arrow">
-                    <i class="fa fa-chevron-down"></i>
-                </div>
-                
-            </div> 
-        {# </div> #}
-
-        <div class="collapse" id="news-{{ n.data.title|slugify }}">
+            <details class="details-card" id="news-{{ n.data.title|slugify }}">
+              <summary class="news-list-card__summary{% if n.data.front_image %} news-list-card__summary--with-image{% endif %}">
+                {% if n.data.front_image %}
+                  <span class="news-list-card__image" aria-hidden="true">
+                    <img src="{{ n.data.front_image | url }}" alt="" loading="lazy" decoding="async">
+                  </span>
+                {% endif %}
+                <span class="news-list-card__summary-body">
+                  {% if n.data.type %}<span class="news-list-card__type"><span class="badge btn-{{n.data.type}}">{{ n.data.type }}</span></span>{% endif %}
+                  <time class="text-muted" datetime="{{ n.data.date | isoDate }}">{{ n.data.date|readableDate}}</time>
+                  <strong>{% if n.data.thumbs_up == 'Yes' %}
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  {% endif %} <a class="news-list-title-link" href="{{ n.url | url }}">{{ n.data.title | trim | safe }}</a></strong>
+                </span>
+              </summary>
+              <div class="details-card__content">
             {% if n.data.link %}
-                <p><i class="fas fa-link"></i> <a href="{{n.data.link|url}}" target="_blank">Link here!</a></p>
+                <p><i class="fas fa-link" aria-hidden="true"></i> <a href="{{n.data.link|url}}" target="_blank" rel="noopener noreferrer">View the related source</a></p>
             {% endif %}
-            <div class="card-body">
+            <div>
                 {{ n.templateContent|safe }}
             </div>
-        </div>     
+            <p class="mb-0"><a class="news-list-story-link" href="{{ n.url | url }}">Read this update <span aria-hidden="true">→</span></a></p>
+              </div>
+            </details>
         {% endfor %}
         
         
@@ -40,4 +42,3 @@
 </div>
 {% endblock %}
             
-

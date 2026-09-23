@@ -3,6 +3,7 @@ type: Conference
 title: |
   "Mostafa Sharifzadeh will be an invited speaker at the Mila Health + AI on April 22, 2024. He will be presenting his work on an innovative approach to ultrasound imaging"
 date: 2024-04-21
+front_image: /media/images/team/mostafa.jpg
 link:
 ---
 

@@ -2,6 +2,9 @@
 thumbs_up: Yes
 type: Publication
 date: 2025-08-14
+front_image: /media/images/uploads/c-elegans-kms.png
+front_image_alt: Illustration of KMS functional connectome
+     of c. elegans
 title: |
   Our paper "Brain functions emerge as thermal equilibrium states of the connectome", by Elkaioum Moutuou and Habib Benali, has now been published in Physical Review Research.
 link: "https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc"

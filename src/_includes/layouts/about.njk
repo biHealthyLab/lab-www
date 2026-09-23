@@ -26,7 +26,18 @@
 
 {% block page_main_content %}
 
-{% include "./team/widgets/partials/member_hero.njk" %}
+<nav class="section-jump-nav" aria-label="About page sections">
+  <a class="btn btn-outline-primary btn-sm" href="#current-team">Current team</a>
+  <a class="btn btn-outline-primary btn-sm" href="#alumni">Alumni</a>
+  <a class="btn btn-outline-primary btn-sm" href="#collaborators">Collaborators</a>
+</nav>
+
+<section id="current-team" aria-labelledby="current-team-heading">
+  <div class="container pt-5 text-center">
+    <h2 id="current-team-heading" class="headline"><span>Current team</span></h2>
+  </div>
+  {% include "./team/widgets/partials/member_hero.njk" %}
+</section>
 
 {% include "./team/widgets/partials/alumni_list.njk" %}
 

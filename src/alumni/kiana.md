@@ -9,7 +9,7 @@ profile_img: /media/images/team/kiana.jpeg
 teaser:
 social:
   email: "kiana.ezzatdoost@mail.concordia.ca"
-  researchgate: "https://Kiana’searchgate.net/profile/Kiana-Ezzatdoost"
+  researchgate: "https://www.researchgate.net/profile/Kiana-Ezzatdoost"
 keywords: |
   Statistics, Neuro-imaging, Functional Connectivity, Anatomical Connectivity, ...
 presentation: |
@@ -38,7 +38,6 @@ Kiana currently holds the Recruitment Scholarship from Quebec Bio-Imaging Networ
 ### Useful links
 
 For further information about Kiana's publications, visit the following link:
-https://Kiana’searchgate.net/profile/Kiana-Ezzatdoost
+https://www.researchgate.net/profile/Kiana-Ezzatdoost
 Contact information
 Email: ki.ezzatdoost@gmail.com, kiana.ezzatdoost@mail.concordia.ca
-

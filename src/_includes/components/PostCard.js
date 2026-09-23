@@ -2,9 +2,9 @@ const {html} = require("common-tags");
 
 function PostCard({featuredImg, postTitle, postAuthor, postTeaser, postDate, postLink}) {
     return html`
-    <div class="post_card card-body" onclick="window.location.href='${postLink}'">
+    <a class="post_card post-card-link card-body d-block" href="${postLink}">
         <div class="figure">
-            <img src="${featuredImg}"></img>
+            <img src="${featuredImg}" alt="Illustration for ${postTitle}" loading="lazy" decoding="async">
         </div>
         <div class="p-3">
             <h6 class="mb-3">${postTitle}</h6>
@@ -12,7 +12,7 @@ function PostCard({featuredImg, postTitle, postAuthor, postTeaser, postDate, pos
             <span>${postTeaser}</span>
         </div>
     
-    </div>
+    </a>
     `;
 }
 

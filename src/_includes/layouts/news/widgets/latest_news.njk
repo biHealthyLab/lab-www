@@ -7,14 +7,14 @@
 <div class="">
     {% for n in collections.news | reverse %}
         {% if (loop.index < 5) %}
-        <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+        <a href="{{ n.url | url }}" class="list-group-item list-group-item-action flex-column align-items-start">
             
-            <p class="mb-1">{{ n.data.title |safe }}</p>
-            <small class="text-muted"> {{ n.data.news_date | readableDate}} </small>
+            <p class="mb-1">{{ n.data.title | trim | safe }}</p>
+            <small class="text-muted">{{ n.data.date | readableDate }}</small>
         </a>
            {% endif %}
        {% endfor %}
     
        
     </div>  
-</div>    
+</div>

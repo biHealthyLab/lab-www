@@ -1,0 +1,31 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_header %}
+{% include "layouts/page_header.njk" %}
+{% endblock %}
+
+{% block page_main_content %}
+<article class="container-xxl py-5">
+  <div class="col-md-8 mx-auto">
+    <dl class="event-meta mb-4">
+      <div><dt>Date</dt><dd><time datetime="{{ date | isoDate }}">{{ date | readableDate }}{% if end_date %} – {{ end_date | readableDate }}{% endif %}</time></dd></div>
+      {% if speaker %}<div><dt>Speaker</dt><dd>{{ speaker }}</dd></div>{% endif %}
+      {% if organizers %}<div><dt>Organizers</dt><dd>{{ organizers }}</dd></div>{% endif %}
+      {% if location %}<div><dt>Location</dt><dd>{{ location }}</dd></div>{% endif %}
+    </dl>
+
+    {% if notes_file or video or link %}
+      <div class="d-flex flex-wrap gap-2 mb-4">
+        {% if notes_file %}<a class="btn btn-outline-primary" href="{{ notes_file | url }}" target="_blank" rel="noopener noreferrer">View slides</a>{% endif %}
+        {% if video %}<a class="btn btn-outline-danger" href="{{ video | url }}" target="_blank" rel="noopener noreferrer">Watch video</a>{% endif %}
+        {% if link %}<a class="btn btn-outline-primary" href="{{ link | url }}" target="_blank" rel="noopener noreferrer">Event website</a>{% endif %}
+      </div>
+    {% endif %}
+
+    <div class="content-prose">
+      {{ content | safe }}
+    </div>
+    <p class="mt-5"><a href="{{ '/events/' | url }}">← Back to all events</a></p>
+  </div>
+</article>
+{% endblock %}

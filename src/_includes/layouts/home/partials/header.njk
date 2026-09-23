@@ -4,9 +4,12 @@
 		{# <div class=""> #}
 			{# <div class="row"> #}
 				<div class="showcase col-lg-12">
-                    <video id="bground-video" autoplay loop playsinline muted>
+                    <video id="bground-video" autoplay loop playsinline muted preload="metadata" poster="{{ site.heroPoster | url }}" aria-hidden="true" tabindex="-1">
                         <source src="{{ site.backgroundVid | url }}" type="video/mp4">
                     </video>
+					<button type="button" class="hero-video-toggle btn btn-outline-light" data-video-toggle aria-label="Pause background video">
+						<i class="fas fa-pause" aria-hidden="true"></i>
+					</button>
 					<div class="intro-message">
                         <div class="main-teaser">
                             <h1 class="text-white animated zoomIn">{{ site.mainTeaser |safe }}</h1>
@@ -26,4 +29,3 @@
 
 	<!-- /.intro-header -->
 </section>
-

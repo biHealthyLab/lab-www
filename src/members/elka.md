@@ -13,17 +13,20 @@ social:
   twitter: "https://twitter.com/elkaioum"
   linkedin: "https://www.linkedin.com/in/elka%C3%AFoum-moutuou-99a2687b/"
 keywords: |
-  Algebraic Topology, Mathematical Physics, Network Neuroscience,  Connectomics, Complex Systems, Multilayer Networks, Persistent Homology, Spectral Theory, Quantum Information Theory
+  Operator Algebras, Algebraic Topology, Mathematical Physics, Network Neuroscience, Connectomics, Complex Systems
 presentation: |
-  Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Algebraic Quantum Mechanis, and Complex Systems to develop a novel mathematical framework and computational tools for analysing the topology and dynamics of the anatomo-functional networks of the human brain activities. 
+  Dr. Moutuou's research interests focus on the mathematical foundations of Network Neuroscience. He has used concepts from Algebraic Topology, Algebraic Quantum Mechanis, and Complex Systems to develop novel mathematical frameworks and computational tools for formalizing and analyzing the structure-function relationship in the brain. 
 ---
 
 
 ### Selected publications
+- [_Brain functions emerge as thermal equilibrium states of the connectome_](https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc). E. Moutuou, H. Benali, **Physical Research Research**, 2025
 
-- [_Topology and spectral interconnectivities of higher-order multilayer network_](https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full). E. M., OBK. Ali, H. Benali, **Front. Complex Syst.**, 2023
-- [_Foundations of topological racks and quandles_](https://doi.org/10.1142/S0218216516400022). M. Elhamdadi, E.M. Journal of Knot Theory and Its Ramifications, 2016.
-- [_Graded Brauer groups of a groupoid with involution_](https://doi.org/10.1016/j.jfa.2013.12.019). E.M., 2014, Journal of Functional Analysis. 
+-  [_Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks_](https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw). E. Moutuou, H. Benali, **Physical Research E**, 2025
+
+- [_Topology and spectral interconnectivities of higher-order multilayer network_](https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full). E. Moutuou, OBK. Ali, H. Benali, **Front. Complex Syst.**, 2023
+
+- [_Foundations of topological racks and quandles_](https://doi.org/10.1142/S0218216516400022). M. Elhamdadi, E. Moutuou, Journal of Knot Theory and Its Ramifications, 2016.
 
  
 

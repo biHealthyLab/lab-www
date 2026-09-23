@@ -44,7 +44,7 @@
    
     {
         "name": "A. Vidal",
-        "affiliations": ["Every University"],
+        "affiliations": ["Université d’Évry"],
         "locations": ["France"],
         "url": ""
     },
@@ -112,7 +112,7 @@
     }, 
     {
         "name": "B. Dubois",
-        "affiliations": ["Sorbone University"],
+        "affiliations": ["Sorbonne University"],
         "locations": ["Paris, France"],
         "url": ""
     },
@@ -124,7 +124,7 @@
     },
     {
         "name": "S. Lehericy",
-        "affiliations": ["Sorbone University"],
+        "affiliations": ["Sorbonne University"],
         "locations": ["Paris, France"],
         "url": ""
     },
@@ -141,5 +141,4 @@
         "url": ""
     }
 ]
-
 

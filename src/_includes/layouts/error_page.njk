@@ -1,0 +1,12 @@
+{% extends "layouts/base.njk" %}
+
+{% block page_main_content %}
+<section class="error-page text-center" aria-labelledby="error-heading">
+  <div class="container">
+    <p class="display-1 text-primary" aria-hidden="true">404</p>
+    <h1 id="error-heading">Page not found</h1>
+    <p class="lead">The page may have moved or the address may be incorrect.</p>
+    <p><a class="btn btn-primary" href="/">Return to the homepage</a></p>
+  </div>
+</section>
+{% endblock %}

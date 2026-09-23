@@ -6,17 +6,17 @@
       <li>
       {% for item in themesTree %}
         {% if item.level == 1 %}
-          <span class="default" onclick="location.href=`/topics/`">{{ item.title }}</span>
+          <a class="default" href="/topics/">{{ item.title }}</a>
           {% if item.children %}
           <ul>
             {% for child in item.children %}
             <li>
-               <span class="default" onclick="location.href=`/topics/`">{{ child.title }}</span>
+               <a class="default" href="/topics/">{{ child.title }}</a>
                {% if child.children %}
                 <ul>
                  {% for greatchild in child.children %}
                   <li>
-                     <span class="target" onclick="location.href=`/topics/`">{{ greatchild.title }}</span>
+                     <a class="target" href="/topics/">{{ greatchild.title }}</a>
                   </li>
                  {% endfor %}
                 </ul>
