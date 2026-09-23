@@ -20,9 +20,9 @@ presentation: |
 
 
 ### Selected publications
-- [_Brain functions emerge as thermal equilibrium states of the connectome_](https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc). E. Moutuou, H. Benali, **Physical Research Research**, 2025
+-  [_Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks_](https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw). E. Moutuou, H. Benali, **Physical Review E**, 2025
 
--  [_Kubo-Martin-Schwinger states of path-structured flow in directed brain synaptic networks_](https://journals.aps.org/pre/abstract/10.1103/wvbd-j5rw). E. Moutuou, H. Benali, **Physical Research E**, 2025
+- [_Brain functions emerge as thermal equilibrium states of the connectome_](https://journals.aps.org/prresearch/abstract/10.1103/jmqh-bqnc). E. Moutuou, H. Benali, **Physical Review Research**, 2025
 
 - [_Topology and spectral interconnectivities of higher-order multilayer network_](https://www.frontiersin.org/articles/10.3389/fcpxs.2023.1281714/full). E. Moutuou, OBK. Ali, H. Benali, **Front. Complex Syst.**, 2023
 
